@@ -1,7 +1,7 @@
 // Leaderboard page - single collection view
 
 // System accounts that hold unopened packs, not real collectors
-const SYSTEM_ACCOUNTS = ["premint.nft", "mint.droppp", "premint1.nft", "premint2.nft"];
+const SYSTEM_ACCOUNTS = ["premint.nft", "mint.droppp", "premint1.nft", "premint2.nft", "nfttowhatnot"];
 
 // Pie chart color palette
 const PIE_COLORS = [
@@ -20,7 +20,7 @@ async function init() {
   const pathParts = window.location.pathname.split("/");
   const lastPath = pathParts[pathParts.length - 1] || pathParts[pathParts.length - 2];
   const hash = window.location.hash?.slice(1);
-  const slug = hash || (lastPath !== "leaderboard" && lastPath !== "leaderboard.html" ? lastPath : null);
+  const slug = decodeURIComponent(hash || (lastPath !== "leaderboard" && lastPath !== "leaderboard.html" ? lastPath : "") || "");
 
   if (!slug) {
     content.innerHTML = '<p class="coming-soon">No collection specified.</p>';

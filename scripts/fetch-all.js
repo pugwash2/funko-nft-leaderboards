@@ -1,5 +1,5 @@
 // scripts/fetch-all.js
-import { ALL_COLLECTIONS, COLLECTIONS, SLUG_TO_YEAR } from "./lib/collections.js";
+import { ALL_COLLECTIONS, COLLECTIONS, SLUG_TO_YEAR, collectionKey } from "./lib/collections.js";
 import { fetchAccounts, fetchAllTemplates, fetchAssets, fetchCollectionMeta, fetchSchemas } from "./lib/api.js";
 import { computeRoyaltyScore, computeMasteryScore } from "./lib/scoring.js";
 import { writeFileSync, mkdirSync } from "fs";
@@ -15,12 +15,15 @@ mkdirSync(`${DATA_DIR}/special`, { recursive: true });
 const FILTER = process.argv[2] || null;
 
 async function processCollection(col) {
-  console.log(`Processing ${col.slug}...`);
+  const key = collectionKey(col);
+  const schema = col.schema || null;
+  console.log(`Processing ${key}${schema ? ` (schema: ${schema})` : ""}...`);
 
   // Sequential calls to respect rate limiting
-  const accounts = await fetchAccounts(col.slug, 200);
-  const templates = await fetchAllTemplates(col.slug);
-  const schemas = await fetchSchemas(col.slug);
+  // Pass schema to filter API results for series splits
+  const accounts = await fetchAccounts(col.slug, 200, schema);
+  const templates = await fetchAllTemplates(col.slug, schema);
+  const schemas = schema ? [{ schema_name: schema, assets: 0 }] : await fetchSchemas(col.slug);
   const meta = await fetchCollectionMeta(col.slug).catch(() => null);
 
   // Basic leaderboard (all holders with asset counts)
@@ -34,13 +37,13 @@ async function processCollection(col) {
   const scored = [];
   for (const entry of leaderboard.slice(0, TOP_SCORED)) {
     try {
-      const assets = await fetchAssets(col.slug, entry.account);
+      const assets = await fetchAssets(col.slug, entry.account, schema);
       const royalty = computeRoyaltyScore(assets, templates);
       const mastery = computeMasteryScore(assets, templates);
       scored.push({ ...entry, royalty, mastery });
     } catch (err) {
       console.error(`  Failed scoring ${entry.account}: ${err.message}`);
-      scored.push({ ...entry, royalty: { sets: 0, rating: 0, average: 0 }, mastery: { sets: 0, rating: 0, average: 0 } });
+      scored.push({ ...entry, royalty: { sets: 0, rating: 0, average: 0, lowestMint: 0 }, mastery: { sets: 0, rating: 0, average: 0, lowestMint: 0 } });
     }
   }
 
@@ -62,8 +65,10 @@ async function processCollection(col) {
   const totalPacksMax = packStats.reduce((s, p) => s + p.maxSupply, 0);
 
   const result = {
-    slug: col.slug,
+    slug: key,
     name: col.name,
+    baseSlug: col.slug,
+    schema: schema,
     displayName: meta?.name || col.name,
     image: meta?.img || null,
     totalTemplates: templates.length,
@@ -76,7 +81,7 @@ async function processCollection(col) {
     fetchedAt: new Date().toISOString(),
   };
 
-  writeFileSync(`${DATA_DIR}/leaderboards/${col.slug}.json`, JSON.stringify(result, null, 2));
+  writeFileSync(`${DATA_DIR}/leaderboards/${key}.json`, JSON.stringify(result, null, 2));
   console.log(`  Done: ${leaderboard.length} holders, ${scored.length} scored, ${templates.length} templates`);
   return result;
 }
@@ -184,7 +189,7 @@ async function main() {
       name: r.displayName,
       image: r.image,
       year: SLUG_TO_YEAR[r.slug] || "other",
-    })),
+    })).sort((a, b) => a.name.localeCompare(b.name)),
     null, 2
   ));
 
