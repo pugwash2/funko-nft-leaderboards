@@ -51,6 +51,16 @@ async function processCollection(col) {
     rarityBreakdown[rarity] = (rarityBreakdown[rarity] || 0) + 1;
   }
 
+  // Pack stats: how many packs exist vs how many are still unopened
+  const packTemplates = templates.filter(t => !t.immutable_data?.rarity || t.immutable_data?.rarity === "Pack");
+  const packStats = packTemplates.map(t => ({
+    name: t.immutable_data?.name || t.template_id,
+    maxSupply: parseInt(t.max_supply) || 0,
+    issued: parseInt(t.issued_supply) || 0,
+  }));
+  const totalPacksIssued = packStats.reduce((s, p) => s + p.issued, 0);
+  const totalPacksMax = packStats.reduce((s, p) => s + p.maxSupply, 0);
+
   const result = {
     slug: col.slug,
     name: col.name,
@@ -59,6 +69,7 @@ async function processCollection(col) {
     totalTemplates: templates.length,
     totalAssets: schemas.reduce((sum, s) => sum + parseInt(s.assets || 0), 0),
     rarityBreakdown,
+    packStats: { packs: packStats, totalIssued: totalPacksIssued, totalMax: totalPacksMax },
     holders: leaderboard,
     scored,
     schemas: schemas.map(s => s.schema_name),

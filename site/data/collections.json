@@ -1,80 +1,8 @@
 [
   {
-    "slug": "bigboy.funko",
-    "name": "Big Boy x Funko",
-    "image": "QmPiRx6XdMkB1K4LBdf4DCSahHRG4D7SMNeNDvCENfQvhm",
-    "year": "2021"
-  },
-  {
     "slug": "bobrss.funko",
     "name": "Bob Ross x Funko",
     "image": "QmeuqbWhPjPUHTan7RRYCE5cMNXPkiMmSm6pqKuoQudtpT",
-    "year": "2021"
-  },
-  {
-    "slug": "dc.funko",
-    "name": "DC x Funko",
-    "image": "QmeN6JD9PNiu74KZnRWuDAztKCmzPQS7HNNQ2KyWH36J8F",
-    "year": "2022"
-  },
-  {
-    "slug": "elf.funko",
-    "name": "Elf x Funko",
-    "image": "QmX18RqygjZNzDzuBCZPgvZvLmRf4ePChGuH838UmJFtFk",
-    "year": "2022"
-  },
-  {
-    "slug": "freddy.funko",
-    "name": "Funko Halloween",
-    "image": "Qmcogj9brLUb8YDGFN44qhyti546FMzLbLVUDoHYJQVZzd",
-    "year": "2022"
-  },
-  {
-    "slug": "got.funko",
-    "name": "Game of Thrones x Funko",
-    "image": "QmXkv9i3uMNs2p8JfMixjUbVQS6PpjL8ExKDiMuMqtNMoG",
-    "year": "2022"
-  },
-  {
-    "slug": "jasb.funko",
-    "name": "Jay and Silent Bob x Funko",
-    "image": "QmPvpE2x9pJVwmQW42G4eDvjhtj7FgShHsQXUDgs9U9DDE",
-    "year": "2022"
-  },
-  {
-    "slug": "kllggs.funko",
-    "name": "Kellogg's x Funko",
-    "image": "QmNy1cSz6SKEfYQ9cDAs6Ps4Nb7E8pMeVyBnQGbGrGc7m8",
-    "year": "2022"
-  },
-  {
-    "slug": "looney.funko",
-    "name": "Looney Tunes x Funko",
-    "image": "QmTEHUpVKvpbGry9VoYGwsjsW7hH1XAMJn2McCJdZc1v6a",
-    "year": "2022"
-  },
-  {
-    "slug": "maiden.funko",
-    "name": "Iron Maiden x Funko",
-    "image": "QmUXWFjCeMbXeiiCcNZE6aSFnRLGXYCMnd4V21k9PFujo6",
-    "year": "2021"
-  },
-  {
-    "slug": "matrix.funko",
-    "name": "The Matrix x Funko",
-    "image": "QmZ3gL78m7c9LoEbKpVpKcf4m8UJUXKEpZizQ1P1SWehRs",
-    "year": "2022"
-  },
-  {
-    "slug": "rtoys.funko",
-    "name": "Hasbro Retro Toys x Funko",
-    "image": "QmQGVUozWrF3Ywsk73CWK5mP3KYAPBCtDgUQ1WhiTCMarG",
-    "year": "2022"
-  },
-  {
-    "slug": "sttrek.funko",
-    "name": "Star Trek x Funko",
-    "image": "QmYxg2T54b1pfBBgRrw7KeY8XMtx9jY3GhmvPKoj9VXSpB",
     "year": "2021"
   }
 ]

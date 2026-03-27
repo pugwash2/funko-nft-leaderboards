@@ -499,6 +499,28 @@ a:hover { color: var(--funko-pink); }
   cursor: pointer;
 }
 
+/* Pack progress bar */
+.pack-progress-wrap { margin-bottom: 0.5rem; }
+.pack-progress-bar {
+  height: 24px;
+  background: #e5e1f0;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.pack-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--funko-green), var(--funko-blue));
+  border-radius: 50px;
+  transition: width 0.5s;
+}
+.pack-progress-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-mid);
+  margin-top: 0.4rem;
+}
+
 /* Expand button */
 .expand-btn {
   display: block;

@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "bobrss.funko",
+    "name": "Bob Ross x Funko",
+    "totalTemplates": 58,
+    "totalAssets": 280103,
+    "rarityBreakdown": {
+      "Redeemable": 4,
+      "Royalty": 1,
+      "Legendary": 2,
+      "1 of 1": 6,
+      "Epic": 4,
+      "Rare": 8,
+      "Uncommon": 12,
+      "Series": 1,
+      "Grail": 1,
+      "Common": 17,
+      "Pack": 2
+    },
+    "schemas": [
+      "series1.drop",
+      "packs.drop"
+    ],
+    "fetchedAt": "2026-03-27T21:08:56.382Z"
+  }
+]

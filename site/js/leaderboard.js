@@ -93,6 +93,8 @@ async function init() {
       <div class="rarity-bar">${rarityBarHtml}</div>
       <div class="rarity-legend">${rarityLegendHtml}</div>
     </div>
+
+    ${buildPackStats(data.packStats)}
   `;
 
   // Royalty Set Ratings table
@@ -252,6 +254,50 @@ async function init() {
   document.getElementById("hide-system").addEventListener("change", (e) => {
     renderHolders(e.target.checked);
   });
+}
+
+function buildPackStats(packStats) {
+  if (!packStats || !packStats.packs || packStats.packs.length === 0) return "";
+
+  const { packs, totalIssued, totalMax } = packStats;
+  const openedPct = totalMax > 0 ? ((1 - totalIssued / totalMax) * 100).toFixed(1) : 0;
+
+  return `
+    <div class="table-section">
+      <h2>Pack Opening Tracker</h2>
+      <div class="pack-progress-wrap">
+        <div class="pack-progress-bar">
+          <div class="pack-progress-fill" style="width:${openedPct}%"></div>
+        </div>
+        <div class="pack-progress-label">${openedPct}% opened (${App.fmt(totalMax - totalIssued)} of ${App.fmt(totalMax)} packs)</div>
+      </div>
+      ${packs.length > 1 ? `
+        <div class="table-wrap" style="margin-top:0.75rem;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Pack</th>
+                <th data-type="number">Max Supply</th>
+                <th data-type="number">Remaining</th>
+                <th data-type="number">Opened %</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${packs.map(p => {
+                const pct = p.maxSupply > 0 ? ((1 - p.issued / p.maxSupply) * 100).toFixed(1) : 0;
+                return `<tr>
+                  <td>${p.name}</td>
+                  <td class="number">${App.fmt(p.maxSupply)}</td>
+                  <td class="number">${App.fmt(p.issued)}</td>
+                  <td class="number">${pct}%</td>
+                </tr>`;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+      ` : ""}
+    </div>
+  `;
 }
 
 function buildScoredTable(title, entries, scoreKey) {

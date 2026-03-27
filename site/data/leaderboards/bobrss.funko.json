@@ -1026,9 +1026,9 @@
       "account": "mint.droppp",
       "assets": 97569,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 1424,
+        "rating": 1774.118,
+        "average": 2.073
       },
       "mastery": {
         "sets": 0,
@@ -1041,14 +1041,14 @@
       "account": "mykeatog.dp",
       "assets": 2231,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 5,
+        "rating": 99.794,
+        "average": 94.634
       },
       "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 1,
+        "rating": 99.742,
+        "average": 103.489
       }
     },
     {
@@ -1056,14 +1056,14 @@
       "account": "jlasvegas.gm",
       "assets": 2016,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 26,
+        "rating": 100.588,
+        "average": 99.512
       },
       "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 6,
+        "rating": 100.094,
+        "average": 94.756
       }
     },
     {
@@ -1071,14 +1071,14 @@
       "account": "nfttowhatnot",
       "assets": 1739,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 13,
+        "rating": 100.193,
+        "average": 151.756
       },
       "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 1,
+        "rating": 100,
+        "average": 185.311
       }
     },
     {
@@ -1086,14 +1086,14 @@
       "account": "u1yfu.wam",
       "assets": 1239,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 25,
+        "rating": 100.185,
+        "average": 197.317
       },
       "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 3,
+        "rating": 99.918,
+        "average": 188.667
       }
     },
     {
@@ -1101,9 +1101,9 @@
       "account": "d223c.c.wam",
       "assets": 1045,
       "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
+        "sets": 8,
+        "rating": 99.831,
+        "average": 216.829
       },
       "mastery": {
         "sets": 0,
@@ -1326,5 +1326,5 @@
     "series1.drop",
     "packs.drop"
   ],
-  "fetchedAt": "2026-03-27T20:33:44.125Z"
+  "fetchedAt": "2026-03-27T21:08:56.382Z"
 }
