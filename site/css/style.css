@@ -343,6 +343,13 @@ a:hover { color: var(--funko-pink); }
   color: var(--text-mid);
   font-weight: 600;
 }
+.scored-note {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.scored-note a { font-weight: 700; }
 .scored-summary strong {
   color: var(--funko-purple);
   font-weight: 800;
@@ -533,6 +540,59 @@ a:hover { color: var(--funko-pink); }
   height: 18px;
   accent-color: var(--funko-purple);
   cursor: pointer;
+}
+
+/* Check My Set */
+.check-wallet-input {
+  padding: 0.65rem 1rem;
+  background: var(--bg-white);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 240px;
+  outline: none;
+}
+.check-wallet-input:focus { border-color: var(--funko-purple); }
+
+.check-result-card {
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.check-result-card h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.check-result-yes {
+  background: #ecfdf5;
+  border-left: 4px solid var(--funko-green);
+}
+.check-result-partial {
+  background: #fefce8;
+  border-left: 4px solid var(--funko-yellow);
+}
+.check-result-none {
+  background: #fef2f2;
+  border-left: 4px solid var(--funko-red);
+  font-weight: 600;
+  color: var(--text-mid);
+}
+.check-result-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  font-weight: 600;
+}
+.check-result-stats strong {
+  color: var(--text);
+  font-weight: 800;
 }
 
 /* Pack progress bar */

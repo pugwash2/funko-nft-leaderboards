@@ -92,6 +92,19 @@ async function init() {
     html += buildScoredTable("Mastery Set Ratings", scoredWithMastery, "mastery");
   }
 
+  // Check My Set - live wallet scoring
+  html += `
+    <div class="table-section check-my-set">
+      <h2>Check My Set</h2>
+      <p class="scored-note">Enter any wallet to check their set completion for this collection.</p>
+      <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem;">
+        <input type="text" id="check-wallet-input" placeholder="Enter wallet (e.g. pugwash2.dp)" class="check-wallet-input">
+        <button class="expand-btn" id="check-wallet-btn" style="max-width:140px;margin-top:0;">Check Sets</button>
+      </div>
+      <div id="check-wallet-result"></div>
+    </div>
+  `;
+
   // Top Holders - pie chart + table with system account toggle
   html += `
     <div class="table-section">
@@ -235,6 +248,126 @@ async function init() {
   document.getElementById("hide-system").addEventListener("change", (e) => {
     renderHolders(e.target.checked);
   });
+
+  // Check My Set - live scoring from AtomicHub API
+  const baseSlug = data.baseSlug || data.slug?.split("--")[0] || slug;
+  const schemaFilter = data.schema || null;
+
+  async function checkWallet(wallet) {
+    const resultEl = document.getElementById("check-wallet-result");
+    resultEl.innerHTML = '<p style="color:var(--text-light);">Fetching assets from AtomicHub...</p>';
+
+    try {
+      // Fetch all assets for this wallet in this collection (optionally filtered by schema)
+      let allAssets = [];
+      let page = 1;
+      while (true) {
+        const params = new URLSearchParams({
+          collection_name: baseSlug,
+          owner: wallet,
+          limit: "100",
+          page: String(page),
+        });
+        if (schemaFilter) params.set("schema_name", schemaFilter);
+        const res = await fetch(`https://wax.api.atomicassets.io/atomicassets/v1/assets?${params}`);
+        const json = await res.json();
+        allAssets = allAssets.concat(json.data);
+        if (json.data.length < 100) break;
+        page++;
+      }
+
+      if (allAssets.length === 0) {
+        resultEl.innerHTML = `<div class="check-result-card check-result-none">
+          <strong>${wallet}</strong> doesn't own any assets in this collection.
+        </div>`;
+        return;
+      }
+
+      // Fetch templates to score against (use cached data from the page)
+      // We already have the templates info in the rarity breakdown, but we need full template list
+      // Fetch from API
+      const tParams = new URLSearchParams({ collection_name: baseSlug, limit: "100" });
+      if (schemaFilter) tParams.set("schema_name", schemaFilter);
+      let templates = [];
+      let tPage = 1;
+      while (true) {
+        tParams.set("page", String(tPage));
+        const res = await fetch(`https://wax.api.atomicassets.io/atomicassets/v1/templates?${tParams}`);
+        const json = await res.json();
+        templates = templates.concat(json.data);
+        if (json.data.length < 100) break;
+        tPage++;
+      }
+
+      // Score using same logic as backend (simplified client-side version)
+      const royaltyRarities = ["Common", "Uncommon", "Rare", "Epic"];
+      const royalty = clientScore(allAssets, templates, royaltyRarities);
+      const mastery = clientScore(allAssets, templates, null);
+
+      resultEl.innerHTML = `<div class="check-result-card ${royalty.sets > 0 ? 'check-result-yes' : 'check-result-partial'}">
+        <h3>${wallet}</h3>
+        <div class="check-result-stats">
+          <div><strong>${allAssets.length}</strong> assets</div>
+          <div><strong>${royalty.sets}</strong> royalty sets</div>
+          <div><strong>${mastery.sets}</strong> mastery sets</div>
+          ${royalty.lowestMint ? `<div>Lowest mint: <strong>#${royalty.lowestMint}</strong></div>` : ""}
+          ${royalty.rating ? `<div>Rating: <strong>${royalty.rating.toFixed(3)}</strong></div>` : ""}
+        </div>
+      </div>`;
+    } catch (err) {
+      resultEl.innerHTML = `<p style="color:var(--funko-red);">Error checking wallet: ${err.message}</p>`;
+    }
+  }
+
+  // Client-side scoring (mirrors server scoring.js)
+  function clientScore(assets, templates, rarityFilter) {
+    const targetTemplates = rarityFilter
+      ? templates.filter(t => rarityFilter.some(r => (t.immutable_data?.rarity || "").toLowerCase() === r.toLowerCase()))
+      : templates.filter(t => t.immutable_data?.rarity);
+
+    if (targetTemplates.length === 0) return { sets: 0, rating: 0, lowestMint: 0 };
+
+    const templateIds = new Set(targetTemplates.map(t => t.template_id));
+    const byTemplate = {};
+    for (const asset of assets) {
+      const tid = asset.template?.template_id;
+      if (!tid || !templateIds.has(tid)) continue;
+      if (!byTemplate[tid]) byTemplate[tid] = [];
+      byTemplate[tid].push(parseInt(asset.template_mint || "999999"));
+    }
+    for (const tid of Object.keys(byTemplate)) byTemplate[tid].sort((a, b) => a - b);
+
+    let sets = 0;
+    while (true) {
+      let complete = true;
+      for (const tid of templateIds) {
+        if (!byTemplate[tid] || byTemplate[tid].length <= sets) { complete = false; break; }
+      }
+      if (!complete) break;
+      sets++;
+    }
+
+    if (sets === 0) return { sets: 0, rating: 0, lowestMint: 0 };
+
+    const firstSetMints = [];
+    for (const tid of templateIds) firstSetMints.push(byTemplate[tid][0]);
+    const sum = firstSetMints.reduce((a, b) => a + b, 0);
+    const lowest = Math.min(...firstSetMints);
+    const rating = ((sum - lowest + sets) / sum) * 100;
+
+    return { sets, rating, lowestMint: lowest };
+  }
+
+  document.getElementById("check-wallet-btn")?.addEventListener("click", () => {
+    const wallet = document.getElementById("check-wallet-input").value.trim().toLowerCase();
+    if (wallet) checkWallet(wallet);
+  });
+  document.getElementById("check-wallet-input")?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const wallet = e.target.value.trim().toLowerCase();
+      if (wallet) checkWallet(wallet);
+    }
+  });
 }
 
 function buildPackStats(packStats) {
@@ -289,10 +422,11 @@ function buildScoredTable(title, entries, scoreKey) {
     <div class="table-section">
       <h2>${title}</h2>
       <div class="scored-summary">
-        <span><strong>${entries.length}</strong> collectors with complete sets</span>
+        <span><strong>${entries.length}</strong> collectors scored</span>
         <span><strong>${App.fmt(totalSets)}</strong> total sets completed</span>
         <span>Avg rating: <strong>${App.fmtDec(avgRating)}</strong></span>
       </div>
+      <p class="scored-note">Showing top holders with complete sets. <a href="/wallet.html">Check any wallet</a> to see if you have a complete set.</p>
       <div class="table-wrap">
         <table class="data-table">
           <thead>
