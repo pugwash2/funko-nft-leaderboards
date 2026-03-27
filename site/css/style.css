@@ -437,6 +437,50 @@ a:hover { color: var(--funko-pink); }
   letter-spacing: 0.03em;
 }
 
+/* ===== HOLDERS LAYOUT (chart + table) ===== */
+.holders-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.chart-container {
+  background: var(--bg-white);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 80px;
+}
+@media (max-width: 900px) {
+  .holders-layout {
+    grid-template-columns: 1fr;
+  }
+  .chart-container {
+    position: static;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+/* Toggle checkbox */
+.toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  cursor: pointer;
+}
+.toggle-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--funko-purple);
+  cursor: pointer;
+}
+
 /* ===== TABLE WRAPPER ===== */
 .table-wrap {
   overflow-x: auto;
