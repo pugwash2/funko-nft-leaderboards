@@ -72,6 +72,7 @@ a:hover { color: var(--funko-pink); }
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 12px rgba(74, 29, 150, 0.3);
+  overflow-x: hidden;
 }
 .nav-inner {
   max-width: 1600px;
@@ -96,7 +97,10 @@ a:hover { color: var(--funko-pink); }
   align-items: center;
   gap: 0;
   flex-wrap: nowrap;
-  overflow: visible;
+}
+@media (max-width: 1300px) {
+  .nav-dropdown > a { padding: 0 0.5rem; font-size: 0.78rem; }
+  .nav-logo { margin-right: 1rem; font-size: 1rem; }
 }
 
 .nav-dropdown { position: relative; }

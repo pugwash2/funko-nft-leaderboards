@@ -61,8 +61,9 @@ function buildNav(collections) {
   for (const year of YEAR_ORDER) {
     const cols = byYear[year];
     if (!cols || cols.length === 0) continue;
+    const shortLabel = year === "other" ? "Other" : year === "dpk" ? "DPK" : year;
     linksHtml += `<div class="nav-dropdown">
-      <a href="#">${YEAR_LABELS[year] || year}</a>
+      <a href="#">${shortLabel}</a>
       <div class="nav-dropdown-menu">
         ${cols.map(c => `<a href="/leaderboard.html#${c.slug}">${c.name}</a>`).join("")}
       </div>
@@ -79,7 +80,7 @@ function buildNav(collections) {
 
   nav.innerHTML = `
     <div class="nav-inner">
-      <a href="/" class="nav-logo">Funko <span>NFT</span> Leaderboards</a>
+      <a href="/" class="nav-logo">Funko <span>NFT</span></a>
       <div class="nav-links" id="nav-links">${linksHtml}</div>
       <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">&#9790;</button>
       <button class="nav-toggle" id="nav-toggle">&#9776;</button>
