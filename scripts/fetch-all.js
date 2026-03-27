@@ -6,7 +6,7 @@ import { writeFileSync, mkdirSync } from "fs";
 
 // Data lives inside site/ so Vercel can serve it
 const DATA_DIR = "./site/data";
-const TOP_SCORED = 20;
+const TOP_SCORED = 50;
 
 mkdirSync(`${DATA_DIR}/leaderboards`, { recursive: true });
 mkdirSync(`${DATA_DIR}/special`, { recursive: true });

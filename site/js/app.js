@@ -177,8 +177,18 @@ function profileLink(account) {
   return `https://wax.atomichub.io/profile/wax-mainnet/${account}`;
 }
 
+// Wallet lookup link (our site)
+function walletLink(account) {
+  return `/wallet.html#${account}`;
+}
+
+// Account link HTML - shows name, links to our wallet lookup, with AtomicHub as secondary
+function accountLink(account) {
+  return `<a href="${walletLink(account)}" title="View all holdings">${account}</a> <a href="${profileLink(account)}" target="_blank" class="external-link" title="View on AtomicHub">&#8599;</a>`;
+}
+
 // Export for page scripts
 window.App = {
-  initNav, buildFooter, makeSortable, ipfsUrl, fmt, fmtDec, rankClass, profileLink,
+  initNav, buildFooter, makeSortable, ipfsUrl, fmt, fmtDec, rankClass, profileLink, walletLink, accountLink,
   YEAR_ORDER, YEAR_LABELS, SPECIAL_PAGES,
 };

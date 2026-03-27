@@ -191,6 +191,20 @@ a:hover { color: var(--funko-pink); }
   font-weight: 600;
 }
 
+/* ===== HOME STATS BAR ===== */
+.home-stats-bar {
+  display: flex;
+  gap: 2rem;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  font-weight: 600;
+}
+.home-stats-bar strong {
+  color: var(--funko-purple);
+  font-weight: 900;
+}
+
 /* ===== SEARCH ===== */
 .search-bar { margin-bottom: 2rem; }
 .search-bar input {
@@ -320,6 +334,20 @@ a:hover { color: var(--funko-pink); }
   color: var(--funko-purple);
 }
 
+.scored-summary {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  font-weight: 600;
+}
+.scored-summary strong {
+  color: var(--funko-purple);
+  font-weight: 800;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -371,6 +399,13 @@ a:hover { color: var(--funko-pink); }
 .data-table .rank-3 { color: var(--bronze); }
 
 .data-table .account a { color: var(--funko-purple); font-weight: 700; }
+.data-table .account .external-link {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  font-weight: 400;
+  margin-left: 2px;
+}
+.data-table .account .external-link:hover { color: var(--funko-pink); }
 .data-table .mint-highlight { color: var(--funko-purple); font-weight: 800; }
 .data-table .account a:hover { color: var(--funko-pink); }
 .data-table .number { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }

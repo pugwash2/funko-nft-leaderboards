@@ -53,7 +53,7 @@ function buildHallTable(title, entries, type) {
               <tr>
                 <td class="${App.rankClass(i + 1)}">${i + 1}</td>
                 <td><a href="/leaderboard.html#${e.collection}">${e.collectionName}</a></td>
-                <td class="account"><a href="${App.profileLink(e.account)}" target="_blank">${e.account}</a></td>
+                <td class="account">${App.accountLink(e.account)}</td>
                 <td class="number">${e[setsKey]}</td>
                 <td class="number">${App.fmtDec(e[avgKey])}</td>
                 <td class="number">${App.fmtDec(e[ratingKey])}</td>
@@ -101,7 +101,7 @@ async function initCompletionist() {
             ${data.map((e, i) => `
               <tr>
                 <td class="${App.rankClass(i + 1)}">${i + 1}</td>
-                <td class="account"><a href="${App.profileLink(e.account)}" target="_blank">${e.account}</a></td>
+                <td class="account">${App.accountLink(e.account)}</td>
                 <td class="number">${e.collections}</td>
                 <td class="number">${App.fmt(e.totalAssets)}</td>
                 <td class="number">${e.royaltySets}</td>

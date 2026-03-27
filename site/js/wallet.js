@@ -13,15 +13,19 @@ async function init() {
     lookup(hashWallet);
   }
 
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      const wallet = input.value.trim().toLowerCase();
-      if (wallet) {
-        window.location.hash = wallet;
-        lookup(wallet);
-      }
+  function doSearch() {
+    const wallet = input.value.trim().toLowerCase();
+    if (wallet) {
+      window.location.hash = wallet;
+      lookup(wallet);
     }
+  }
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") doSearch();
   });
+
+  document.getElementById("wallet-search-btn")?.addEventListener("click", doSearch);
 
   async function lookup(wallet) {
     content.innerHTML = '<p class="coming-soon">Searching all collections...</p>';

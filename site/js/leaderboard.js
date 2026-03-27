@@ -148,7 +148,7 @@ async function init() {
     tbody.innerHTML = visible.map((h, i) => `
       <tr>
         <td class="${App.rankClass(i + 1)}">${i + 1}</td>
-        <td class="account"><a href="${App.profileLink(h.account)}" target="_blank">${h.account}</a></td>
+        <td class="account">${App.accountLink(h.account)}</td>
         <td class="number">${App.fmt(h.assets)}</td>
       </tr>
     `).join("");
@@ -283,9 +283,16 @@ function buildPackStats(packStats) {
 
 function buildScoredTable(title, entries, scoreKey) {
   const hasLowestMint = entries.some(s => s[scoreKey].lowestMint);
+  const totalSets = entries.reduce((sum, s) => sum + (s[scoreKey].sets || 0), 0);
+  const avgRating = entries.length > 0 ? (entries.reduce((sum, s) => sum + s[scoreKey].rating, 0) / entries.length) : 0;
   return `
     <div class="table-section">
       <h2>${title}</h2>
+      <div class="scored-summary">
+        <span><strong>${entries.length}</strong> collectors with complete sets</span>
+        <span><strong>${App.fmt(totalSets)}</strong> total sets completed</span>
+        <span>Avg rating: <strong>${App.fmtDec(avgRating)}</strong></span>
+      </div>
       <div class="table-wrap">
         <table class="data-table">
           <thead>
@@ -302,7 +309,7 @@ function buildScoredTable(title, entries, scoreKey) {
             ${entries.map((s, i) => `
               <tr>
                 <td class="${App.rankClass(i + 1)}">${i + 1}</td>
-                <td class="account"><a href="${App.profileLink(s.account)}" target="_blank">${s.account}</a></td>
+                <td class="account">${App.accountLink(s.account)}</td>
                 <td class="number">${s[scoreKey].sets}</td>
                 ${hasLowestMint ? `<td class="number mint-highlight">#${App.fmt(s[scoreKey].lowestMint)}</td>` : ""}
                 <td class="number">${App.fmtDec(s[scoreKey].average)}</td>

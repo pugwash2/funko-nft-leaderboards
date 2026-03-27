@@ -16,6 +16,33 @@ async function init() {
     return;
   }
 
+  // Stats banner
+  const statsEl = document.getElementById("home-stats");
+  if (statsEl) {
+    // Load summary data for total NFT count
+    try {
+      const summaryRes = await fetch("/data/special/summary.json");
+      if (summaryRes.ok) {
+        const summary = await summaryRes.json();
+        const totalHolders = new Set();
+        let totalCollections = summary.length;
+        // Find most recent fetch time
+        const latestFetch = summary.reduce((latest, s) => {
+          const t = new Date(s.fetchedAt).getTime();
+          return t > latest ? t : latest;
+        }, 0);
+        const lastUpdated = latestFetch ? new Date(latestFetch).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+
+        statsEl.innerHTML = `
+          <div class="home-stats-bar">
+            <span><strong>${totalCollections}</strong> collections tracked</span>
+            ${lastUpdated ? `<span>Last updated: ${lastUpdated}</span>` : ""}
+          </div>
+        `;
+      }
+    } catch {}
+  }
+
   // Pre-load rarity data for all collections
   const rarityCache = {};
   async function loadRarityData(slug) {
