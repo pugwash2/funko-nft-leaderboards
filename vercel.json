@@ -1,0 +1,14 @@
+{
+  "outputDirectory": "site",
+  "rewrites": [
+    { "source": "/collection/:slug", "destination": "/leaderboard.html" }
+  ],
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
+  ]
+}
