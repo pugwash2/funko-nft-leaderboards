@@ -39,7 +39,7 @@ async function init() {
         <div class="collection-grid">
           ${cols.map(c => `
             <div class="collection-card">
-              <a href="/collection/${c.slug}">
+              <a href="/leaderboard.html#${c.slug}">
                 <img src="${App.ipfsUrl(c.image)}" alt="${c.name}" loading="lazy"
                   onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%2322222e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%239090a8%22 font-size=%2212%22>No Image</text></svg>'">
                 <div class="card-name">${c.name}</div>

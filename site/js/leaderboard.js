@@ -5,9 +5,13 @@ async function init() {
 
   const content = document.getElementById("leaderboard-content");
 
-  // Get slug from URL: /collection/potter.funko
+  // Get slug from:
+  // - Vercel rewrite: /collection/potter.funko
+  // - Hash fallback: /leaderboard.html#potter.funko (works with any static server)
   const pathParts = window.location.pathname.split("/");
-  const slug = pathParts[pathParts.length - 1] || pathParts[pathParts.length - 2];
+  const lastPath = pathParts[pathParts.length - 1] || pathParts[pathParts.length - 2];
+  const hash = window.location.hash?.slice(1);
+  const slug = hash || (lastPath !== "leaderboard" && lastPath !== "leaderboard.html" ? lastPath : null);
 
   if (!slug) {
     content.innerHTML = '<p class="coming-soon">No collection specified.</p>';

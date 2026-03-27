@@ -24,7 +24,7 @@ const SPECIAL_PAGES = [
 function ipfsUrl(hash) {
   if (!hash) return "";
   if (hash.startsWith("http")) return hash;
-  return `https://atomichub-ipfs.com/ipfs/${hash}`;
+  return `https://ipfs.io/ipfs/${hash}`;
 }
 
 // Number formatting
@@ -62,7 +62,7 @@ function buildNav(collections) {
     linksHtml += `<div class="nav-dropdown">
       <a href="#">${YEAR_LABELS[year] || year}</a>
       <div class="nav-dropdown-menu">
-        ${cols.map(c => `<a href="/collection/${c.slug}">${c.name}</a>`).join("")}
+        ${cols.map(c => `<a href="/leaderboard.html#${c.slug}">${c.name}</a>`).join("")}
       </div>
     </div>`;
   }

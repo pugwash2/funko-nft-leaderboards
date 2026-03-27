@@ -52,7 +52,7 @@ function buildHallTable(title, entries, type) {
             ${entries.map((e, i) => `
               <tr>
                 <td class="${App.rankClass(i + 1)}">${i + 1}</td>
-                <td><a href="/collection/${e.collection}">${e.collectionName}</a></td>
+                <td><a href="/leaderboard.html#${e.collection}">${e.collectionName}</a></td>
                 <td class="account"><a href="${App.profileLink(e.account)}" target="_blank">${e.account}</a></td>
                 <td class="number">${e[setsKey]}</td>
                 <td class="number">${App.fmtDec(e[avgKey])}</td>
@@ -150,7 +150,7 @@ async function initSummary() {
           <tbody>
             ${data.map(e => `
               <tr>
-                <td><a href="/collection/${e.slug}">${e.name}</a></td>
+                <td><a href="/leaderboard.html#${e.slug}">${e.name}</a></td>
                 <td>${e.year || "-"}</td>
                 <td class="account"><a href="${App.profileLink(e.topHolder)}" target="_blank">${e.topHolder}</a></td>
                 <td class="number">${App.fmtDec(e.topRoyaltyRating)}</td>
@@ -208,7 +208,7 @@ async function initUselessStats() {
           <tbody>
             ${data.map(c => `
               <tr>
-                <td><a href="/collection/${c.slug}">${c.name}</a></td>
+                <td><a href="/leaderboard.html#${c.slug}">${c.name}</a></td>
                 <td class="number">${App.fmt(c.totalTemplates)}</td>
                 <td class="number">${App.fmt(c.totalAssets)}</td>
                 ${rarityList.map(r => `<td class="number">${c.rarityBreakdown?.[r] || "-"}</td>`).join("")}
