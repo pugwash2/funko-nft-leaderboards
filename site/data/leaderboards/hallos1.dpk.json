@@ -1,20 +1,13 @@
 {
   "slug": "hallos1.dpk",
   "name": "DPK Halloween S1",
-  "baseSlug": "hallos1.dpk",
-  "schema": null,
   "displayName": "DPK Halloween S1",
   "image": null,
   "totalTemplates": 0,
   "totalAssets": 0,
   "rarityBreakdown": {},
-  "packStats": {
-    "packs": [],
-    "totalIssued": 0,
-    "totalMax": 0
-  },
   "holders": [],
   "scored": [],
   "schemas": [],
-  "fetchedAt": "2026-03-27T21:45:28.515Z"
+  "fetchedAt": "2026-03-27T23:10:39.872Z"
 }

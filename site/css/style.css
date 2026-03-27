@@ -52,6 +52,10 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 body {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg);
@@ -75,7 +79,7 @@ a:hover { color: var(--funko-pink); }
   overflow-x: hidden;
 }
 .nav-inner {
-  max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -208,7 +212,8 @@ a:hover { color: var(--funko-pink); }
 
 /* ===== HERO / PAGE HEADER ===== */
 .container {
-  max-width: 1600px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem 3rem;
 }

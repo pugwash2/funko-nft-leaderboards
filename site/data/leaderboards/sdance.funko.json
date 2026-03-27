@@ -1,8 +1,6 @@
 {
   "slug": "sdance.funko",
-  "name": "Space Dancer",
-  "baseSlug": "sdance.funko",
-  "schema": null,
+  "name": "School Dance",
   "displayName": "Space Dancer Freddy Funko",
   "image": "QmZB15GoWTmP27sexBt7k2BxeE8cPqULX9bgHZBZNebSq9",
   "totalTemplates": 5,
@@ -11,17 +9,6 @@
     "Common": 2,
     "Rare": 2,
     "Pack": 1
-  },
-  "packStats": {
-    "packs": [
-      {
-        "name": "Space Dancer Series 1",
-        "maxSupply": 110000,
-        "issued": 110000
-      }
-    ],
-    "totalIssued": 110000,
-    "totalMax": 110000
   },
   "holders": [
     {
@@ -1025,10 +1012,311 @@
       "assets": 2
     }
   ],
-  "scored": [],
+  "scored": [
+    {
+      "rank": 1,
+      "account": "mint.droppp",
+      "assets": 182545,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 2,
+      "account": "x5sr.wam",
+      "assets": 44,
+      "royalty": {
+        "sets": 10,
+        "rating": 86.833,
+        "average": 1386
+      },
+      "mastery": {
+        "sets": 10,
+        "rating": 86.833,
+        "average": 1386
+      }
+    },
+    {
+      "rank": 3,
+      "account": "kal12o.dp",
+      "assets": 25,
+      "royalty": {
+        "sets": 2,
+        "rating": 96.346,
+        "average": 7827.5
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 96.346,
+        "average": 7827.5
+      }
+    },
+    {
+      "rank": 4,
+      "account": "nfttowhatnot",
+      "assets": 18,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 5,
+      "account": "2slik.dp",
+      "assets": 17,
+      "royalty": {
+        "sets": 2,
+        "rating": 98.387,
+        "average": 325.5
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 98.387,
+        "average": 325.5
+      }
+    },
+    {
+      "rank": 6,
+      "account": "jlasvegas.gm",
+      "assets": 14,
+      "royalty": {
+        "sets": 2,
+        "rating": 95.584,
+        "average": 5570.75
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 95.584,
+        "average": 5570.75
+      }
+    },
+    {
+      "rank": 7,
+      "account": "intrusive.dp",
+      "assets": 10,
+      "royalty": {
+        "sets": 2,
+        "rating": 94.572,
+        "average": 3030.5
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 94.572,
+        "average": 3030.5
+      }
+    },
+    {
+      "rank": 8,
+      "account": "toyabunga.dp",
+      "assets": 10,
+      "royalty": {
+        "sets": 2,
+        "rating": 86.023,
+        "average": 370.25
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 86.023,
+        "average": 370.25
+      }
+    },
+    {
+      "rank": 9,
+      "account": "pugwash2.dp",
+      "assets": 9,
+      "royalty": {
+        "sets": 1,
+        "rating": 86.655,
+        "average": 9700
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 86.655,
+        "average": 9700
+      }
+    },
+    {
+      "rank": 10,
+      "account": "sully.dp",
+      "assets": 9,
+      "royalty": {
+        "sets": 2,
+        "rating": 94.298,
+        "average": 11374
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 94.298,
+        "average": 11374
+      }
+    },
+    {
+      "rank": 11,
+      "account": "1d1ire.dp",
+      "assets": 8,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 12,
+      "account": "mykeatog.dp",
+      "assets": 8,
+      "royalty": {
+        "sets": 1,
+        "rating": 97.119,
+        "average": 7036.5
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 97.119,
+        "average": 7036.5
+      }
+    },
+    {
+      "rank": 13,
+      "account": "nadu.dp",
+      "assets": 8,
+      "royalty": {
+        "sets": 1,
+        "rating": 89.709,
+        "average": 19056
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 89.709,
+        "average": 19056
+      }
+    },
+    {
+      "rank": 14,
+      "account": "nate.dp",
+      "assets": 8,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.365,
+        "average": 12559.25
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.365,
+        "average": 12559.25
+      }
+    },
+    {
+      "rank": 15,
+      "account": "retrogirl.dp",
+      "assets": 7,
+      "royalty": {
+        "sets": 1,
+        "rating": 97.505,
+        "average": 13339
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 97.505,
+        "average": 13339
+      }
+    },
+    {
+      "rank": 16,
+      "account": "starwars.dp",
+      "assets": 7,
+      "royalty": {
+        "sets": 1,
+        "rating": 95.974,
+        "average": 11579.75
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 95.974,
+        "average": 11579.75
+      }
+    },
+    {
+      "rank": 17,
+      "account": "fbyk44.dp",
+      "assets": 6,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 18,
+      "account": "king.dp",
+      "assets": 6,
+      "royalty": {
+        "sets": 1,
+        "rating": 85.679,
+        "average": 5406.5
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 85.679,
+        "average": 5406.5
+      }
+    },
+    {
+      "rank": 19,
+      "account": "landonlin.dp",
+      "assets": 6,
+      "royalty": {
+        "sets": 1,
+        "rating": 86.565,
+        "average": 17932.25
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 86.565,
+        "average": 17932.25
+      }
+    },
+    {
+      "rank": 20,
+      "account": "lpcfy.wam",
+      "assets": 6,
+      "royalty": {
+        "sets": 1,
+        "rating": 97.5,
+        "average": 2560.5
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 97.5,
+        "average": 2560.5
+      }
+    }
+  ],
   "schemas": [
     "promo.drop",
     "packs.drop"
   ],
-  "fetchedAt": "2026-03-27T21:45:18.267Z"
+  "fetchedAt": "2026-03-27T23:08:22.320Z"
 }

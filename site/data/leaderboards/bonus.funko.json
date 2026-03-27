@@ -1,8 +1,6 @@
 {
   "slug": "bonus.funko",
   "name": "Bonus",
-  "baseSlug": "bonus.funko",
-  "schema": null,
   "displayName": "Bonus Digital Pop!",
   "image": "QmSWXo3yNVXHALrL6KoxJa9YPsdE6Cg7sgqzsBUic94eYY",
   "totalTemplates": 43,
@@ -10,11 +8,6 @@
   "rarityBreakdown": {
     "Rare": 22,
     "Common": 21
-  },
-  "packStats": {
-    "packs": [],
-    "totalIssued": 0,
-    "totalMax": 0
   },
   "holders": [
     {
@@ -1018,9 +1011,310 @@
       "assets": 48
     }
   ],
-  "scored": [],
+  "scored": [
+    {
+      "rank": 1,
+      "account": "x5sr.wam",
+      "assets": 1482,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 2,
+      "account": "yoda.dp",
+      "assets": 1397,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 3,
+      "account": "nfttowhatnot",
+      "assets": 891,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 4,
+      "account": "jlasvegas.gm",
+      "assets": 860,
+      "royalty": {
+        "sets": 2,
+        "rating": 100,
+        "average": 51.372
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 100,
+        "average": 51.372
+      }
+    },
+    {
+      "rank": 5,
+      "account": "mykeatog.dp",
+      "assets": 596,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.994,
+        "average": 397.698
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.994,
+        "average": 397.698
+      }
+    },
+    {
+      "rank": 6,
+      "account": "x1kvy.wam",
+      "assets": 579,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 7,
+      "account": "fnkslayer.dp",
+      "assets": 533,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.946,
+        "average": 433.628
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.946,
+        "average": 433.628
+      }
+    },
+    {
+      "rank": 8,
+      "account": "d223c.c.wam",
+      "assets": 532,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 9,
+      "account": "jemtoys.dp",
+      "assets": 392,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 10,
+      "account": "qooei.wam",
+      "assets": 387,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 11,
+      "account": "gcn.4.c.wam",
+      "assets": 376,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 12,
+      "account": "pugwash2.dp",
+      "assets": 363,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.938,
+        "average": 149.326
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.938,
+        "average": 149.326
+      }
+    },
+    {
+      "rank": 13,
+      "account": "u14rs.wam",
+      "assets": 343,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 14,
+      "account": "kal12o.dp",
+      "assets": 311,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.948,
+        "average": 403
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.948,
+        "average": 403
+      }
+    },
+    {
+      "rank": 15,
+      "account": "1d1ire.dp",
+      "assets": 305,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 16,
+      "account": "3fjv2h.dp",
+      "assets": 305,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 17,
+      "account": "king.dp",
+      "assets": 292,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.948,
+        "average": 270.419
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.948,
+        "average": 270.419
+      }
+    },
+    {
+      "rank": 18,
+      "account": "toyabunga.dp",
+      "assets": 269,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.935,
+        "average": 72
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.935,
+        "average": 72
+      }
+    },
+    {
+      "rank": 19,
+      "account": "intrusive.dp",
+      "assets": 258,
+      "royalty": {
+        "sets": 5,
+        "rating": 99.7,
+        "average": 46.535
+      },
+      "mastery": {
+        "sets": 5,
+        "rating": 99.7,
+        "average": 46.535
+      }
+    },
+    {
+      "rank": 20,
+      "account": "njaltrenel12",
+      "assets": 229,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    }
+  ],
   "schemas": [
     "bonus.drop"
   ],
-  "fetchedAt": "2026-03-27T21:45:21.943Z"
+  "fetchedAt": "2026-03-27T23:09:41.083Z"
 }
