@@ -132,6 +132,7 @@ async function init() {
             </thead>
             <tbody id="holders-tbody"></tbody>
           </table>
+          <div id="holders-expand"></div>
         </div>
       </div>
     </div>
@@ -151,21 +152,35 @@ async function init() {
   // Holders chart + table with toggle
   const allHolders = data.holders || [];
   let chart = null;
+  let showAll = false;
 
   function renderHolders(hideSystem) {
     const holders = hideSystem
       ? allHolders.filter(h => !SYSTEM_ACCOUNTS.includes(h.account))
       : allHolders;
 
-    // Table
+    // Table - show 15 by default, expand with button
+    const visible = showAll ? holders : holders.slice(0, 15);
     const tbody = document.getElementById("holders-tbody");
-    tbody.innerHTML = holders.map((h, i) => `
+    tbody.innerHTML = visible.map((h, i) => `
       <tr>
         <td class="${App.rankClass(i + 1)}">${i + 1}</td>
         <td class="account"><a href="${App.profileLink(h.account)}" target="_blank">${h.account}</a></td>
         <td class="number">${App.fmt(h.assets)}</td>
       </tr>
     `).join("");
+
+    // Show all / collapse button
+    const btnContainer = document.getElementById("holders-expand");
+    if (holders.length > 15) {
+      btnContainer.innerHTML = `<button class="expand-btn" id="toggle-all">${showAll ? "Show top 15" : `Show all ${holders.length} holders`}</button>`;
+      document.getElementById("toggle-all").addEventListener("click", () => {
+        showAll = !showAll;
+        renderHolders(document.getElementById("hide-system").checked);
+      });
+    } else {
+      btnContainer.innerHTML = "";
+    }
 
     // Pie chart - top 15 + "Others"
     const top = holders.slice(0, 15);

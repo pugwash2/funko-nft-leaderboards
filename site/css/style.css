@@ -481,6 +481,27 @@ a:hover { color: var(--funko-pink); }
   cursor: pointer;
 }
 
+/* Expand button */
+.expand-btn {
+  display: block;
+  width: 100%;
+  padding: 0.65rem;
+  margin-top: 0.5rem;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--funko-purple);
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.expand-btn:hover {
+  background: #ede9fe;
+  border-color: var(--funko-purple);
+}
+
 /* ===== TABLE WRAPPER ===== */
 .table-wrap {
   overflow-x: auto;
