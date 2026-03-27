@@ -65,7 +65,7 @@ export async function fetchSchemas(collectionName) {
   return result.data;
 }
 
-export async function fetchAssets(collectionName, owner, limit = 1000) {
+export async function fetchAssets(collectionName, owner) {
   let all = [];
   let page = 1;
   while (true) {
@@ -76,7 +76,7 @@ export async function fetchAssets(collectionName, owner, limit = 1000) {
       page,
     });
     all = all.concat(result.data);
-    if (result.data.length < 100 || all.length >= limit) break;
+    if (result.data.length < 100) break;
     page++;
   }
   return all;
