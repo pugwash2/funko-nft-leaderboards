@@ -57,6 +57,7 @@ async function init() {
     .join("");
 
   let html = `
+    <nav class="breadcrumb"><a href="/">Home</a> / <span>${data.displayName}</span></nav>
     <div class="collection-header">
       ${data.image ? `<img src="${App.ipfsUrl(data.image)}" alt="${data.displayName}">` : ""}
       <div>
@@ -65,6 +66,7 @@ async function init() {
           <span>${App.fmt(data.totalAssets)} total assets</span>
           <span>${App.fmt(data.totalTemplates)} templates</span>
           <span>${App.fmt(data.holders?.length || 0)} holders tracked</span>
+          ${data.schema ? `<span class="schema-badge">${data.schema.replace('.drop','')}</span>` : ""}
         </div>
       </div>
     </div>

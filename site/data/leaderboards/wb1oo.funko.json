@@ -1,6 +1,8 @@
 {
   "slug": "wb1oo.funko",
-  "name": "WB 100",
+  "name": "WB 100th Anniversary",
+  "baseSlug": "wb1oo.funko",
+  "schema": null,
   "displayName": "WB 100th Anniversary x Funko",
   "image": "QmZzXqgAgSx13n9C4BgbgAPtSLjMnaj7Gj9LUvPgVTbUSw",
   "totalTemplates": 93,
@@ -17,6 +19,22 @@
     "Uncommon": 20,
     "Common": 28,
     "Pack": 2
+  },
+  "packStats": {
+    "packs": [
+      {
+        "name": "Premium Pack",
+        "maxSupply": 15000,
+        "issued": 15000
+      },
+      {
+        "name": "Standard Pack",
+        "maxSupply": 15000,
+        "issued": 15000
+      }
+    ],
+    "totalIssued": 30000,
+    "totalMax": 30000
   },
   "holders": [
     {
@@ -1020,311 +1038,10 @@
       "assets": 170
     }
   ],
-  "scored": [
-    {
-      "rank": 1,
-      "account": "zotww.wam",
-      "assets": 4209,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 2,
-      "account": "c4.nc.c.wam",
-      "assets": 1793,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 3,
-      "account": "popmaniac.dp",
-      "assets": 1759,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 4,
-      "account": "mykeatog.dp",
-      "assets": 1704,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 5,
-      "account": "u14rs.wam",
-      "assets": 1568,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 6,
-      "account": "pugwash2.dp",
-      "assets": 1395,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 7,
-      "account": "px3bk.wam",
-      "assets": 1323,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 8,
-      "account": "mint.droppp",
-      "assets": 1309,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 9,
-      "account": "kal12o.dp",
-      "assets": 1188,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 10,
-      "account": "hansv.dp",
-      "assets": 1083,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 11,
-      "account": "d223c.c.wam",
-      "assets": 912,
-      "royalty": {
-        "sets": 6,
-        "rating": 99.98,
-        "average": 68.227
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 12,
-      "account": "ujpmu.c.wam",
-      "assets": 909,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 13,
-      "account": "phobia.dp",
-      "assets": 891,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 14,
-      "account": "x5sr.wam",
-      "assets": 881,
-      "royalty": {
-        "sets": 10,
-        "rating": 99.801,
-        "average": 818.6
-      },
-      "mastery": {
-        "sets": 4,
-        "rating": 99.876,
-        "average": 797.346
-      }
-    },
-    {
-      "rank": 15,
-      "account": "pcpastor.dp",
-      "assets": 760,
-      "royalty": {
-        "sets": 4,
-        "rating": 100.01,
-        "average": 398
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 16,
-      "account": "yosoyyizi.gm",
-      "assets": 686,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 17,
-      "account": "njaltrenel12",
-      "assets": 666,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 18,
-      "account": "zpdvq5.dp",
-      "assets": 630,
-      "royalty": {
-        "sets": 2,
-        "rating": 99.654,
-        "average": 409.067
-      },
-      "mastery": {
-        "sets": 2,
-        "rating": 99.879,
-        "average": 428.444
-      }
-    },
-    {
-      "rank": 19,
-      "account": "jhlore.dp",
-      "assets": 612,
-      "royalty": {
-        "sets": 1,
-        "rating": 99.979,
-        "average": 509.293
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    },
-    {
-      "rank": 20,
-      "account": "junkiewallet",
-      "assets": 590,
-      "royalty": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      },
-      "mastery": {
-        "sets": 0,
-        "rating": 0,
-        "average": 0
-      }
-    }
-  ],
+  "scored": [],
   "schemas": [
     "packs.drop",
     "series1.drop"
   ],
-  "fetchedAt": "2026-03-27T21:18:43.371Z"
+  "fetchedAt": "2026-03-27T21:42:37.478Z"
 }

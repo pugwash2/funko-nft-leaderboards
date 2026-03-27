@@ -292,6 +292,28 @@ a:hover { color: var(--funko-pink); }
   color: var(--text);
 }
 
+/* ===== BREADCRUMB ===== */
+.breadcrumb {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+.breadcrumb a { color: var(--funko-purple); }
+.breadcrumb span { color: var(--text-mid); }
+
+/* ===== SCHEMA BADGE ===== */
+.schema-badge {
+  background: var(--funko-purple);
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /* ===== LEADERBOARD PAGE ===== */
 .collection-header {
   display: flex;

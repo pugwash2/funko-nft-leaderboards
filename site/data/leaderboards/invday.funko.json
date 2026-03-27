@@ -1,0 +1,128 @@
+{
+  "slug": "invday.funko",
+  "name": "Investor Day",
+  "baseSlug": "invday.funko",
+  "schema": null,
+  "displayName": "Funko Press and Investor Day",
+  "image": "QmVHP6jDizUJmA3VQZ79ca4hdMbCKbcejEmdfW8WHdg8cp",
+  "totalTemplates": 2,
+  "totalAssets": 500,
+  "rarityBreakdown": {
+    "Pack": 1,
+    "Rare": 1
+  },
+  "packStats": {
+    "packs": [
+      {
+        "name": "Standard Pack",
+        "maxSupply": 250,
+        "issued": 250
+      }
+    ],
+    "totalIssued": 250,
+    "totalMax": 250
+  },
+  "holders": [
+    {
+      "rank": 1,
+      "account": "mint.droppp",
+      "assets": 466
+    },
+    {
+      "rank": 2,
+      "account": "4il1jg.dp",
+      "assets": 1
+    },
+    {
+      "rank": 3,
+      "account": "4wkh23.dp",
+      "assets": 1
+    },
+    {
+      "rank": 4,
+      "account": "awqmrr.dp",
+      "assets": 1
+    },
+    {
+      "rank": 5,
+      "account": "brfxdo.dp",
+      "assets": 1
+    },
+    {
+      "rank": 6,
+      "account": "fe4qmb.dp",
+      "assets": 1
+    },
+    {
+      "rank": 7,
+      "account": "idszwx.dp",
+      "assets": 1
+    },
+    {
+      "rank": 8,
+      "account": "jirhmz.dp",
+      "assets": 1
+    },
+    {
+      "rank": 9,
+      "account": "jomgwu.dp",
+      "assets": 1
+    },
+    {
+      "rank": 10,
+      "account": "kezpio.dp",
+      "assets": 1
+    },
+    {
+      "rank": 11,
+      "account": "kf54ya.dp",
+      "assets": 1
+    },
+    {
+      "rank": 12,
+      "account": "m1xbz5.dp",
+      "assets": 1
+    },
+    {
+      "rank": 13,
+      "account": "m5t1pr.dp",
+      "assets": 1
+    },
+    {
+      "rank": 14,
+      "account": "mariotti.dp",
+      "assets": 1
+    },
+    {
+      "rank": 15,
+      "account": "pugwash2.dp",
+      "assets": 1
+    },
+    {
+      "rank": 16,
+      "account": "vmgx4b.dp",
+      "assets": 1
+    },
+    {
+      "rank": 17,
+      "account": "vyedat.dp",
+      "assets": 1
+    },
+    {
+      "rank": 18,
+      "account": "ylhx5y.dp",
+      "assets": 1
+    },
+    {
+      "rank": 19,
+      "account": "zws42c.dp",
+      "assets": 1
+    }
+  ],
+  "scored": [],
+  "schemas": [
+    "packs.drop",
+    "series1.drop"
+  ],
+  "fetchedAt": "2026-03-27T21:42:20.787Z"
+}
