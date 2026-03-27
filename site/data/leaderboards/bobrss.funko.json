@@ -1,6 +1,8 @@
 {
   "slug": "bobrss.funko",
   "name": "Bob Ross",
+  "baseSlug": "bobrss.funko",
+  "schema": null,
   "displayName": "Bob Ross x Funko",
   "image": "QmeuqbWhPjPUHTan7RRYCE5cMNXPkiMmSm6pqKuoQudtpT",
   "totalTemplates": 58,
@@ -1382,5 +1384,5 @@
     "series1.drop",
     "packs.drop"
   ],
-  "fetchedAt": "2026-03-27T21:36:32.192Z"
+  "fetchedAt": "2026-03-27T21:46:42.349Z"
 }
