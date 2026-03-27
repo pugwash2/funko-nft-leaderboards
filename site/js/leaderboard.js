@@ -69,25 +69,6 @@ async function init() {
       </div>
     </div>
 
-    <div class="stats-row">
-      <div class="stat-card">
-        <div class="stat-value">${App.fmt(data.totalAssets)}</div>
-        <div class="stat-label">Total Assets</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">${App.fmt(data.totalTemplates)}</div>
-        <div class="stat-label">Templates</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">${App.fmt(data.holders?.length || 0)}</div>
-        <div class="stat-label">Top Holders</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">${data.schemas?.join(", ") || "-"}</div>
-        <div class="stat-label">Schemas</div>
-      </div>
-    </div>
-
     <div class="table-section">
       <h2>Rarity Breakdown</h2>
       <div class="rarity-bar">${rarityBarHtml}</div>
