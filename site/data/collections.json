@@ -12,6 +12,12 @@
     "year": "2021"
   },
   {
+    "slug": "bttf.funko",
+    "name": "Back to the Future x Funko",
+    "image": "QmNcLqXXLESJiwZDGWGkNcDCHNqYMaMU2C81GioRks1pDm",
+    "year": "2023"
+  },
+  {
     "slug": "dc.funko",
     "name": "DC x Funko",
     "image": "QmeN6JD9PNiu74KZnRWuDAztKCmzPQS7HNNQ2KyWH36J8F",
@@ -40,6 +46,12 @@
     "name": "Jay and Silent Bob x Funko",
     "image": "QmPvpE2x9pJVwmQW42G4eDvjhtj7FgShHsQXUDgs9U9DDE",
     "year": "2022"
+  },
+  {
+    "slug": "jpark.funko",
+    "name": "Jurassic Park x Funko",
+    "image": "QmfWVnDpuEhgx8dW9XUedAmMjtmfYTp7TQw17L8uUdB2Zh",
+    "year": "2023"
   },
   {
     "slug": "kllggs.funko",
@@ -94,5 +106,11 @@
     "name": "Star Trek x Funko",
     "image": "QmYxg2T54b1pfBBgRrw7KeY8XMtx9jY3GhmvPKoj9VXSpB",
     "year": "2021"
+  },
+  {
+    "slug": "wb1oo.funko",
+    "name": "WB 100th Anniversary x Funko",
+    "image": "QmZzXqgAgSx13n9C4BgbgAPtSLjMnaj7Gj9LUvPgVTbUSw",
+    "year": "2023"
   }
 ]

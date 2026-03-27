@@ -282,6 +282,7 @@ function buildPackStats(packStats) {
 }
 
 function buildScoredTable(title, entries, scoreKey) {
+  const hasLowestMint = entries.some(s => s[scoreKey].lowestMint);
   return `
     <div class="table-section">
       <h2>${title}</h2>
@@ -292,7 +293,8 @@ function buildScoredTable(title, entries, scoreKey) {
               <th data-type="number">Rank</th>
               <th>Account</th>
               <th data-type="number">Sets</th>
-              <th data-type="number">Average</th>
+              ${hasLowestMint ? '<th data-type="number">Lowest Mint</th>' : ""}
+              <th data-type="number">Avg Mint</th>
               <th data-type="number">Rating</th>
             </tr>
           </thead>
@@ -302,6 +304,7 @@ function buildScoredTable(title, entries, scoreKey) {
                 <td class="${App.rankClass(i + 1)}">${i + 1}</td>
                 <td class="account"><a href="${App.profileLink(s.account)}" target="_blank">${s.account}</a></td>
                 <td class="number">${s[scoreKey].sets}</td>
+                ${hasLowestMint ? `<td class="number mint-highlight">#${App.fmt(s[scoreKey].lowestMint)}</td>` : ""}
                 <td class="number">${App.fmtDec(s[scoreKey].average)}</td>
                 <td class="number">${App.fmtDec(s[scoreKey].rating)}</td>
               </tr>

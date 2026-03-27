@@ -47,7 +47,7 @@ export function computeSetCompletion(userAssets, templates, rarityFilter) {
     sets++;
   }
 
-  if (sets === 0) return { sets: 0, rating: 0, average: 0 };
+  if (sets === 0) return { sets: 0, rating: 0, average: 0, lowestMint: 0 };
 
   // Rating uses the first (lowest mint) complete set
   const firstSetMints = [];
@@ -60,7 +60,12 @@ export function computeSetCompletion(userAssets, templates, rarityFilter) {
   const rating = ((sumOfAssets - lowestMintSet + sets) / sumOfAssets) * 100;
   const average = sumOfAssets / firstSetMints.length;
 
-  return { sets, rating: Math.round(rating * 1000) / 1000, average: Math.round(average * 1000) / 1000 };
+  return {
+    sets,
+    rating: Math.round(rating * 1000) / 1000,
+    average: Math.round(average * 1000) / 1000,
+    lowestMint: lowestMintSet,
+  };
 }
 
 export function computeRoyaltyScore(userAssets, templates) {
