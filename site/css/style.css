@@ -52,10 +52,10 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html, body {
-  width: 100%;
+html {
   overflow-x: hidden;
 }
+
 body {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg);
@@ -76,7 +76,6 @@ a:hover { color: var(--funko-pink); }
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 12px rgba(74, 29, 150, 0.3);
-  overflow-x: hidden;
 }
 .nav-inner {
   width: 100%;
