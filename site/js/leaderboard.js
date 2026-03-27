@@ -78,15 +78,15 @@ async function init() {
     ${buildPackStats(data.packStats)}
   `;
 
-  // Royalty Set Ratings table
-  const scoredWithRoyalty = (data.scored || []).filter(s => s.royalty?.sets > 0);
+  // Royalty Set Ratings table (exclude system accounts)
+  const scoredWithRoyalty = (data.scored || []).filter(s => s.royalty?.sets > 0 && !SYSTEM_ACCOUNTS.includes(s.account));
   if (scoredWithRoyalty.length > 0) {
     scoredWithRoyalty.sort((a, b) => b.royalty.rating - a.royalty.rating);
     html += buildScoredTable("Royalty Set Ratings", scoredWithRoyalty, "royalty");
   }
 
-  // Mastery Set Ratings table
-  const scoredWithMastery = (data.scored || []).filter(s => s.mastery?.sets > 0);
+  // Mastery Set Ratings table (exclude system accounts)
+  const scoredWithMastery = (data.scored || []).filter(s => s.mastery?.sets > 0 && !SYSTEM_ACCOUNTS.includes(s.account));
   if (scoredWithMastery.length > 0) {
     scoredWithMastery.sort((a, b) => b.mastery.rating - a.mastery.rating);
     html += buildScoredTable("Mastery Set Ratings", scoredWithMastery, "mastery");
