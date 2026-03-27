@@ -6,6 +6,12 @@
     "year": "2022"
   },
   {
+    "slug": "alegnd.funko--series2.drop",
+    "name": "Avatar Legends x Funko",
+    "image": "QmRoBr9j111DCjMa192NbZBhdKacutPKYZ8puzSrQzWoiM",
+    "year": "2025"
+  },
+  {
     "slug": "alien.funko",
     "name": "Alien: Funko Digital Pop!",
     "image": "QmUYNc6yL4LYDSkByQuJupFt7d6XZLBfuT1VuJsXNFTniy",
@@ -16,6 +22,12 @@
     "name": "Adventure Time x Funko",
     "image": "QmVAhAtvqQu9ocmyURCV8EUufT2stHjLh75Hvpb1d3o4H6",
     "year": "2023"
+  },
+  {
+    "slug": "atime.funko--series2.drop",
+    "name": "Adventure Time x Funko",
+    "image": "QmVAhAtvqQu9ocmyURCV8EUufT2stHjLh75Hvpb1d3o4H6",
+    "year": "2025"
   },
   {
     "slug": "batman.funko",
@@ -30,6 +42,12 @@
     "year": "2024"
   },
   {
+    "slug": "besbol1.dpk",
+    "name": "DPK Baseball S1",
+    "image": null,
+    "year": "dpk"
+  },
+  {
     "slug": "bigboy.funko",
     "name": "Big Boy x Funko",
     "image": "QmPiRx6XdMkB1K4LBdf4DCSahHRG4D7SMNeNDvCENfQvhm",
@@ -42,6 +60,12 @@
     "year": "2021"
   },
   {
+    "slug": "bonus.funko",
+    "name": "Bonus Digital Pop!",
+    "image": "QmSWXo3yNVXHALrL6KoxJa9YPsdE6Cg7sgqzsBUic94eYY",
+    "year": "other"
+  },
+  {
     "slug": "bttf.funko",
     "name": "Back to the Future x Funko",
     "image": "QmNcLqXXLESJiwZDGWGkNcDCHNqYMaMU2C81GioRks1pDm",
@@ -51,6 +75,12 @@
     "slug": "cn.funko",
     "name": "Cartoon Network x Funko",
     "image": "QmYd2mHBNhaEQk4vozHYLfSF1SVseK6FUXB6bnWfNQor6J",
+    "year": "2024"
+  },
+  {
+    "slug": "daria.funko",
+    "name": "Daria x Funko",
+    "image": "QmefJt8pvcXFUTAxd6z7tzeFMkeGW8ftsmu6kxCWPkvBo5",
     "year": "2024"
   },
   {
@@ -66,6 +96,12 @@
     "year": "2022"
   },
   {
+    "slug": "dc.funko--series2.drop",
+    "name": "DC x Funko",
+    "image": "QmeN6JD9PNiu74KZnRWuDAztKCmzPQS7HNNQ2KyWH36J8F",
+    "year": "2024"
+  },
+  {
     "slug": "dc.funko",
     "name": "DC x Funko",
     "image": "QmeN6JD9PNiu74KZnRWuDAztKCmzPQS7HNNQ2KyWH36J8F",
@@ -76,6 +112,12 @@
     "name": "Dungeons & Dragons x Funko",
     "image": "QmNTAXeL3GWv4Xg6Bt9DLVzUuCNn9kQ81qaQJCrLSUy2QM",
     "year": "2023"
+  },
+  {
+    "slug": "dnd.funko--series2.drop",
+    "name": "Dungeons & Dragons x Funko",
+    "image": "QmNTAXeL3GWv4Xg6Bt9DLVzUuCNn9kQ81qaQJCrLSUy2QM",
+    "year": "2025"
   },
   {
     "slug": "elf.funko",
@@ -108,10 +150,46 @@
     "year": "2023"
   },
   {
+    "slug": "fools.funko--series2.drop",
+    "name": "Funko April Fools",
+    "image": "Qma8fgVMEqRRc4PrAUbuJam51ujP6KpH57H5nPXfBJca9v",
+    "year": "2024"
+  },
+  {
+    "slug": "fools.funko--series3.drop",
+    "name": "Funko April Fools",
+    "image": "Qma8fgVMEqRRc4PrAUbuJam51ujP6KpH57H5nPXfBJca9v",
+    "year": "2025"
+  },
+  {
     "slug": "freddy.funko",
     "name": "Funko Halloween",
     "image": "Qmcogj9brLUb8YDGFN44qhyti546FMzLbLVUDoHYJQVZzd",
     "year": "2022"
+  },
+  {
+    "slug": "fright.funko",
+    "name": "NYCC Fright Night",
+    "image": "QmVn8qsytUYVS1wGV2K4didYPvtzFSUyUmP3UdGyAWkaZD",
+    "year": "other"
+  },
+  {
+    "slug": "funday.funko",
+    "name": "Funko Fundays 2022",
+    "image": "QmSK9fSUuAwJFNujVesDuZEwyNcfaPA2Svp8BBu5Rto9TW",
+    "year": "other"
+  },
+  {
+    "slug": "funime.funko",
+    "name": "Funko Presents Funime & Cosplay",
+    "image": "QmTWbUPTJ8oLHFTtT3CMgnibczW2Mw7SZc5T4FKPVdHPqN",
+    "year": "2024"
+  },
+  {
+    "slug": "funko",
+    "name": "Digital Pop! Promo",
+    "image": "QmcdwKJn5wrPx6jLUCrQsr5UMv4YzGLFRz7NPw3ho2mthA",
+    "year": "other"
   },
   {
     "slug": "gijoe.funko",
@@ -124,6 +202,12 @@
     "name": "Game of Thrones x Funko",
     "image": "QmXkv9i3uMNs2p8JfMixjUbVQS6PpjL8ExKDiMuMqtNMoG",
     "year": "2022"
+  },
+  {
+    "slug": "hallos1.dpk",
+    "name": "DPK Halloween S1",
+    "image": null,
+    "year": "dpk"
   },
   {
     "slug": "hb.funko",
@@ -186,6 +270,12 @@
     "year": "2022"
   },
   {
+    "slug": "love.funko",
+    "name": "Freddy's Dark Valentine",
+    "image": "Qmc9X7GZmHBXxpuVskxTRoPVkupoAL53GmSR5GMPGHdfNN",
+    "year": "2025"
+  },
+  {
     "slug": "maiden.funko",
     "name": "Iron Maiden x Funko",
     "image": "QmUXWFjCeMbXeiiCcNZE6aSFnRLGXYCMnd4V21k9PFujo6",
@@ -204,10 +294,28 @@
     "year": "2023"
   },
   {
+    "slug": "mlpony.funko",
+    "name": "My Little Pony x Funko",
+    "image": "QmNV92GmFTdYgwxrP7j6PkV67dF4HLeTUEqDCAZjW7rSEG",
+    "year": "2024"
+  },
+  {
     "slug": "ntoons.funko",
     "name": "Nicktoons x Funko",
     "image": "QmeFBohzJ2S2wZsRAthjLRu6Ft2ZRASZC8vyfNnFtbKgaV",
     "year": "2023"
+  },
+  {
+    "slug": "plastk.funko",
+    "name": "Fantastik Plastik",
+    "image": "QmW3vYY9wTxjaDwdcyzHiejKLojWFa8Jq1BpYSdt4ZpAch",
+    "year": "2024"
+  },
+  {
+    "slug": "potter.funko",
+    "name": "Harry Potter x Funko",
+    "image": "QmU7hupdxnU9Nvo825MMYXSXqJZH2whsMF1u5X9iiJNBhy",
+    "year": "2024"
   },
   {
     "slug": "ppg.funko",
@@ -220,6 +328,12 @@
     "name": "Power Rangers x Funko",
     "image": "QmXo9XW76dGrLAMB4UxZNE1yomkkm8iMEGNY6UwSQ8wAsw",
     "year": "2023"
+  },
+  {
+    "slug": "promotn.dpk",
+    "name": "DPK Promotions",
+    "image": null,
+    "year": "dpk"
   },
   {
     "slug": "ram.funko",
@@ -246,6 +360,30 @@
     "year": "2022"
   },
   {
+    "slug": "scooby.funko--series2.drop",
+    "name": "Scooby-Doo x Funko",
+    "image": "QmTeLSfgv1k2Pa5Yk5jqLei2LiSS4CShZ2mwzNidjw9v6d",
+    "year": "2024"
+  },
+  {
+    "slug": "sdance.funko",
+    "name": "Space Dancer Freddy Funko",
+    "image": "QmZB15GoWTmP27sexBt7k2BxeE8cPqULX9bgHZBZNebSq9",
+    "year": "other"
+  },
+  {
+    "slug": "sjam.funko",
+    "name": "Space Jam x Funko",
+    "image": "QmWPtobSdPqnqrYYeHRZXDypoa5NWXXabTDcMvKMrerVzx",
+    "year": "2024"
+  },
+  {
+    "slug": "social.funko",
+    "name": "Social Media Freddy Funko",
+    "image": "QmTRLk7M5KRaFoK4joQaQhfthYthe1Z85iU4R3G9a3in1X",
+    "year": "other"
+  },
+  {
     "slug": "spooky.funko--series1.drop",
     "name": "Funkoween",
     "image": "QmQYuekqKfEayL1EHJwCcVXoG8qfv2dLujJHGMNuViqCmd",
@@ -255,6 +393,12 @@
     "slug": "spooky.funko--series2.drop",
     "name": "Funkoween",
     "image": "QmQYuekqKfEayL1EHJwCcVXoG8qfv2dLujJHGMNuViqCmd",
+    "year": "2024"
+  },
+  {
+    "slug": "squid.funko",
+    "name": "Squid Game x Funko",
+    "image": "QmW9oGWsQsBdqEHZbkZbMcYBCxsGZr61XjDvYr37Dq9pn7",
     "year": "2024"
   },
   {
@@ -276,6 +420,12 @@
     "year": "2024"
   },
   {
+    "slug": "strwrs.funko",
+    "name": "Star Wars: Funko Digital Pop!",
+    "image": "QmUqEjfq6xX895NwfZGgBd6tEFBkvHnvhhpg76BsWx6cjV",
+    "year": "2024"
+  },
+  {
     "slug": "sttrek.funko",
     "name": "Star Trek x Funko",
     "image": "QmYxg2T54b1pfBBgRrw7KeY8XMtx9jY3GhmvPKoj9VXSpB",
@@ -285,6 +435,24 @@
     "slug": "sunny.funko",
     "name": "It's Always Sunny: Funko Digital",
     "image": "QmXDpyCijfK51Y5SPGdL6Tsy6sY8y9d4diVHEubtPQ4eL1",
+    "year": "2024"
+  },
+  {
+    "slug": "tcats.funko",
+    "name": "Thundercats X Funko",
+    "image": "QmZnZAAEnnxuU2VwsF6JPzoNu8CJmoP1EhkukoV8R98yqR",
+    "year": "2025"
+  },
+  {
+    "slug": "tda.funko",
+    "name": "The Disney Afternoon",
+    "image": "QmPiW23FgbuHLnQHXXbpLECtt3XfKyr3iL6wXZPnyZoQYC",
+    "year": "2024"
+  },
+  {
+    "slug": "tformr.funko",
+    "name": "Transformers x Funko",
+    "image": "QmWxxq4phG5XM91MgM8Eds3LCy6FYURkHVxrhy6u64wNc3",
     "year": "2024"
   },
   {
@@ -300,10 +468,28 @@
     "year": "2024"
   },
   {
+    "slug": "tng.funko",
+    "name": "Star Trek: TNG x Funko",
+    "image": "QmawUwFdt5iHW8XoEnY7KAQd8ppdxcLxY4wrQEf7fygrsS",
+    "year": "2024"
+  },
+  {
+    "slug": "tstory.funko",
+    "name": "Toy Story: Funko Digital Pop!",
+    "image": "Qmbfrt8m4MEiw2Uv1muLwMDStUMKJnzgiux6hCVZqCaENY",
+    "year": "2025"
+  },
+  {
     "slug": "ttgo.funko--series1.drop",
     "name": "DC Teen Titans Go! x Funko",
     "image": "QmbvC5wXkrxYbqRmbrDyfu9hrLD9Cfx8f1M9X24hdn1f6z",
     "year": "2023"
+  },
+  {
+    "slug": "ttgo.funko--series2.drop",
+    "name": "DC Teen Titans Go! x Funko",
+    "image": "QmbvC5wXkrxYbqRmbrDyfu9hrLD9Cfx8f1M9X24hdn1f6z",
+    "year": "2025"
   },
   {
     "slug": "umnstr.funko",
@@ -316,5 +502,17 @@
     "name": "WB 100th Anniversary x Funko",
     "image": "QmZzXqgAgSx13n9C4BgbgAPtSLjMnaj7Gj9LUvPgVTbUSw",
     "year": "2023"
+  },
+  {
+    "slug": "wbh.funko",
+    "name": "WB Horror x Funko",
+    "image": "Qmar2j5vZxNM3EjnTQRpoTFF25a9B8FgkrXbUHg9qSH4jq",
+    "year": "2024"
+  },
+  {
+    "slug": "wca.funko",
+    "name": "WC Avengers: Funko Digital Pop!",
+    "image": "QmRdhBeEhSjMTndVTddC5XDXJx8tVENQauFksgbMvhm69f",
+    "year": "2025"
   }
 ]

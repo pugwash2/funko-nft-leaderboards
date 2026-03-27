@@ -301,12 +301,52 @@ async function init() {
         tPage++;
       }
 
-      // Score using same logic as backend (simplified client-side version)
+      // Score + find missing templates
       const royaltyRarities = ["Common", "Uncommon", "Rare", "Epic"];
       const royalty = clientScore(allAssets, templates, royaltyRarities);
       const mastery = clientScore(allAssets, templates, null);
+      const missing = findMissing(allAssets, templates, royaltyRarities);
+      const missingAll = findMissing(allAssets, templates, null);
 
-      resultEl.innerHTML = `<div class="check-result-card ${royalty.sets > 0 ? 'check-result-yes' : 'check-result-partial'}">
+      let missingHtml = "";
+      if (missing.length > 0) {
+        missingHtml = `
+          <div class="missing-section">
+            <h4>Missing for Royalty Set (${missing.length} needed)</h4>
+            <div class="missing-grid">
+              ${missing.map(t => `
+                <div class="missing-card">
+                  <span class="missing-rarity rarity-${(t.immutable_data?.rarity || '').toLowerCase()}">${t.immutable_data?.rarity || '?'}</span>
+                  <span class="missing-name">${t.immutable_data?.name || t.template_id}</span>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      if (missingAll.length > 0 && missingAll.length !== missing.length) {
+        const extraMissing = missingAll.filter(t => !missing.find(m => m.template_id === t.template_id));
+        if (extraMissing.length > 0) {
+          missingHtml += `
+            <div class="missing-section">
+              <h4>Also missing for Mastery Set (+${extraMissing.length} more)</h4>
+              <div class="missing-grid">
+                ${extraMissing.slice(0, 20).map(t => `
+                  <div class="missing-card">
+                    <span class="missing-rarity rarity-${(t.immutable_data?.rarity || '').toLowerCase()}">${t.immutable_data?.rarity || '?'}</span>
+                    <span class="missing-name">${t.immutable_data?.name || t.template_id}</span>
+                  </div>
+                `).join("")}
+                ${extraMissing.length > 20 ? `<div class="missing-card" style="color:var(--text-light)">+${extraMissing.length - 20} more</div>` : ""}
+              </div>
+            </div>
+          `;
+        }
+      }
+
+      const status = royalty.sets > 0 ? "check-result-yes" : (missing.length < 10 ? "check-result-partial" : "check-result-none");
+      resultEl.innerHTML = `<div class="check-result-card ${status}">
         <h3>${wallet}</h3>
         <div class="check-result-stats">
           <div><strong>${allAssets.length}</strong> assets</div>
@@ -315,6 +355,8 @@ async function init() {
           ${royalty.lowestMint ? `<div>Lowest mint: <strong>#${royalty.lowestMint}</strong></div>` : ""}
           ${royalty.rating ? `<div>Rating: <strong>${royalty.rating.toFixed(3)}</strong></div>` : ""}
         </div>
+        ${missing.length === 0 && royalty.sets > 0 ? '<p style="color:var(--funko-green);font-weight:700;margin-top:0.5rem;">Complete royalty set!</p>' : ""}
+        ${missingHtml}
       </div>`;
     } catch (err) {
       resultEl.innerHTML = `<p style="color:var(--funko-red);">Error checking wallet: ${err.message}</p>`;
@@ -358,6 +400,16 @@ async function init() {
     const rating = ((sum - lowest + sets) / sum) * 100;
 
     return { sets, rating, lowestMint: lowest };
+  }
+
+  // Find which templates a wallet is missing
+  function findMissing(assets, templates, rarityFilter) {
+    const targetTemplates = rarityFilter
+      ? templates.filter(t => rarityFilter.some(r => (t.immutable_data?.rarity || "").toLowerCase() === r.toLowerCase()))
+      : templates.filter(t => t.immutable_data?.rarity);
+
+    const ownedIds = new Set(assets.map(a => a.template?.template_id).filter(Boolean));
+    return targetTemplates.filter(t => !ownedIds.has(t.template_id));
   }
 
   document.getElementById("check-wallet-btn")?.addEventListener("click", () => {

@@ -1,0 +1,1047 @@
+{
+  "slug": "tcats.funko",
+  "name": "Thundercats",
+  "baseSlug": "tcats.funko",
+  "schema": null,
+  "displayName": "Thundercats X Funko",
+  "image": "QmZnZAAEnnxuU2VwsF6JPzoNu8CJmoP1EhkukoV8R98yqR",
+  "totalTemplates": 68,
+  "totalAssets": 344913,
+  "rarityBreakdown": {
+    "Redeemable": 5,
+    "Royalty": 2,
+    "Series": 1,
+    "1 of 1": 3,
+    "Grail": 1,
+    "Legendary": 3,
+    "Epic": 10,
+    "Rare": 11,
+    "Uncommon": 13,
+    "Common": 17,
+    "Pack": 2
+  },
+  "packStats": {
+    "packs": [
+      {
+        "name": "Premium Pack",
+        "maxSupply": 13000,
+        "issued": 13000
+      },
+      {
+        "name": "Standard Pack",
+        "maxSupply": 16000,
+        "issued": 16000
+      }
+    ],
+    "totalIssued": 29000,
+    "totalMax": 29000
+  },
+  "holders": [
+    {
+      "rank": 1,
+      "account": "mint.droppp",
+      "assets": 39054
+    },
+    {
+      "rank": 2,
+      "account": "professor.dp",
+      "assets": 2272
+    },
+    {
+      "rank": 3,
+      "account": "popncraze.dp",
+      "assets": 1947
+    },
+    {
+      "rank": 4,
+      "account": "teofonta.dp",
+      "assets": 1791
+    },
+    {
+      "rank": 5,
+      "account": "qv33ea.dp",
+      "assets": 1757
+    },
+    {
+      "rank": 6,
+      "account": "n2ahfw.dp",
+      "assets": 1598
+    },
+    {
+      "rank": 7,
+      "account": "fcnwt4.dp",
+      "assets": 1404
+    },
+    {
+      "rank": 8,
+      "account": "imake.dp",
+      "assets": 1299
+    },
+    {
+      "rank": 9,
+      "account": "jxnfvg.dp",
+      "assets": 1259
+    },
+    {
+      "rank": 10,
+      "account": "kar1.dp",
+      "assets": 1213
+    },
+    {
+      "rank": 11,
+      "account": "graildog.dp",
+      "assets": 1162
+    },
+    {
+      "rank": 12,
+      "account": "ltkarm.dp",
+      "assets": 1161
+    },
+    {
+      "rank": 13,
+      "account": "jzfevx.dp",
+      "assets": 1069
+    },
+    {
+      "rank": 14,
+      "account": "wpcbjk.dp",
+      "assets": 1010
+    },
+    {
+      "rank": 15,
+      "account": "alley.dp",
+      "assets": 997
+    },
+    {
+      "rank": 16,
+      "account": "pitzerv.dp",
+      "assets": 952
+    },
+    {
+      "rank": 17,
+      "account": "kenfoke.dp",
+      "assets": 941
+    },
+    {
+      "rank": 18,
+      "account": "tigertail.dp",
+      "assets": 928
+    },
+    {
+      "rank": 19,
+      "account": "un3c2c.dp",
+      "assets": 926
+    },
+    {
+      "rank": 20,
+      "account": "pzt23d.dp",
+      "assets": 848
+    },
+    {
+      "rank": 21,
+      "account": "2lpvqv.dp",
+      "assets": 823
+    },
+    {
+      "rank": 22,
+      "account": "fae4fu.dp",
+      "assets": 803
+    },
+    {
+      "rank": 23,
+      "account": "troppops.dp",
+      "assets": 797
+    },
+    {
+      "rank": 24,
+      "account": "cduxdc.dp",
+      "assets": 785
+    },
+    {
+      "rank": 25,
+      "account": "pxzyrg.dp",
+      "assets": 765
+    },
+    {
+      "rank": 26,
+      "account": "pugwash2.dp",
+      "assets": 747
+    },
+    {
+      "rank": 27,
+      "account": "joshybrav.dp",
+      "assets": 726
+    },
+    {
+      "rank": 28,
+      "account": "cx15nf.dp",
+      "assets": 721
+    },
+    {
+      "rank": 29,
+      "account": "asgardian.dp",
+      "assets": 714
+    },
+    {
+      "rank": 30,
+      "account": "superpops.dp",
+      "assets": 680
+    },
+    {
+      "rank": 31,
+      "account": "zab1a4.dp",
+      "assets": 680
+    },
+    {
+      "rank": 32,
+      "account": "rccrsv.dp",
+      "assets": 679
+    },
+    {
+      "rank": 33,
+      "account": "qnr3ml.dp",
+      "assets": 672
+    },
+    {
+      "rank": 34,
+      "account": "mdooro.dp",
+      "assets": 664
+    },
+    {
+      "rank": 35,
+      "account": "z5kol5.dp",
+      "assets": 663
+    },
+    {
+      "rank": 36,
+      "account": "1nywsg.dp",
+      "assets": 657
+    },
+    {
+      "rank": 37,
+      "account": "dxce3q.dp",
+      "assets": 644
+    },
+    {
+      "rank": 38,
+      "account": "guy2jz.dp",
+      "assets": 636
+    },
+    {
+      "rank": 39,
+      "account": "badboy.dp",
+      "assets": 632
+    },
+    {
+      "rank": 40,
+      "account": "ipcgpq.dp",
+      "assets": 631
+    },
+    {
+      "rank": 41,
+      "account": "muusyn.dp",
+      "assets": 625
+    },
+    {
+      "rank": 42,
+      "account": "loafster.dp",
+      "assets": 622
+    },
+    {
+      "rank": 43,
+      "account": "zrajls.dp",
+      "assets": 620
+    },
+    {
+      "rank": 44,
+      "account": "canbmg.dp",
+      "assets": 615
+    },
+    {
+      "rank": 45,
+      "account": "sniffer.dp",
+      "assets": 603
+    },
+    {
+      "rank": 46,
+      "account": "kornholio.dp",
+      "assets": 602
+    },
+    {
+      "rank": 47,
+      "account": "salmz.dp",
+      "assets": 595
+    },
+    {
+      "rank": 48,
+      "account": "chillwill.dp",
+      "assets": 575
+    },
+    {
+      "rank": 49,
+      "account": "hw5e1d.dp",
+      "assets": 563
+    },
+    {
+      "rank": 50,
+      "account": "d31jvr.dp",
+      "assets": 560
+    },
+    {
+      "rank": 51,
+      "account": "jbwell.dp",
+      "assets": 554
+    },
+    {
+      "rank": 52,
+      "account": "mummra.dp",
+      "assets": 554
+    },
+    {
+      "rank": 53,
+      "account": "lastjedi.dp",
+      "assets": 549
+    },
+    {
+      "rank": 54,
+      "account": "scootr.dp",
+      "assets": 549
+    },
+    {
+      "rank": 55,
+      "account": "kolectoyz.dp",
+      "assets": 541
+    },
+    {
+      "rank": 56,
+      "account": "arksemp.dp",
+      "assets": 540
+    },
+    {
+      "rank": 57,
+      "account": "jsztq5.dp",
+      "assets": 537
+    },
+    {
+      "rank": 58,
+      "account": "pwdfdr.dp",
+      "assets": 533
+    },
+    {
+      "rank": 59,
+      "account": "afacio.dp",
+      "assets": 531
+    },
+    {
+      "rank": 60,
+      "account": "manderani.dp",
+      "assets": 530
+    },
+    {
+      "rank": 61,
+      "account": "i2tvln.dp",
+      "assets": 525
+    },
+    {
+      "rank": 62,
+      "account": "vbpzwn.dp",
+      "assets": 513
+    },
+    {
+      "rank": 63,
+      "account": "snunder.dp",
+      "assets": 512
+    },
+    {
+      "rank": 64,
+      "account": "legalcoke.dp",
+      "assets": 509
+    },
+    {
+      "rank": 65,
+      "account": "isaacchav.dp",
+      "assets": 500
+    },
+    {
+      "rank": 66,
+      "account": "fernwood.dp",
+      "assets": 499
+    },
+    {
+      "rank": 67,
+      "account": "2islgc.dp",
+      "assets": 495
+    },
+    {
+      "rank": 68,
+      "account": "jawapez.dp",
+      "assets": 487
+    },
+    {
+      "rank": 69,
+      "account": "topokeso.dp",
+      "assets": 484
+    },
+    {
+      "rank": 70,
+      "account": "41lvma.dp",
+      "assets": 481
+    },
+    {
+      "rank": 71,
+      "account": "wkhfy.dp",
+      "assets": 476
+    },
+    {
+      "rank": 72,
+      "account": "1xwwjc.dp",
+      "assets": 469
+    },
+    {
+      "rank": 73,
+      "account": "3utjzt.dp",
+      "assets": 461
+    },
+    {
+      "rank": 74,
+      "account": "popstarz.dp",
+      "assets": 460
+    },
+    {
+      "rank": 75,
+      "account": "gomez23.dp",
+      "assets": 455
+    },
+    {
+      "rank": 76,
+      "account": "skypop.dp",
+      "assets": 453
+    },
+    {
+      "rank": 77,
+      "account": "eerwor.dp",
+      "assets": 452
+    },
+    {
+      "rank": 78,
+      "account": "zbjyin.dp",
+      "assets": 449
+    },
+    {
+      "rank": 79,
+      "account": "theokar.dp",
+      "assets": 448
+    },
+    {
+      "rank": 80,
+      "account": "meh2dj.dp",
+      "assets": 447
+    },
+    {
+      "rank": 81,
+      "account": "badbloke.dp",
+      "assets": 443
+    },
+    {
+      "rank": 82,
+      "account": "paytowin.dp",
+      "assets": 442
+    },
+    {
+      "rank": 83,
+      "account": "rorro.dp",
+      "assets": 440
+    },
+    {
+      "rank": 84,
+      "account": "cewmi3.dp",
+      "assets": 439
+    },
+    {
+      "rank": 85,
+      "account": "popnbeats.dp",
+      "assets": 439
+    },
+    {
+      "rank": 86,
+      "account": "phillycez.dp",
+      "assets": 438
+    },
+    {
+      "rank": 87,
+      "account": "cid3oa.dp",
+      "assets": 434
+    },
+    {
+      "rank": 88,
+      "account": "iypm1122.dp",
+      "assets": 430
+    },
+    {
+      "rank": 89,
+      "account": "cucho.dp",
+      "assets": 427
+    },
+    {
+      "rank": 90,
+      "account": "jemtoys.dp",
+      "assets": 422
+    },
+    {
+      "rank": 91,
+      "account": "kq5zcm.dp",
+      "assets": 422
+    },
+    {
+      "rank": 92,
+      "account": "oidcbd.dp",
+      "assets": 422
+    },
+    {
+      "rank": 93,
+      "account": "fnkome.dp",
+      "assets": 420
+    },
+    {
+      "rank": 94,
+      "account": "marsh.dp",
+      "assets": 419
+    },
+    {
+      "rank": 95,
+      "account": "nnsjmu.dp",
+      "assets": 415
+    },
+    {
+      "rank": 96,
+      "account": "aacollect.dp",
+      "assets": 414
+    },
+    {
+      "rank": 97,
+      "account": "3tikwn.dp",
+      "assets": 413
+    },
+    {
+      "rank": 98,
+      "account": "xilcuc.dp",
+      "assets": 413
+    },
+    {
+      "rank": 99,
+      "account": "mxwufq.dp",
+      "assets": 410
+    },
+    {
+      "rank": 100,
+      "account": "24iyor.dp",
+      "assets": 409
+    },
+    {
+      "rank": 101,
+      "account": "finestfnk.dp",
+      "assets": 409
+    },
+    {
+      "rank": 102,
+      "account": "jlasvegas.gm",
+      "assets": 407
+    },
+    {
+      "rank": 103,
+      "account": "mbabpt.dp",
+      "assets": 407
+    },
+    {
+      "rank": 104,
+      "account": "momonany.dp",
+      "assets": 407
+    },
+    {
+      "rank": 105,
+      "account": "gfeighery.dp",
+      "assets": 406
+    },
+    {
+      "rank": 106,
+      "account": "fqydga.dp",
+      "assets": 404
+    },
+    {
+      "rank": 107,
+      "account": "kory.dp",
+      "assets": 404
+    },
+    {
+      "rank": 108,
+      "account": "tyjeks.dp",
+      "assets": 402
+    },
+    {
+      "rank": 109,
+      "account": "peovne.dp",
+      "assets": 400
+    },
+    {
+      "rank": 110,
+      "account": "kzhifd.dp",
+      "assets": 399
+    },
+    {
+      "rank": 111,
+      "account": "5eyzin.dp",
+      "assets": 397
+    },
+    {
+      "rank": 112,
+      "account": "zb3g2p.dp",
+      "assets": 396
+    },
+    {
+      "rank": 113,
+      "account": "bsx1fs.dp",
+      "assets": 393
+    },
+    {
+      "rank": 114,
+      "account": "pcsitq.dp",
+      "assets": 391
+    },
+    {
+      "rank": 115,
+      "account": "gjk.dp",
+      "assets": 380
+    },
+    {
+      "rank": 116,
+      "account": "bh4qcy.dp",
+      "assets": 377
+    },
+    {
+      "rank": 117,
+      "account": "mediafury.dp",
+      "assets": 376
+    },
+    {
+      "rank": 118,
+      "account": "elraspa.dp",
+      "assets": 374
+    },
+    {
+      "rank": 119,
+      "account": "luckettx.dp",
+      "assets": 374
+    },
+    {
+      "rank": 120,
+      "account": "dcze3f.dp",
+      "assets": 373
+    },
+    {
+      "rank": 121,
+      "account": "badbatch.dp",
+      "assets": 372
+    },
+    {
+      "rank": 122,
+      "account": "biggiebom.dp",
+      "assets": 370
+    },
+    {
+      "rank": 123,
+      "account": "do4rwc.dp",
+      "assets": 370
+    },
+    {
+      "rank": 124,
+      "account": "a5ek1x.dp",
+      "assets": 368
+    },
+    {
+      "rank": 125,
+      "account": "pzej4l.dp",
+      "assets": 366
+    },
+    {
+      "rank": 126,
+      "account": "mstluvpop.dp",
+      "assets": 363
+    },
+    {
+      "rank": 127,
+      "account": "broh33m.dp",
+      "assets": 362
+    },
+    {
+      "rank": 128,
+      "account": "daniela.dp",
+      "assets": 355
+    },
+    {
+      "rank": 129,
+      "account": "vgb2ou.dp",
+      "assets": 355
+    },
+    {
+      "rank": 130,
+      "account": "x1cx2m.dp",
+      "assets": 355
+    },
+    {
+      "rank": 131,
+      "account": "jmarx.dp",
+      "assets": 350
+    },
+    {
+      "rank": 132,
+      "account": "krcm.dp",
+      "assets": 350
+    },
+    {
+      "rank": 133,
+      "account": "swaj1s.dp",
+      "assets": 349
+    },
+    {
+      "rank": 134,
+      "account": "o1abse.dp",
+      "assets": 347
+    },
+    {
+      "rank": 135,
+      "account": "hovedo.dp",
+      "assets": 345
+    },
+    {
+      "rank": 136,
+      "account": "pqmqth.dp",
+      "assets": 343
+    },
+    {
+      "rank": 137,
+      "account": "an3ak1.dp",
+      "assets": 341
+    },
+    {
+      "rank": 138,
+      "account": "jnavotoys.dp",
+      "assets": 337
+    },
+    {
+      "rank": 139,
+      "account": "bl3i45.dp",
+      "assets": 335
+    },
+    {
+      "rank": 140,
+      "account": "dqixxt.dp",
+      "assets": 335
+    },
+    {
+      "rank": 141,
+      "account": "jimbone.dp",
+      "assets": 335
+    },
+    {
+      "rank": 142,
+      "account": "bernie.dp",
+      "assets": 330
+    },
+    {
+      "rank": 143,
+      "account": "o4uria.dp",
+      "assets": 328
+    },
+    {
+      "rank": 144,
+      "account": "xeew5c.dp",
+      "assets": 328
+    },
+    {
+      "rank": 145,
+      "account": "egkeiq.dp",
+      "assets": 326
+    },
+    {
+      "rank": 146,
+      "account": "poprods.dp",
+      "assets": 326
+    },
+    {
+      "rank": 147,
+      "account": "prmorning.dp",
+      "assets": 325
+    },
+    {
+      "rank": 148,
+      "account": "betarock.dp",
+      "assets": 324
+    },
+    {
+      "rank": 149,
+      "account": "jacrmq.dp",
+      "assets": 323
+    },
+    {
+      "rank": 150,
+      "account": "4fbq4w.dp",
+      "assets": 320
+    },
+    {
+      "rank": 151,
+      "account": "badbeater.dp",
+      "assets": 320
+    },
+    {
+      "rank": 152,
+      "account": "lthpwy.dp",
+      "assets": 320
+    },
+    {
+      "rank": 153,
+      "account": "c45yzo.dp",
+      "assets": 319
+    },
+    {
+      "rank": 154,
+      "account": "gblbx1.dp",
+      "assets": 319
+    },
+    {
+      "rank": 155,
+      "account": "theluau.dp",
+      "assets": 319
+    },
+    {
+      "rank": 156,
+      "account": "maarten1.dp",
+      "assets": 317
+    },
+    {
+      "rank": 157,
+      "account": "jkksob.dp",
+      "assets": 316
+    },
+    {
+      "rank": 158,
+      "account": "krafty.dp",
+      "assets": 315
+    },
+    {
+      "rank": 159,
+      "account": "2dwpo1.dp",
+      "assets": 311
+    },
+    {
+      "rank": 160,
+      "account": "zj4w4m.dp",
+      "assets": 311
+    },
+    {
+      "rank": 161,
+      "account": "iraya.dp",
+      "assets": 307
+    },
+    {
+      "rank": 162,
+      "account": "bxkn2l.dp",
+      "assets": 305
+    },
+    {
+      "rank": 163,
+      "account": "kal12o.dp",
+      "assets": 304
+    },
+    {
+      "rank": 164,
+      "account": "3slnqx.dp",
+      "assets": 301
+    },
+    {
+      "rank": 165,
+      "account": "cfrrw1.dp",
+      "assets": 301
+    },
+    {
+      "rank": 166,
+      "account": "3vq5mw.dp",
+      "assets": 300
+    },
+    {
+      "rank": 167,
+      "account": "na2elf.dp",
+      "assets": 300
+    },
+    {
+      "rank": 168,
+      "account": "popcityut.dp",
+      "assets": 299
+    },
+    {
+      "rank": 169,
+      "account": "luwyps.dp",
+      "assets": 297
+    },
+    {
+      "rank": 170,
+      "account": "uttk5w.dp",
+      "assets": 296
+    },
+    {
+      "rank": 171,
+      "account": "15lj5e.dp",
+      "assets": 295
+    },
+    {
+      "rank": 172,
+      "account": "c5ai22.dp",
+      "assets": 295
+    },
+    {
+      "rank": 173,
+      "account": "5w2enu.dp",
+      "assets": 293
+    },
+    {
+      "rank": 174,
+      "account": "ebxalt.dp",
+      "assets": 293
+    },
+    {
+      "rank": 175,
+      "account": "nzczvu.dp",
+      "assets": 292
+    },
+    {
+      "rank": 176,
+      "account": "omemzero.dp",
+      "assets": 289
+    },
+    {
+      "rank": 177,
+      "account": "srlvw1.dp",
+      "assets": 288
+    },
+    {
+      "rank": 178,
+      "account": "muro.dp",
+      "assets": 287
+    },
+    {
+      "rank": 179,
+      "account": "boomer.dp",
+      "assets": 286
+    },
+    {
+      "rank": 180,
+      "account": "ltnnpk.dp",
+      "assets": 286
+    },
+    {
+      "rank": 181,
+      "account": "zzahs5.dp",
+      "assets": 286
+    },
+    {
+      "rank": 182,
+      "account": "alwright.dp",
+      "assets": 285
+    },
+    {
+      "rank": 183,
+      "account": "w4s4ta.dp",
+      "assets": 285
+    },
+    {
+      "rank": 184,
+      "account": "e4jsn3.dp",
+      "assets": 283
+    },
+    {
+      "rank": 185,
+      "account": "hender.dp",
+      "assets": 283
+    },
+    {
+      "rank": 186,
+      "account": "deadnfts.dp",
+      "assets": 282
+    },
+    {
+      "rank": 187,
+      "account": "r1uw5q.dp",
+      "assets": 281
+    },
+    {
+      "rank": 188,
+      "account": "wshcx1.dp",
+      "assets": 281
+    },
+    {
+      "rank": 189,
+      "account": "zr1nht.dp",
+      "assets": 281
+    },
+    {
+      "rank": 190,
+      "account": "cpra5w.dp",
+      "assets": 280
+    },
+    {
+      "rank": 191,
+      "account": "tqcc.dp",
+      "assets": 280
+    },
+    {
+      "rank": 192,
+      "account": "fersaenz.dp",
+      "assets": 279
+    },
+    {
+      "rank": 193,
+      "account": "qcmjoq.dp",
+      "assets": 278
+    },
+    {
+      "rank": 194,
+      "account": "besmum.dp",
+      "assets": 276
+    },
+    {
+      "rank": 195,
+      "account": "qh2aaq.dp",
+      "assets": 275
+    },
+    {
+      "rank": 196,
+      "account": "pxh1cn.dp",
+      "assets": 274
+    },
+    {
+      "rank": 197,
+      "account": "qxuscd.dp",
+      "assets": 271
+    },
+    {
+      "rank": 198,
+      "account": "wdjbcr.dp",
+      "assets": 271
+    },
+    {
+      "rank": 199,
+      "account": "w44ygo.dp",
+      "assets": 270
+    },
+    {
+      "rank": 200,
+      "account": "4vxzrq.dp",
+      "assets": 269
+    }
+  ],
+  "scored": [],
+  "schemas": [
+    "packs.drop",
+    "series1.drop"
+  ],
+  "fetchedAt": "2026-03-27T21:44:53.213Z"
+}
