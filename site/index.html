@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Funko NFT Leaderboards</title>
   <meta name="description" content="Rankings, stats, and set tracking for 80+ Funko Digital Pop NFT collections on WAX blockchain">
@@ -23,8 +24,17 @@
 
     <div id="home-stats"></div>
 
-    <div class="search-bar">
-      <input type="text" id="search-input" placeholder="Search collections...">
+    <div class="search-sort-row">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search collections...">
+      </div>
+      <div class="sort-controls">
+        <label class="sort-label">View:</label>
+        <select id="sort-select" class="sort-select">
+          <option value="year">By Year</option>
+          <option value="alpha">A-Z</option>
+        </select>
+      </div>
     </div>
 
     <div id="collection-content"></div>
