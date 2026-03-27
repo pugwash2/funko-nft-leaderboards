@@ -16,6 +16,38 @@ async function init() {
     return;
   }
 
+  // Pre-load rarity data for all collections
+  const rarityCache = {};
+  async function loadRarityData(slug) {
+    if (rarityCache[slug]) return rarityCache[slug];
+    try {
+      const res = await fetch(`/data/leaderboards/${slug}.json`);
+      if (!res.ok) return null;
+      const d = await res.json();
+      rarityCache[slug] = d.rarityBreakdown || {};
+      return rarityCache[slug];
+    } catch { return null; }
+  }
+
+  const RARITY_ORDER = ["Common","Uncommon","Rare","Epic","Legendary","Grail","Mythic","Ultra","Royalty"];
+  const RARITY_COLORS = {
+    Common:"#9ca3af", Uncommon:"#10b981", Rare:"#00b4d8", Epic:"#6d28d9",
+    Legendary:"#f97316", Grail:"#ef4444", Mythic:"#ec4899", Ultra:"#0891b2", Royalty:"#fbbf24"
+  };
+
+  function buildMiniRarityBar(breakdown) {
+    if (!breakdown) return "";
+    const total = RARITY_ORDER.reduce((s, r) => s + (breakdown[r] || 0), 0);
+    if (total === 0) return "";
+    const segments = RARITY_ORDER
+      .filter(r => breakdown[r])
+      .map(r => {
+        const pct = ((breakdown[r] / total) * 100).toFixed(1);
+        return `<div style="width:${pct}%;background:${RARITY_COLORS[r]}" title="${r}: ${breakdown[r]}"></div>`;
+      }).join("");
+    return `<div class="mini-rarity-bar">${segments}</div>`;
+  }
+
   function render(filter = "") {
     const lc = filter.toLowerCase();
     const filtered = filter
@@ -38,10 +70,11 @@ async function init() {
         <h2>${App.YEAR_LABELS[year] || year}</h2>
         <div class="collection-grid">
           ${cols.map(c => `
-            <div class="collection-card">
+            <div class="collection-card" data-slug="${c.slug}">
               <a href="/leaderboard.html#${c.slug}">
                 <img src="${App.ipfsUrl(c.image)}" alt="${c.name}" loading="lazy"
-                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%2322222e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%239090a8%22 font-size=%2212%22>No Image</text></svg>'">
+                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23ede9fe%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%237c74a8%22 font-size=%2210%22>No Image</text></svg>'">
+                <div class="card-rarity" id="rarity-${c.slug}"></div>
                 <div class="card-name">${c.name}</div>
               </a>
             </div>
@@ -51,6 +84,14 @@ async function init() {
     }
 
     grid.innerHTML = html || '<p class="coming-soon">No collections match your search.</p>';
+
+    // Load rarity bars async
+    for (const c of filtered) {
+      loadRarityData(c.slug).then(breakdown => {
+        const el = document.getElementById(`rarity-${c.slug}`);
+        if (el && breakdown) el.innerHTML = buildMiniRarityBar(breakdown);
+      });
+    }
   }
 
   render();

@@ -226,6 +226,23 @@ async function init() {
           }
         },
         cutout: "40%",
+        onClick: (evt, elements) => {
+          if (!elements.length) return;
+          const idx = elements[0].index;
+          const rows = document.querySelectorAll("#holders-tbody tr");
+          // Remove previous highlights
+          rows.forEach(r => r.classList.remove("highlighted"));
+          if (idx < rows.length) {
+            // Expand table if needed to show the clicked row
+            if (!showAll && idx >= 15) {
+              showAll = true;
+              renderHolders(document.getElementById("hide-system").checked);
+              return;
+            }
+            rows[idx]?.classList.add("highlighted");
+            rows[idx]?.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+        },
       }
     });
   }

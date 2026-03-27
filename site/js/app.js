@@ -12,6 +12,8 @@ const YEAR_LABELS = {
 };
 
 const SPECIAL_PAGES = [
+  { href: "/wallet.html", label: "Wallet Lookup" },
+  { href: "/compare.html", label: "Compare Collections" },
   { href: "/hall-of-fame.html", label: "Hall of Fame" },
   { href: "/completionist.html", label: "The Completionist" },
   { href: "/coin-collector.html", label: "Coin Collector" },
