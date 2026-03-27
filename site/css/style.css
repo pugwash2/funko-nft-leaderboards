@@ -253,9 +253,10 @@ a:hover { color: var(--funko-pink); }
 .collection-card a { display: block; color: inherit; }
 .collection-card img {
   width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
+  aspect-ratio: 4/3;
+  object-fit: contain;
   background: #ede9fe;
+  padding: 0.5rem;
 }
 .collection-card .card-name {
   padding: 0.5rem 0.6rem;
