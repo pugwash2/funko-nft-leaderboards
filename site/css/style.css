@@ -69,11 +69,8 @@ a:hover { color: var(--funko-pink); }
   align-items: center;
   gap: 0;
   flex-wrap: nowrap;
-  overflow-x: auto;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
+  overflow: visible;
 }
-.nav-links::-webkit-scrollbar { display: none; /* Chrome/Safari */ }
 
 .nav-dropdown { position: relative; }
 .nav-dropdown > a {
@@ -102,7 +99,7 @@ a:hover { color: var(--funko-pink); }
 .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: 60px;
+  top: 100%;
   left: 0;
   background: var(--bg-white);
   border: 1px solid var(--border);
@@ -111,7 +108,7 @@ a:hover { color: var(--funko-pink); }
   max-height: 420px;
   overflow-y: auto;
   box-shadow: var(--shadow-hover);
-  z-index: 200;
+  z-index: 9999;
 }
 .nav-dropdown:hover .nav-dropdown-menu { display: block; }
 .nav-dropdown-menu a {
