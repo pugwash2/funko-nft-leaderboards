@@ -77,7 +77,6 @@ async function init() {
       <div class="rarity-legend">${rarityLegendHtml}</div>
     </div>
 
-    ${buildPackStats(data.packStats)}
   `;
 
   // Royalty Set Ratings table (exclude system accounts)
