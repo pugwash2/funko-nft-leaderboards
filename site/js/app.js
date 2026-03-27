@@ -120,7 +120,7 @@ function buildNav(collections) {
 // Load nav from collections.json
 async function initNav() {
   try {
-    const res = await fetch("/data/collections.json");
+    const res = await fetch("/data/collections.json?t=" + Date.now());
     if (!res.ok) throw new Error("No collections data yet");
     const collections = await res.json();
     buildNav(collections);

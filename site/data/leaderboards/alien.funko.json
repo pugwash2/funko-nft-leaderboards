@@ -1,8 +1,6 @@
 {
   "slug": "alien.funko",
   "name": "Alien",
-  "baseSlug": "alien.funko",
-  "schema": null,
   "displayName": "Alien: Funko Digital Pop!",
   "image": "QmUYNc6yL4LYDSkByQuJupFt7d6XZLBfuT1VuJsXNFTniy",
   "totalTemplates": 93,
@@ -20,22 +18,6 @@
     "Uncommon": 20,
     "Common": 27,
     "Pack": 2
-  },
-  "packStats": {
-    "packs": [
-      {
-        "name": "Premium Pack",
-        "maxSupply": 24000,
-        "issued": 24000
-      },
-      {
-        "name": "Standard Pack",
-        "maxSupply": 18000,
-        "issued": 18000
-      }
-    ],
-    "totalIssued": 42000,
-    "totalMax": 42000
   },
   "holders": [
     {
@@ -1039,10 +1021,311 @@
       "assets": 209
     }
   ],
-  "scored": [],
+  "scored": [
+    {
+      "rank": 1,
+      "account": "mint.droppp",
+      "assets": 106161,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 2,
+      "account": "sledking.dp",
+      "assets": 1590,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 3,
+      "account": "qv33ea.dp",
+      "assets": 1255,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 4,
+      "account": "pugwash2.dp",
+      "assets": 1223,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 5,
+      "account": "gndzm2.dp",
+      "assets": 1000,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.974,
+        "average": 411.173
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 6,
+      "account": "dead.dp",
+      "assets": 862,
+      "royalty": {
+        "sets": 2,
+        "rating": 100,
+        "average": 474.107
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 100,
+        "average": 489.802
+      }
+    },
+    {
+      "rank": 7,
+      "account": "hansv.dp",
+      "assets": 848,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 8,
+      "account": "zmvrty.dp",
+      "assets": 812,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 9,
+      "account": "isojzj.dp",
+      "assets": 788,
+      "royalty": {
+        "sets": 3,
+        "rating": 100.002,
+        "average": 611.747
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 10,
+      "account": "ltkarm.dp",
+      "assets": 785,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 11,
+      "account": "hikfy5.dp",
+      "assets": 760,
+      "royalty": {
+        "sets": 10,
+        "rating": 100.003,
+        "average": 960.867
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 12,
+      "account": "mikezig.dp",
+      "assets": 741,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.963,
+        "average": 611.787
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 13,
+      "account": "vgb2ou.dp",
+      "assets": 711,
+      "royalty": {
+        "sets": 2,
+        "rating": 99.953,
+        "average": 629.32
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.954,
+        "average": 621.506
+      }
+    },
+    {
+      "rank": 14,
+      "account": "tazure34.dp",
+      "assets": 701,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.965,
+        "average": 752.573
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.993,
+        "average": 722.074
+      }
+    },
+    {
+      "rank": 15,
+      "account": "darkshiba.dp",
+      "assets": 678,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 16,
+      "account": "tkd5wk.dp",
+      "assets": 625,
+      "royalty": {
+        "sets": 1,
+        "rating": 100,
+        "average": 813.013
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 100,
+        "average": 812.099
+      }
+    },
+    {
+      "rank": 17,
+      "account": "a335ud.dp",
+      "assets": 621,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 18,
+      "account": "johnkline.dp",
+      "assets": 611,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0
+      }
+    },
+    {
+      "rank": 19,
+      "account": "kq5zcm.dp",
+      "assets": 590,
+      "royalty": {
+        "sets": 2,
+        "rating": 99.994,
+        "average": 851.413
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.992,
+        "average": 818.568
+      }
+    },
+    {
+      "rank": 20,
+      "account": "jlasvegas.dp",
+      "assets": 586,
+      "royalty": {
+        "sets": 3,
+        "rating": 100.115,
+        "average": 23.107
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 100,
+        "average": 31.284
+      }
+    }
+  ],
   "schemas": [
     "series1.drop",
     "packs.drop"
   ],
-  "fetchedAt": "2026-03-27T21:43:54.104Z"
+  "fetchedAt": "2026-03-27T22:05:50.883Z"
 }

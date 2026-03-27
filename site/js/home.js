@@ -8,7 +8,7 @@ async function init() {
 
   let collections = [];
   try {
-    const res = await fetch("/data/collections.json");
+    const res = await fetch("/data/collections.json?t=" + Date.now());
     if (!res.ok) throw new Error();
     collections = await res.json();
   } catch {

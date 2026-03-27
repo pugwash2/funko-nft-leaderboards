@@ -33,7 +33,7 @@ async function init() {
     // Load collections index
     let collections;
     try {
-      const res = await fetch("/data/collections.json");
+      const res = await fetch("/data/collections.json?t=" + Date.now());
       collections = await res.json();
     } catch {
       content.innerHTML = '<p class="coming-soon">No collection data available yet.</p>';
