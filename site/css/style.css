@@ -464,6 +464,7 @@ a:hover { color: var(--funko-pink); }
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
+  table-layout: fixed;
 }
 .data-table thead th {
   text-align: left;
@@ -495,6 +496,10 @@ a:hover { color: var(--funko-pink); }
   outline: 2px solid var(--funko-purple);
   outline-offset: -2px;
 }
+
+/* Column widths for scored tables */
+.data-table th:first-child { width: 60px; }
+.data-table th:nth-child(2) { width: auto; }
 
 .data-table .rank {
   text-align: center;
