@@ -55,7 +55,7 @@ async function init() {
           const scored = data.scored?.find(s => s.account === wallet);
           results.push({
             slug: col.slug,
-            name: data.displayName,
+            name: col.name || data.displayName,
             image: data.image,
             assets: holder.assets,
             rank,
