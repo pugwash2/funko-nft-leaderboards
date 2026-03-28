@@ -1038,10 +1038,861 @@
       "assets": 280
     }
   ],
-  "scored": [],
+  "scored": [
+    {
+      "rank": 1,
+      "account": "mint.droppp",
+      "assets": 92283,
+      "royalty": {
+        "sets": 487,
+        "rating": 178.896,
+        "average": 6.696,
+        "lowestMint": 1
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 2,
+      "account": "mykeatog.dp",
+      "assets": 8728,
+      "royalty": {
+        "sets": 4,
+        "rating": 100,
+        "average": 114.13,
+        "lowestMint": 4
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.978,
+        "average": 137.571,
+        "lowestMint": 4
+      }
+    },
+    {
+      "rank": 3,
+      "account": "nfttowhatnot",
+      "assets": 2862,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 4,
+      "account": "fpg4xw.dp",
+      "assets": 2074,
+      "royalty": {
+        "sets": 7,
+        "rating": 99.995,
+        "average": 440.902,
+        "lowestMint": 9
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.981,
+        "average": 431.959,
+        "lowestMint": 9
+      }
+    },
+    {
+      "rank": 5,
+      "account": "jlasvegas.gm",
+      "assets": 1799,
+      "royalty": {
+        "sets": 4,
+        "rating": 100.047,
+        "average": 68.739,
+        "lowestMint": 1
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 100,
+        "average": 74.429,
+        "lowestMint": 1
+      }
+    },
+    {
+      "rank": 6,
+      "account": "jsztq5.dp",
+      "assets": 1657,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 7,
+      "account": "tigggs.dp",
+      "assets": 1444,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 8,
+      "account": "dvbbe.wam",
+      "assets": 1408,
+      "royalty": {
+        "sets": 7,
+        "rating": 99.926,
+        "average": 956.196,
+        "lowestMint": 72
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 9,
+      "account": "lw3aa.c.wam",
+      "assets": 1401,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 10,
+      "account": "xlnft.dp",
+      "assets": 1274,
+      "royalty": {
+        "sets": 6,
+        "rating": 100.009,
+        "average": 505.424,
+        "lowestMint": 2
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.998,
+        "average": 496.408,
+        "lowestMint": 2
+      }
+    },
+    {
+      "rank": 11,
+      "account": "cb3oq.c.wam",
+      "assets": 1257,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 12,
+      "account": "4wsou.c.wam",
+      "assets": 1200,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 13,
+      "account": "yfmoe.c.wam",
+      "assets": 1199,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 14,
+      "account": "x5sr.wam",
+      "assets": 1113,
+      "royalty": {
+        "sets": 10,
+        "rating": 99.996,
+        "average": 1353.011,
+        "lowestMint": 15
+      },
+      "mastery": {
+        "sets": 4,
+        "rating": 99.991,
+        "average": 1308.867,
+        "lowestMint": 15
+      }
+    },
+    {
+      "rank": 15,
+      "account": "iroczz25.dp",
+      "assets": 1107,
+      "royalty": {
+        "sets": 2,
+        "rating": 99.974,
+        "average": 884.543,
+        "lowestMint": 23
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 16,
+      "account": "iec4w.c.wam",
+      "assets": 1099,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 17,
+      "account": "xoastroxo.dp",
+      "assets": 1054,
+      "royalty": {
+        "sets": 7,
+        "rating": 99.954,
+        "average": 643.837,
+        "lowestMint": 34
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.958,
+        "average": 627.633,
+        "lowestMint": 27
+      }
+    },
+    {
+      "rank": 18,
+      "account": "kal12o.dp",
+      "assets": 1004,
+      "royalty": {
+        "sets": 10,
+        "rating": 99.991,
+        "average": 873.848,
+        "lowestMint": 17
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 99.982,
+        "average": 844.347,
+        "lowestMint": 17
+      }
+    },
+    {
+      "rank": 19,
+      "account": "fistcup.gm",
+      "assets": 966,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 20,
+      "account": "rsteelman.dp",
+      "assets": 942,
+      "royalty": {
+        "sets": 5,
+        "rating": 99.98,
+        "average": 666.435,
+        "lowestMint": 17
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 21,
+      "account": "1oodwf.dp",
+      "assets": 865,
+      "royalty": {
+        "sets": 4,
+        "rating": 100,
+        "average": 703.467,
+        "lowestMint": 4
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.996,
+        "average": 691.245,
+        "lowestMint": 4
+      }
+    },
+    {
+      "rank": 22,
+      "account": "poore.dp",
+      "assets": 848,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.911,
+        "average": 956.217,
+        "lowestMint": 79
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.917,
+        "average": 954.561,
+        "lowestMint": 79
+      }
+    },
+    {
+      "rank": 23,
+      "account": "pugwash2.dp",
+      "assets": 847,
+      "royalty": {
+        "sets": 4,
+        "rating": 100.001,
+        "average": 1264.424,
+        "lowestMint": 3
+      },
+      "mastery": {
+        "sets": 3,
+        "rating": 100,
+        "average": 1193.51,
+        "lowestMint": 3
+      }
+    },
+    {
+      "rank": 24,
+      "account": "crazydeak.dp",
+      "assets": 804,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 25,
+      "account": "setzor.dp",
+      "assets": 775,
+      "royalty": {
+        "sets": 6,
+        "rating": 99.993,
+        "average": 894.478,
+        "lowestMint": 12
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.987,
+        "average": 869.418,
+        "lowestMint": 12
+      }
+    },
+    {
+      "rank": 26,
+      "account": "sowden.dp",
+      "assets": 739,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.991,
+        "average": 956.946,
+        "lowestMint": 9
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.991,
+        "average": 954.143,
+        "lowestMint": 9
+      }
+    },
+    {
+      "rank": 27,
+      "account": "iceman.dp",
+      "assets": 720,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.978,
+        "average": 906.543,
+        "lowestMint": 19
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 28,
+      "account": "wqwmup.dp",
+      "assets": 703,
+      "royalty": {
+        "sets": 7,
+        "rating": 100.006,
+        "average": 886.707,
+        "lowestMint": 2
+      },
+      "mastery": {
+        "sets": 2,
+        "rating": 100,
+        "average": 845.194,
+        "lowestMint": 2
+      }
+    },
+    {
+      "rank": 29,
+      "account": "jvfm4.c.wam",
+      "assets": 693,
+      "royalty": {
+        "sets": 4,
+        "rating": 99.994,
+        "average": 938.837,
+        "lowestMint": 9
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 30,
+      "account": "harb.dp",
+      "assets": 687,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 31,
+      "account": "kobe4life.dp",
+      "assets": 677,
+      "royalty": {
+        "sets": 4,
+        "rating": 99.965,
+        "average": 996.141,
+        "lowestMint": 36
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.965,
+        "average": 1014.663,
+        "lowestMint": 36
+      }
+    },
+    {
+      "rank": 32,
+      "account": "xlbtpy.dp",
+      "assets": 677,
+      "royalty": {
+        "sets": 7,
+        "rating": 100.023,
+        "average": 187.772,
+        "lowestMint": 3
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.99,
+        "average": 198.408,
+        "lowestMint": 3
+      }
+    },
+    {
+      "rank": 33,
+      "account": "eluvbear.dp",
+      "assets": 663,
+      "royalty": {
+        "sets": 7,
+        "rating": 100.016,
+        "average": 263.761,
+        "lowestMint": 3
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.992,
+        "average": 254.796,
+        "lowestMint": 3
+      }
+    },
+    {
+      "rank": 34,
+      "account": "3cdanv.dp",
+      "assets": 648,
+      "royalty": {
+        "sets": 3,
+        "rating": 99.993,
+        "average": 916.424,
+        "lowestMint": 9
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.991,
+        "average": 893.653,
+        "lowestMint": 9
+      }
+    },
+    {
+      "rank": 35,
+      "account": "qodnme.dp",
+      "assets": 641,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 36,
+      "account": "bunny.dp",
+      "assets": 637,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 37,
+      "account": "mo5arq.dp",
+      "assets": 634,
+      "royalty": {
+        "sets": 2,
+        "rating": 99.96,
+        "average": 1104.663,
+        "lowestMint": 43
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.988,
+        "average": 1087.765,
+        "lowestMint": 14
+      }
+    },
+    {
+      "rank": 38,
+      "account": "jemtoys.dp",
+      "assets": 633,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 39,
+      "account": "fatcat.dp",
+      "assets": 625,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 40,
+      "account": "xmichaelx.dp",
+      "assets": 608,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 41,
+      "account": "m3umh2.dp",
+      "assets": 605,
+      "royalty": {
+        "sets": 3,
+        "rating": 99.995,
+        "average": 922.185,
+        "lowestMint": 7
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.993,
+        "average": 900.265,
+        "lowestMint": 7
+      }
+    },
+    {
+      "rank": 42,
+      "account": "mnmhel.dp",
+      "assets": 605,
+      "royalty": {
+        "sets": 3,
+        "rating": 100,
+        "average": 883.902,
+        "lowestMint": 3
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.998,
+        "average": 879.888,
+        "lowestMint": 3
+      }
+    },
+    {
+      "rank": 43,
+      "account": "csug.dp",
+      "assets": 596,
+      "royalty": {
+        "sets": 3,
+        "rating": 100.001,
+        "average": 1125.087,
+        "lowestMint": 2
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.999,
+        "average": 1093.408,
+        "lowestMint": 2
+      }
+    },
+    {
+      "rank": 44,
+      "account": "b3t3s.c.wam",
+      "assets": 592,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.997,
+        "average": 952.946,
+        "lowestMint": 4
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 45,
+      "account": "troystoys.dp",
+      "assets": 589,
+      "royalty": {
+        "sets": 2,
+        "rating": 99.998,
+        "average": 1098.098,
+        "lowestMint": 4
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 46,
+      "account": "imake.dp",
+      "assets": 564,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 47,
+      "account": "g1gzhp.dp",
+      "assets": 542,
+      "royalty": {
+        "sets": 3,
+        "rating": 99.981,
+        "average": 1107.522,
+        "lowestMint": 22
+      },
+      "mastery": {
+        "sets": 1,
+        "rating": 99.98,
+        "average": 1085.459,
+        "lowestMint": 22
+      }
+    },
+    {
+      "rank": 48,
+      "account": "pfvnw.c.wam",
+      "assets": 541,
+      "royalty": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 49,
+      "account": "snh1u2.dp",
+      "assets": 541,
+      "royalty": {
+        "sets": 3,
+        "rating": 99.995,
+        "average": 1202.793,
+        "lowestMint": 8
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    },
+    {
+      "rank": 50,
+      "account": "sledking.dp",
+      "assets": 520,
+      "royalty": {
+        "sets": 1,
+        "rating": 99.992,
+        "average": 1363.87,
+        "lowestMint": 11
+      },
+      "mastery": {
+        "sets": 0,
+        "rating": 0,
+        "average": 0,
+        "lowestMint": 0
+      }
+    }
+  ],
   "schemas": [
     "packs.drop",
     "series1.drop"
   ],
-  "fetchedAt": "2026-03-27T21:43:02.436Z"
+  "fetchedAt": "2026-03-28T05:25:58.532Z"
 }

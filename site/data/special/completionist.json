@@ -1,1202 +1,1202 @@
 [
   {
     "account": "pugwash2.dp",
-    "collections": 66,
-    "totalAssets": 100059,
-    "royaltySets": 78
+    "collections": 82,
+    "totalAssets": 101928,
+    "royaltySets": 314
   },
   {
     "account": "kal12o.dp",
-    "collections": 65,
-    "totalAssets": 56140,
-    "royaltySets": 120
+    "collections": 79,
+    "totalAssets": 56822,
+    "royaltySets": 329
   },
   {
     "account": "mint.droppp",
-    "collections": 62,
-    "totalAssets": 5015805,
-    "royaltySets": 228
+    "collections": 77,
+    "totalAssets": 5219604,
+    "royaltySets": 62066
   },
   {
     "account": "2slik.dp",
-    "collections": 60,
-    "totalAssets": 32473,
-    "royaltySets": 14
+    "collections": 71,
+    "totalAssets": 32333,
+    "royaltySets": 30
   },
   {
     "account": "zpdvq5.dp",
-    "collections": 57,
-    "totalAssets": 46620,
-    "royaltySets": 36
-  },
-  {
-    "account": "d223c.c.wam",
-    "collections": 56,
-    "totalAssets": 91708,
-    "royaltySets": 31
+    "collections": 66,
+    "totalAssets": 46228,
+    "royaltySets": 74
   },
   {
     "account": "jlasvegas.gm",
-    "collections": 52,
-    "totalAssets": 80533,
-    "royaltySets": 9
+    "collections": 62,
+    "totalAssets": 81051,
+    "royaltySets": 297
+  },
+  {
+    "account": "d223c.c.wam",
+    "collections": 62,
+    "totalAssets": 91290,
+    "royaltySets": 302
   },
   {
     "account": "intrusive.dp",
-    "collections": 51,
-    "totalAssets": 13747,
-    "royaltySets": 12
-  },
-  {
-    "account": "x5sr.wam",
-    "collections": 50,
-    "totalAssets": 50058,
-    "royaltySets": 134
+    "collections": 54,
+    "totalAssets": 12208,
+    "royaltySets": 14
   },
   {
     "account": "mykeatog.dp",
-    "collections": 49,
-    "totalAssets": 255336,
-    "royaltySets": 2
+    "collections": 53,
+    "totalAssets": 255334,
+    "royaltySets": 175
   },
   {
-    "account": "king.dp",
-    "collections": 48,
-    "totalAssets": 29745,
-    "royaltySets": 5
-  },
-  {
-    "account": "clover.dp",
-    "collections": 46,
-    "totalAssets": 25552,
-    "royaltySets": 34
-  },
-  {
-    "account": "cuba.dp",
-    "collections": 46,
-    "totalAssets": 18828,
-    "royaltySets": 0
-  },
-  {
-    "account": "sully.dp",
-    "collections": 44,
-    "totalAssets": 12634,
-    "royaltySets": 4
-  },
-  {
-    "account": "pcpastor.dp",
-    "collections": 42,
-    "totalAssets": 28430,
-    "royaltySets": 7
-  },
-  {
-    "account": "korenbarr.dp",
-    "collections": 41,
-    "totalAssets": 17857,
-    "royaltySets": 0
+    "account": "x5sr.wam",
+    "collections": 53,
+    "totalAssets": 50048,
+    "royaltySets": 355
   },
   {
     "account": "jemtoys.dp",
-    "collections": 41,
-    "totalAssets": 35993,
-    "royaltySets": 4
+    "collections": 51,
+    "totalAssets": 36707,
+    "royaltySets": 46
+  },
+  {
+    "account": "clover.dp",
+    "collections": 50,
+    "totalAssets": 25361,
+    "royaltySets": 45
+  },
+  {
+    "account": "cuba.dp",
+    "collections": 50,
+    "totalAssets": 18239,
+    "royaltySets": 0
+  },
+  {
+    "account": "king.dp",
+    "collections": 49,
+    "totalAssets": 28403,
+    "royaltySets": 7
+  },
+  {
+    "account": "sully.dp",
+    "collections": 49,
+    "totalAssets": 11528,
+    "royaltySets": 5
+  },
+  {
+    "account": "pcpastor.dp",
+    "collections": 48,
+    "totalAssets": 29066,
+    "royaltySets": 39
+  },
+  {
+    "account": "korenbarr.dp",
+    "collections": 46,
+    "totalAssets": 17760,
+    "royaltySets": 0
   },
   {
     "account": "wyq3r2.dp",
-    "collections": 41,
-    "totalAssets": 30653,
-    "royaltySets": 15
-  },
-  {
-    "account": "zj4w4m.dp",
-    "collections": 38,
-    "totalAssets": 14691,
-    "royaltySets": 0
-  },
-  {
-    "account": "xalnmy.dp",
-    "collections": 38,
-    "totalAssets": 16202,
-    "royaltySets": 1
+    "collections": 46,
+    "totalAssets": 30460,
+    "royaltySets": 36
   },
   {
     "account": "ocd.dp",
-    "collections": 38,
-    "totalAssets": 16117,
+    "collections": 43,
+    "totalAssets": 16412,
     "royaltySets": 8
   },
   {
+    "account": "zj4w4m.dp",
+    "collections": 42,
+    "totalAssets": 14388,
+    "royaltySets": 3
+  },
+  {
     "account": "hbgre.wam",
-    "collections": 37,
-    "totalAssets": 16230,
-    "royaltySets": 0
-  },
-  {
-    "account": "wayneo13.dp",
-    "collections": 35,
-    "totalAssets": 13866,
-    "royaltySets": 2
-  },
-  {
-    "account": "njaltrenel12",
-    "collections": 35,
-    "totalAssets": 39423,
+    "collections": 42,
+    "totalAssets": 15528,
     "royaltySets": 1
   },
   {
     "account": "jawapez.dp",
-    "collections": 35,
-    "totalAssets": 15793,
-    "royaltySets": 13
+    "collections": 41,
+    "totalAssets": 16237,
+    "royaltySets": 36
   },
   {
-    "account": "nfttowhatnot",
-    "collections": 34,
-    "totalAssets": 90167,
-    "royaltySets": 12
-  },
-  {
-    "account": "yoda.dp",
-    "collections": 34,
-    "totalAssets": 24004,
-    "royaltySets": 18
-  },
-  {
-    "account": "sniffer.dp",
-    "collections": 34,
-    "totalAssets": 18196,
-    "royaltySets": 9
-  },
-  {
-    "account": "eye.dp",
-    "collections": 34,
-    "totalAssets": 10623,
+    "account": "xalnmy.dp",
+    "collections": 40,
+    "totalAssets": 15601,
     "royaltySets": 3
+  },
+  {
+    "account": "njaltrenel12",
+    "collections": 40,
+    "totalAssets": 39123,
+    "royaltySets": 6
   },
   {
     "account": "jsztq5.dp",
-    "collections": 34,
-    "totalAssets": 21180,
-    "royaltySets": 3
+    "collections": 40,
+    "totalAssets": 21965,
+    "royaltySets": 10
   },
   {
-    "account": "azbu55.dp",
-    "collections": 32,
-    "totalAssets": 20878,
-    "royaltySets": 22
+    "account": "yoda.dp",
+    "collections": 38,
+    "totalAssets": 24140,
+    "royaltySets": 63
+  },
+  {
+    "account": "wayneo13.dp",
+    "collections": 37,
+    "totalAssets": 13985,
+    "royaltySets": 2
+  },
+  {
+    "account": "sniffer.dp",
+    "collections": 37,
+    "totalAssets": 18427,
+    "royaltySets": 23
   },
   {
     "account": "sledking.dp",
-    "collections": 32,
-    "totalAssets": 25238,
-    "royaltySets": 18
+    "collections": 37,
+    "totalAssets": 27332,
+    "royaltySets": 76
+  },
+  {
+    "account": "eye.dp",
+    "collections": 36,
+    "totalAssets": 9933,
+    "royaltySets": 14
+  },
+  {
+    "account": "kornholio.dp",
+    "collections": 36,
+    "totalAssets": 14432,
+    "royaltySets": 24
+  },
+  {
+    "account": "nfttowhatnot",
+    "collections": 35,
+    "totalAssets": 90146,
+    "royaltySets": 87
+  },
+  {
+    "account": "azbu55.dp",
+    "collections": 35,
+    "totalAssets": 21538,
+    "royaltySets": 28
+  },
+  {
+    "account": "jlasvegas.dp",
+    "collections": 35,
+    "totalAssets": 87135,
+    "royaltySets": 318
+  },
+  {
+    "account": "setzor.dp",
+    "collections": 35,
+    "totalAssets": 17502,
+    "royaltySets": 31
   },
   {
     "account": "kylewalsh.dp",
-    "collections": 32,
-    "totalAssets": 14568,
+    "collections": 35,
+    "totalAssets": 14112,
     "royaltySets": 6
   },
   {
     "account": ".14b2.wam",
-    "collections": 31,
-    "totalAssets": 25934,
-    "royaltySets": 19
+    "collections": 34,
+    "totalAssets": 25911,
+    "royaltySets": 85
   },
   {
     "account": "muofu.wam",
-    "collections": 30,
-    "totalAssets": 14267,
+    "collections": 33,
+    "totalAssets": 14491,
+    "royaltySets": 2
+  },
+  {
+    "account": "eluvbear.dp",
+    "collections": 33,
+    "totalAssets": 18518,
+    "royaltySets": 74
+  },
+  {
+    "account": "yqumxu.dp",
+    "collections": 33,
+    "totalAssets": 9189,
     "royaltySets": 0
   },
   {
     "account": "3fjv2h.dp",
+    "collections": 32,
+    "totalAssets": 25106,
+    "royaltySets": 10
+  },
+  {
+    "account": "u14rs.wam",
+    "collections": 32,
+    "totalAssets": 50087,
+    "royaltySets": 231
+  },
+  {
+    "account": "dvbbe.wam",
+    "collections": 32,
+    "totalAssets": 21175,
+    "royaltySets": 40
+  },
+  {
+    "account": "imake.dp",
+    "collections": 32,
+    "totalAssets": 13916,
+    "royaltySets": 3
+  },
+  {
+    "account": "ajol1j.dp",
+    "collections": 32,
+    "totalAssets": 13320,
+    "royaltySets": 4
+  },
+  {
+    "account": "3qb42n.dp",
+    "collections": 32,
+    "totalAssets": 14854,
+    "royaltySets": 1
+  },
+  {
+    "account": "hw5e1d.dp",
+    "collections": 32,
+    "totalAssets": 13372,
+    "royaltySets": 0
+  },
+  {
+    "account": "warlord.dp",
+    "collections": 32,
+    "totalAssets": 9199,
+    "royaltySets": 0
+  },
+  {
+    "account": "toyabunga.dp",
+    "collections": 31,
+    "totalAssets": 10035,
+    "royaltySets": 7
+  },
+  {
+    "account": "hansv.dp",
+    "collections": 31,
+    "totalAssets": 19918,
+    "royaltySets": 2
+  },
+  {
+    "account": "oblm4b.dp",
     "collections": 30,
-    "totalAssets": 24574,
+    "totalAssets": 18436,
     "royaltySets": 1
   },
   {
     "account": "fkbonb.dp",
     "collections": 30,
-    "totalAssets": 11943,
-    "royaltySets": 2
-  },
-  {
-    "account": "hansv.dp",
-    "collections": 30,
-    "totalAssets": 20117,
-    "royaltySets": 0
-  },
-  {
-    "account": "eluvbear.dp",
-    "collections": 30,
-    "totalAssets": 18104,
-    "royaltySets": 2
-  },
-  {
-    "account": "jlasvegas.dp",
-    "collections": 29,
-    "totalAssets": 86983,
-    "royaltySets": 7
-  },
-  {
-    "account": "u14rs.wam",
-    "collections": 29,
-    "totalAssets": 50088,
-    "royaltySets": 31
-  },
-  {
-    "account": "dvbbe.wam",
-    "collections": 29,
-    "totalAssets": 20699,
-    "royaltySets": 1
-  },
-  {
-    "account": "setzor.dp",
-    "collections": 29,
-    "totalAssets": 17066,
-    "royaltySets": 19
-  },
-  {
-    "account": "ajol1j.dp",
-    "collections": 29,
-    "totalAssets": 12883,
-    "royaltySets": 4
-  },
-  {
-    "account": "kornholio.dp",
-    "collections": 29,
-    "totalAssets": 13436,
-    "royaltySets": 16
-  },
-  {
-    "account": "oblm4b.dp",
-    "collections": 28,
-    "totalAssets": 18913,
-    "royaltySets": 0
-  },
-  {
-    "account": "toyabunga.dp",
-    "collections": 27,
-    "totalAssets": 10186,
-    "royaltySets": 7
-  },
-  {
-    "account": "nate.dp",
-    "collections": 27,
-    "totalAssets": 11240,
+    "totalAssets": 11846,
     "royaltySets": 3
   },
   {
-    "account": "tkprime.dp",
-    "collections": 27,
-    "totalAssets": 10229,
-    "royaltySets": 0
+    "account": "bunny.dp",
+    "collections": 29,
+    "totalAssets": 16251,
+    "royaltySets": 11
   },
   {
-    "account": "3qb42n.dp",
-    "collections": 27,
-    "totalAssets": 14185,
-    "royaltySets": 0
+    "account": "superpops.dp",
+    "collections": 29,
+    "totalAssets": 11477,
+    "royaltySets": 9
   },
   {
-    "account": "yqumxu.dp",
-    "collections": 27,
-    "totalAssets": 8714,
-    "royaltySets": 0
+    "account": "x1kvy.wam",
+    "collections": 28,
+    "totalAssets": 36114,
+    "royaltySets": 57
   },
   {
-    "account": "hw5e1d.dp",
-    "collections": 27,
-    "totalAssets": 13272,
+    "account": "nate.dp",
+    "collections": 28,
+    "totalAssets": 10650,
+    "royaltySets": 17
+  },
+  {
+    "account": "jvfm4.c.wam",
+    "collections": 28,
+    "totalAssets": 11494,
     "royaltySets": 0
   },
   {
     "account": "wek2y.c.wam",
-    "collections": 26,
-    "totalAssets": 13323,
+    "collections": 27,
+    "totalAssets": 13319,
     "royaltySets": 0
   },
   {
-    "account": "imake.dp",
-    "collections": 26,
-    "totalAssets": 11341,
+    "account": "tkprime.dp",
+    "collections": 27,
+    "totalAssets": 9876,
     "royaltySets": 0
   },
   {
-    "account": "jvfm4.c.wam",
+    "account": "qv33ea.dp",
+    "collections": 27,
+    "totalAssets": 31531,
+    "royaltySets": 7
+  },
+  {
+    "account": "kq5zcm.dp",
+    "collections": 27,
+    "totalAssets": 12775,
+    "royaltySets": 22
+  },
+  {
+    "account": "jvo4ow.dp",
     "collections": 26,
-    "totalAssets": 11226,
+    "totalAssets": 9221,
+    "royaltySets": 4
+  },
+  {
+    "account": "jxtee.wam",
+    "collections": 26,
+    "totalAssets": 11343,
     "royaltySets": 0
   },
   {
-    "account": "warlord.dp",
+    "account": "zbjyin.dp",
     "collections": 26,
-    "totalAssets": 8317,
+    "totalAssets": 10269,
     "royaltySets": 0
   },
   {
-    "account": "x1kvy.wam",
-    "collections": 25,
-    "totalAssets": 35797,
+    "account": "mri.c.c.wam",
+    "collections": 26,
+    "totalAssets": 12707,
     "royaltySets": 0
   },
   {
     "account": "daddyhawk.dp",
-    "collections": 25,
-    "totalAssets": 8569,
+    "collections": 26,
+    "totalAssets": 8307,
     "royaltySets": 2
   },
   {
-    "account": "kq5zcm.dp",
-    "collections": 25,
-    "totalAssets": 11898,
-    "royaltySets": 16
-  },
-  {
     "account": "johnkline.dp",
-    "collections": 24,
+    "collections": 25,
     "totalAssets": 9623,
     "royaltySets": 8
   },
   {
-    "account": "mri.c.c.wam",
-    "collections": 24,
-    "totalAssets": 12517,
+    "account": "esig2.wam",
+    "collections": 25,
+    "totalAssets": 16763,
+    "royaltySets": 0
+  },
+  {
+    "account": "mo5arq.dp",
+    "collections": 25,
+    "totalAssets": 9766,
+    "royaltySets": 7
+  },
+  {
+    "account": "njglqk.dp",
+    "collections": 25,
+    "totalAssets": 11563,
     "royaltySets": 0
   },
   {
     "account": "g..cu.wam",
-    "collections": 23,
-    "totalAssets": 13626,
+    "collections": 24,
+    "totalAssets": 13528,
     "royaltySets": 1
   },
   {
-    "account": "esig2.wam",
-    "collections": 23,
-    "totalAssets": 16655,
+    "account": "4s1ns.wam",
+    "collections": 24,
+    "totalAssets": 13439,
     "royaltySets": 0
+  },
+  {
+    "account": "px3bk.wam",
+    "collections": 24,
+    "totalAssets": 29726,
+    "royaltySets": 0
+  },
+  {
+    "account": "u54r2.wam",
+    "collections": 23,
+    "totalAssets": 16864,
+    "royaltySets": 1
   },
   {
     "account": "fpg4xw.dp",
     "collections": 23,
     "totalAssets": 23123,
-    "royaltySets": 6
-  },
-  {
-    "account": "jxtee.wam",
-    "collections": 22,
-    "totalAssets": 10668,
-    "royaltySets": 0
-  },
-  {
-    "account": "bunny.dp",
-    "collections": 22,
-    "totalAssets": 15758,
-    "royaltySets": 3
-  },
-  {
-    "account": "wfifw.wam",
-    "collections": 22,
-    "totalAssets": 15527,
-    "royaltySets": 14
-  },
-  {
-    "account": "mo5arq.dp",
-    "collections": 22,
-    "totalAssets": 9349,
-    "royaltySets": 0
-  },
-  {
-    "account": "px3bk.wam",
-    "collections": 22,
-    "totalAssets": 29200,
-    "royaltySets": 0
+    "royaltySets": 67
   },
   {
     "account": "3cdanv.dp",
-    "collections": 22,
-    "totalAssets": 10802,
+    "collections": 23,
+    "totalAssets": 10589,
+    "royaltySets": 0
+  },
+  {
+    "account": "mikezig.dp",
+    "collections": 23,
+    "totalAssets": 26667,
+    "royaltySets": 108
+  },
+  {
+    "account": "funatic.dp",
+    "collections": 23,
+    "totalAssets": 5090,
     "royaltySets": 0
   },
   {
     "account": "o4npix.dp",
-    "collections": 21,
+    "collections": 22,
     "totalAssets": 12932,
-    "royaltySets": 1
+    "royaltySets": 6
+  },
+  {
+    "account": "felix.gm",
+    "collections": 22,
+    "totalAssets": 9052,
+    "royaltySets": 44
+  },
+  {
+    "account": "wfifw.wam",
+    "collections": 22,
+    "totalAssets": 15367,
+    "royaltySets": 19
+  },
+  {
+    "account": "dwbajz.dp",
+    "collections": 22,
+    "totalAssets": 8602,
+    "royaltySets": 7
+  },
+  {
+    "account": "jhlore.dp",
+    "collections": 22,
+    "totalAssets": 10510,
+    "royaltySets": 19
   },
   {
     "account": "mfvtz2.dp",
     "collections": 21,
-    "totalAssets": 14381,
-    "royaltySets": 20
+    "totalAssets": 14344,
+    "royaltySets": 43
   },
   {
-    "account": "u54r2.wam",
+    "account": "chalice.dp",
+    "collections": 21,
+    "totalAssets": 16310,
+    "royaltySets": 32
+  },
+  {
+    "account": "hn2fu.wam",
+    "collections": 21,
+    "totalAssets": 7364,
+    "royaltySets": 0
+  },
+  {
+    "account": "puffcopro.dp",
+    "collections": 21,
+    "totalAssets": 9054,
+    "royaltySets": 10
+  },
+  {
+    "account": "mabis.wam",
+    "collections": 21,
+    "totalAssets": 8435,
+    "royaltySets": 0
+  },
+  {
+    "account": "c5ai22.dp",
     "collections": 21,
     "totalAssets": 16643,
+    "royaltySets": 32
+  },
+  {
+    "account": "astonaug.dp",
+    "collections": 21,
+    "totalAssets": 14353,
+    "royaltySets": 42
+  },
+  {
+    "account": "star.dp",
+    "collections": 21,
+    "totalAssets": 9721,
+    "royaltySets": 11
+  },
+  {
+    "account": "1.prg.wam",
+    "collections": 21,
+    "totalAssets": 8406,
     "royaltySets": 0
   },
   {
-    "account": "4s1ns.wam",
+    "account": "snunder.dp",
     "collections": 21,
-    "totalAssets": 12979,
+    "totalAssets": 9389,
     "royaltySets": 0
   },
   {
-    "account": "dwbajz.dp",
+    "account": "bakivali.dp",
     "collections": 21,
-    "totalAssets": 8741,
-    "royaltySets": 7
-  },
-  {
-    "account": "zbjyin.dp",
-    "collections": 21,
-    "totalAssets": 8872,
-    "royaltySets": 0
-  },
-  {
-    "account": "qv33ea.dp",
-    "collections": 21,
-    "totalAssets": 24657,
-    "royaltySets": 0
-  },
-  {
-    "account": "superpops.dp",
-    "collections": 21,
-    "totalAssets": 9064,
+    "totalAssets": 3715,
     "royaltySets": 0
   },
   {
     "account": "nadu.dp",
     "collections": 21,
-    "totalAssets": 5385,
+    "totalAssets": 4878,
     "royaltySets": 1
   },
   {
-    "account": "felix.gm",
-    "collections": 20,
-    "totalAssets": 9387,
-    "royaltySets": 17
-  },
-  {
-    "account": "chalice.dp",
-    "collections": 20,
-    "totalAssets": 16310,
-    "royaltySets": 4
-  },
-  {
-    "account": "c5ai22.dp",
-    "collections": 20,
-    "totalAssets": 16348,
-    "royaltySets": 18
-  },
-  {
-    "account": "njglqk.dp",
-    "collections": 20,
-    "totalAssets": 10682,
-    "royaltySets": 0
-  },
-  {
-    "account": "mikezig.dp",
-    "collections": 20,
-    "totalAssets": 26667,
-    "royaltySets": 13
-  },
-  {
-    "account": "jvo4ow.dp",
-    "collections": 19,
-    "totalAssets": 8784,
-    "royaltySets": 4
-  },
-  {
-    "account": "hn2fu.wam",
-    "collections": 19,
-    "totalAssets": 6969,
-    "royaltySets": 0
-  },
-  {
     "account": "1owq4.c.wam",
-    "collections": 19,
-    "totalAssets": 11076,
+    "collections": 20,
+    "totalAssets": 11402,
     "royaltySets": 0
   },
   {
-    "account": "star.dp",
-    "collections": 19,
-    "totalAssets": 9130,
+    "account": "b3t3s.c.wam",
+    "collections": 20,
+    "totalAssets": 13065,
     "royaltySets": 0
   },
   {
-    "account": "1.prg.wam",
+    "account": "dfni5x.dp",
+    "collections": 20,
+    "totalAssets": 8580,
+    "royaltySets": 10
+  },
+  {
+    "account": "gstar.dp",
+    "collections": 20,
+    "totalAssets": 4896,
+    "royaltySets": 0
+  },
+  {
+    "account": "finestfnk.dp",
     "collections": 19,
-    "totalAssets": 8332,
+    "totalAssets": 4825,
+    "royaltySets": 1
+  },
+  {
+    "account": "yzxi5b.dp",
+    "collections": 19,
+    "totalAssets": 4213,
+    "royaltySets": 0
+  },
+  {
+    "account": "nickboom.dp",
+    "collections": 19,
+    "totalAssets": 5659,
+    "royaltySets": 0
+  },
+  {
+    "account": "rpcxa.wam",
+    "collections": 19,
+    "totalAssets": 8157,
+    "royaltySets": 1
+  },
+  {
+    "account": "rjc3.dp",
+    "collections": 19,
+    "totalAssets": 6137,
+    "royaltySets": 0
+  },
+  {
+    "account": "johnnyw.dp",
+    "collections": 19,
+    "totalAssets": 6877,
     "royaltySets": 0
   },
   {
     "account": "symbiote.dp",
     "collections": 19,
-    "totalAssets": 19000,
-    "royaltySets": 0
+    "totalAssets": 18519,
+    "royaltySets": 6
   },
   {
-    "account": "jhlore.dp",
+    "account": "bhajepop.dp",
     "collections": 19,
-    "totalAssets": 10161,
-    "royaltySets": 12
+    "totalAssets": 11761,
+    "royaltySets": 30
   },
   {
-    "account": "snunder.dp",
+    "account": "mattie.dp",
     "collections": 19,
-    "totalAssets": 8227,
-    "royaltySets": 0
-  },
-  {
-    "account": "funatic.dp",
-    "collections": 19,
-    "totalAssets": 4590,
-    "royaltySets": 0
-  },
-  {
-    "account": "nickboom.dp",
-    "collections": 18,
-    "totalAssets": 5974,
-    "royaltySets": 0
-  },
-  {
-    "account": "rpcxa.wam",
-    "collections": 18,
-    "totalAssets": 8127,
-    "royaltySets": 1
-  },
-  {
-    "account": "mabis.wam",
-    "collections": 18,
-    "totalAssets": 8221,
-    "royaltySets": 0
-  },
-  {
-    "account": "astonaug.dp",
-    "collections": 18,
-    "totalAssets": 14144,
-    "royaltySets": 7
-  },
-  {
-    "account": "johnnyw.dp",
-    "collections": 18,
-    "totalAssets": 6866,
+    "totalAssets": 4819,
     "royaltySets": 0
   },
   {
     "account": "kane.dp",
+    "collections": 19,
+    "totalAssets": 5604,
+    "royaltySets": 7
+  },
+  {
+    "account": "douukz.dp",
     "collections": 18,
-    "totalAssets": 6211,
+    "totalAssets": 8583,
+    "royaltySets": 18
+  },
+  {
+    "account": "ou4fu.wam",
+    "collections": 18,
+    "totalAssets": 8174,
     "royaltySets": 0
   },
   {
-    "account": "b3t3s.c.wam",
+    "account": "lw3aa.c.wam",
     "collections": 18,
-    "totalAssets": 12512,
+    "totalAssets": 10548,
+    "royaltySets": 0
+  },
+  {
+    "account": "shockette.dp",
+    "collections": 18,
+    "totalAssets": 10209,
+    "royaltySets": 0
+  },
+  {
+    "account": "ujpmu.c.wam",
+    "collections": 18,
+    "totalAssets": 8659,
+    "royaltySets": 0
+  },
+  {
+    "account": "b2drmv.dp",
+    "collections": 18,
+    "totalAssets": 8495,
+    "royaltySets": 15
+  },
+  {
+    "account": "ausjos.dp",
+    "collections": 18,
+    "totalAssets": 5167,
+    "royaltySets": 0
+  },
+  {
+    "account": "nolagirl.dp",
+    "collections": 18,
+    "totalAssets": 4761,
     "royaltySets": 0
   },
   {
     "account": "fslwj1.dp",
     "collections": 18,
-    "totalAssets": 5275,
+    "totalAssets": 5151,
     "royaltySets": 3
   },
   {
-    "account": "finestfnk.dp",
+    "account": "landonlin.dp",
     "collections": 17,
-    "totalAssets": 4466,
-    "royaltySets": 1
+    "totalAssets": 9271,
+    "royaltySets": 32
   },
   {
-    "account": "douukz.dp",
+    "account": "wqiq5b.dp",
     "collections": 17,
-    "totalAssets": 8471,
+    "totalAssets": 8194,
     "royaltySets": 0
   },
   {
-    "account": "ou4fu.wam",
+    "account": "skinny.dp",
     "collections": 17,
-    "totalAssets": 7880,
-    "royaltySets": 0
-  },
-  {
-    "account": "bhajepop.dp",
-    "collections": 17,
-    "totalAssets": 11536,
-    "royaltySets": 0
-  },
-  {
-    "account": "yegt4v.dp",
-    "collections": 17,
-    "totalAssets": 8090,
-    "royaltySets": 0
-  },
-  {
-    "account": "ausjos.dp",
-    "collections": 17,
-    "totalAssets": 5387,
-    "royaltySets": 0
-  },
-  {
-    "account": "nolagirl.dp",
-    "collections": 17,
-    "totalAssets": 4783,
-    "royaltySets": 0
-  },
-  {
-    "account": "dfni5x.dp",
-    "collections": 17,
-    "totalAssets": 8446,
-    "royaltySets": 5
-  },
-  {
-    "account": "gstar.dp",
-    "collections": 17,
-    "totalAssets": 4927,
-    "royaltySets": 0
-  },
-  {
-    "account": "yzxi5b.dp",
-    "collections": 16,
-    "totalAssets": 3940,
-    "royaltySets": 0
-  },
-  {
-    "account": "puffcopro.dp",
-    "collections": 16,
-    "totalAssets": 9114,
-    "royaltySets": 10
-  },
-  {
-    "account": "luta4.c.wam",
-    "collections": 16,
-    "totalAssets": 11515,
+    "totalAssets": 6786,
     "royaltySets": 0
   },
   {
     "account": "cqcau.wam",
-    "collections": 16,
-    "totalAssets": 7188,
-    "royaltySets": 4
+    "collections": 17,
+    "totalAssets": 6793,
+    "royaltySets": 15
   },
   {
-    "account": "ujpmu.c.wam",
-    "collections": 16,
-    "totalAssets": 8193,
+    "account": "luta4.c.wam",
+    "collections": 17,
+    "totalAssets": 11485,
+    "royaltySets": 0
+  },
+  {
+    "account": "xfysdt.dp",
+    "collections": 17,
+    "totalAssets": 5744,
+    "royaltySets": 0
+  },
+  {
+    "account": "av4sgs.dp",
+    "collections": 17,
+    "totalAssets": 4715,
+    "royaltySets": 2
+  },
+  {
+    "account": "lynley.dp",
+    "collections": 17,
+    "totalAssets": 5026,
+    "royaltySets": 3
+  },
+  {
+    "account": "yegt4v.dp",
+    "collections": 17,
+    "totalAssets": 7898,
     "royaltySets": 0
   },
   {
     "account": "popsg.dp",
+    "collections": 17,
+    "totalAssets": 4781,
+    "royaltySets": 0
+  },
+  {
+    "account": "zcnzdd.dp",
+    "collections": 17,
+    "totalAssets": 5305,
+    "royaltySets": 0
+  },
+  {
+    "account": "krcm.dp",
+    "collections": 17,
+    "totalAssets": 6897,
+    "royaltySets": 8
+  },
+  {
+    "account": "d2bkmf.dp",
+    "collections": 17,
+    "totalAssets": 9482,
+    "royaltySets": 38
+  },
+  {
+    "account": "irqfw.wam",
     "collections": 16,
-    "totalAssets": 5022,
+    "totalAssets": 5140,
+    "royaltySets": 0
+  },
+  {
+    "account": "steelflex.dp",
+    "collections": 16,
+    "totalAssets": 7247,
+    "royaltySets": 13
+  },
+  {
+    "account": "mcbpops.dp",
+    "collections": 16,
+    "totalAssets": 5535,
+    "royaltySets": 0
+  },
+  {
+    "account": "5sf1kj.dp",
+    "collections": 16,
+    "totalAssets": 6767,
+    "royaltySets": 0
+  },
+  {
+    "account": "holdpanurgas",
+    "collections": 16,
+    "totalAssets": 7207,
+    "royaltySets": 0
+  },
+  {
+    "account": "21wke.c.wam",
+    "collections": 16,
+    "totalAssets": 6602,
+    "royaltySets": 0
+  },
+  {
+    "account": "zlcq..c.wam",
+    "collections": 16,
+    "totalAssets": 11099,
+    "royaltySets": 0
+  },
+  {
+    "account": "rnkhpq.dp",
+    "collections": 16,
+    "totalAssets": 4102,
+    "royaltySets": 0
+  },
+  {
+    "account": "wqwmup.dp",
+    "collections": 16,
+    "totalAssets": 7285,
+    "royaltySets": 9
+  },
+  {
+    "account": "crfkyn.dp",
+    "collections": 16,
+    "totalAssets": 4469,
+    "royaltySets": 0
+  },
+  {
+    "account": "arran.dp",
+    "collections": 16,
+    "totalAssets": 9596,
+    "royaltySets": 1
+  },
+  {
+    "account": "flipper.dp",
+    "collections": 16,
+    "totalAssets": 5914,
+    "royaltySets": 0
+  },
+  {
+    "account": "stkeith.dp",
+    "collections": 16,
+    "totalAssets": 4074,
     "royaltySets": 0
   },
   {
     "account": "15ty1i.dp",
     "collections": 16,
-    "totalAssets": 6373,
-    "royaltySets": 0
-  },
-  {
-    "account": "landonlin.dp",
-    "collections": 15,
-    "totalAssets": 8974,
-    "royaltySets": 1
-  },
-  {
-    "account": "wqiq5b.dp",
-    "collections": 15,
-    "totalAssets": 8200,
-    "royaltySets": 0
-  },
-  {
-    "account": "skinny.dp",
-    "collections": 15,
-    "totalAssets": 6613,
-    "royaltySets": 0
-  },
-  {
-    "account": "lw3aa.c.wam",
-    "collections": 15,
-    "totalAssets": 10084,
-    "royaltySets": 0
-  },
-  {
-    "account": "mcbpops.dp",
-    "collections": 15,
-    "totalAssets": 5203,
-    "royaltySets": 0
-  },
-  {
-    "account": "holdpanurgas",
-    "collections": 15,
-    "totalAssets": 7298,
-    "royaltySets": 0
-  },
-  {
-    "account": "21wke.c.wam",
-    "collections": 15,
-    "totalAssets": 6334,
-    "royaltySets": 0
-  },
-  {
-    "account": "kingsmoke.dp",
-    "collections": 15,
-    "totalAssets": 4251,
-    "royaltySets": 0
-  },
-  {
-    "account": "rjc3.dp",
-    "collections": 15,
-    "totalAssets": 5321,
-    "royaltySets": 0
-  },
-  {
-    "account": "shockette.dp",
-    "collections": 15,
-    "totalAssets": 9808,
-    "royaltySets": 0
-  },
-  {
-    "account": "wqwmup.dp",
-    "collections": 15,
-    "totalAssets": 7285,
-    "royaltySets": 0
-  },
-  {
-    "account": "lynley.dp",
-    "collections": 15,
-    "totalAssets": 5051,
-    "royaltySets": 0
-  },
-  {
-    "account": "arran.dp",
-    "collections": 15,
-    "totalAssets": 9617,
-    "royaltySets": 0
-  },
-  {
-    "account": "mattie.dp",
-    "collections": 15,
-    "totalAssets": 4528,
-    "royaltySets": 0
-  },
-  {
-    "account": "bakivali.dp",
-    "collections": 15,
-    "totalAssets": 3310,
+    "totalAssets": 5885,
     "royaltySets": 0
   },
   {
     "account": "u1yfu.wam",
-    "collections": 14,
-    "totalAssets": 10123,
+    "collections": 15,
+    "totalAssets": 10470,
+    "royaltySets": 58
+  },
+  {
+    "account": "bowlerdan.dp",
+    "collections": 15,
+    "totalAssets": 4570,
+    "royaltySets": 3
+  },
+  {
+    "account": "ytoqw.wam",
+    "collections": 15,
+    "totalAssets": 7861,
+    "royaltySets": 1
+  },
+  {
+    "account": "queenk.dp",
+    "collections": 15,
+    "totalAssets": 10523,
+    "royaltySets": 17
+  },
+  {
+    "account": "rw.dp",
+    "collections": 15,
+    "totalAssets": 11052,
     "royaltySets": 0
+  },
+  {
+    "account": "2cbbg.wam",
+    "collections": 15,
+    "totalAssets": 4224,
+    "royaltySets": 0
+  },
+  {
+    "account": "minipuss.dp",
+    "collections": 15,
+    "totalAssets": 5286,
+    "royaltySets": 17
+  },
+  {
+    "account": "flip1tgfhjk1",
+    "collections": 15,
+    "totalAssets": 9356,
+    "royaltySets": 0
+  },
+  {
+    "account": "lextis.dp",
+    "collections": 15,
+    "totalAssets": 4487,
+    "royaltySets": 2
+  },
+  {
+    "account": "tcfbfp.dp",
+    "collections": 15,
+    "totalAssets": 6103,
+    "royaltySets": 0
+  },
+  {
+    "account": "xkninz.dp",
+    "collections": 15,
+    "totalAssets": 4243,
+    "royaltySets": 4
+  },
+  {
+    "account": "cduxdc.dp",
+    "collections": 15,
+    "totalAssets": 6541,
+    "royaltySets": 12
+  },
+  {
+    "account": "wj5j4t.dp",
+    "collections": 15,
+    "totalAssets": 4072,
+    "royaltySets": 2
+  },
+  {
+    "account": "rplv.dp",
+    "collections": 15,
+    "totalAssets": 6624,
+    "royaltySets": 17
+  },
+  {
+    "account": "tphuyt.dp",
+    "collections": 15,
+    "totalAssets": 4717,
+    "royaltySets": 1
   },
   {
     "account": "dclfy.wam",
     "collections": 14,
-    "totalAssets": 3817,
+    "totalAssets": 3489,
     "royaltySets": 0
   },
   {
-    "account": "irqfw.wam",
+    "account": "yamsterfunko",
     "collections": 14,
-    "totalAssets": 5306,
+    "totalAssets": 3837,
     "royaltySets": 0
   },
   {
-    "account": "steelflex.dp",
+    "account": "wa5koh.dp",
     "collections": 14,
-    "totalAssets": 7519,
-    "royaltySets": 7
-  },
-  {
-    "account": "ytoqw.wam",
-    "collections": 14,
-    "totalAssets": 8196,
+    "totalAssets": 4129,
     "royaltySets": 0
   },
   {
     "account": "gjyvw.wam",
     "collections": 14,
     "totalAssets": 8402,
+    "royaltySets": 7
+  },
+  {
+    "account": "xxzr2.wam",
+    "collections": 14,
+    "totalAssets": 18120,
+    "royaltySets": 63
+  },
+  {
+    "account": "kingsmoke.dp",
+    "collections": 14,
+    "totalAssets": 3604,
     "royaltySets": 0
   },
   {
-    "account": "queenk.dp",
+    "account": "dead.dp",
     "collections": 14,
-    "totalAssets": 10357,
+    "totalAssets": 7539,
+    "royaltySets": 8
+  },
+  {
+    "account": "h2zvw.wam",
+    "collections": 14,
+    "totalAssets": 4009,
     "royaltySets": 0
   },
   {
-    "account": "zlcq..c.wam",
+    "account": "iec4w.c.wam",
     "collections": 14,
-    "totalAssets": 10469,
+    "totalAssets": 12638,
     "royaltySets": 0
   },
   {
-    "account": "rnkhpq.dp",
+    "account": "1oodwf.dp",
     "collections": 14,
-    "totalAssets": 3938,
+    "totalAssets": 8799,
+    "royaltySets": 24
+  },
+  {
+    "account": "jayncode.dp",
+    "collections": 14,
+    "totalAssets": 4293,
+    "royaltySets": 1
+  },
+  {
+    "account": "slyfu.wam",
+    "collections": 14,
+    "totalAssets": 5820,
     "royaltySets": 0
   },
   {
-    "account": "av4sgs.dp",
+    "account": "c4.nc.c.wam",
     "collections": 14,
-    "totalAssets": 4227,
-    "royaltySets": 2
-  },
-  {
-    "account": "b2drmv.dp",
-    "collections": 14,
-    "totalAssets": 7873,
+    "totalAssets": 9869,
     "royaltySets": 0
   },
   {
-    "account": "zcnzdd.dp",
+    "account": "fsdhof.dp",
     "collections": 14,
-    "totalAssets": 4895,
-    "royaltySets": 0
+    "totalAssets": 5021,
+    "royaltySets": 8
   },
   {
-    "account": "rplv.dp",
+    "account": "ironman21.dp",
     "collections": 14,
-    "totalAssets": 6335,
+    "totalAssets": 5037,
+    "royaltySets": 14
+  },
+  {
+    "account": "professor.dp",
+    "collections": 14,
+    "totalAssets": 16393,
+    "royaltySets": 52
+  },
+  {
+    "account": "c1o45m.dp",
+    "collections": 14,
+    "totalAssets": 4675,
     "royaltySets": 6
   },
   {
-    "account": "yamsterfunko",
-    "collections": 13,
-    "totalAssets": 3609,
+    "account": "miypxx.dp",
+    "collections": 14,
+    "totalAssets": 3554,
     "royaltySets": 0
   },
   {
-    "account": "bowlerdan.dp",
+    "account": "zr1nht.dp",
+    "collections": 14,
+    "totalAssets": 3814,
+    "royaltySets": 0
+  },
+  {
+    "account": "sicembear.dp",
     "collections": 13,
-    "totalAssets": 3890,
+    "totalAssets": 4735,
+    "royaltySets": 5
+  },
+  {
+    "account": "wigs.dp",
+    "collections": 13,
+    "totalAssets": 6262,
+    "royaltySets": 9
+  },
+  {
+    "account": "snckdaddy.dp",
+    "collections": 13,
+    "totalAssets": 3278,
+    "royaltySets": 0
+  },
+  {
+    "account": "njnxc.wam",
+    "collections": 13,
+    "totalAssets": 8027,
+    "royaltySets": 10
+  },
+  {
+    "account": "swarc.wam",
+    "collections": 13,
+    "totalAssets": 6944,
     "royaltySets": 0
   },
   {
     "account": "e2dfu.wam",
     "collections": 13,
     "totalAssets": 5977,
-    "royaltySets": 0
-  },
-  {
-    "account": "5sf1kj.dp",
-    "collections": 13,
-    "totalAssets": 6133,
-    "royaltySets": 0
-  },
-  {
-    "account": "xxzr2.wam",
-    "collections": 13,
-    "totalAssets": 17591,
-    "royaltySets": 13
-  },
-  {
-    "account": "rw.dp",
-    "collections": 13,
-    "totalAssets": 11052,
-    "royaltySets": 0
-  },
-  {
-    "account": "xfysdt.dp",
-    "collections": 13,
-    "totalAssets": 5060,
-    "royaltySets": 0
-  },
-  {
-    "account": "minipuss.dp",
-    "collections": 13,
-    "totalAssets": 5617,
-    "royaltySets": 0
-  },
-  {
-    "account": "dead.dp",
-    "collections": 13,
-    "totalAssets": 7364,
-    "royaltySets": 7
-  },
-  {
-    "account": "flip1tgfhjk1",
-    "collections": 13,
-    "totalAssets": 8948,
-    "royaltySets": 0
-  },
-  {
-    "account": "iec4w.c.wam",
-    "collections": 13,
-    "totalAssets": 12268,
-    "royaltySets": 0
-  },
-  {
-    "account": "slyfu.wam",
-    "collections": 13,
-    "totalAssets": 5702,
-    "royaltySets": 0
-  },
-  {
-    "account": "c4.nc.c.wam",
-    "collections": 13,
-    "totalAssets": 9933,
-    "royaltySets": 0
-  },
-  {
-    "account": "tcfbfp.dp",
-    "collections": 13,
-    "totalAssets": 5800,
-    "royaltySets": 0
-  },
-  {
-    "account": "xkninz.dp",
-    "collections": 13,
-    "totalAssets": 4183,
-    "royaltySets": 4
-  },
-  {
-    "account": "fsdhof.dp",
-    "collections": 13,
-    "totalAssets": 5124,
-    "royaltySets": 8
-  },
-  {
-    "account": "cduxdc.dp",
-    "collections": 13,
-    "totalAssets": 5066,
-    "royaltySets": 3
-  },
-  {
-    "account": "wj5j4t.dp",
-    "collections": 13,
-    "totalAssets": 3641,
-    "royaltySets": 0
-  },
-  {
-    "account": "stkeith.dp",
-    "collections": 13,
-    "totalAssets": 3920,
-    "royaltySets": 0
-  },
-  {
-    "account": "sicembear.dp",
-    "collections": 12,
-    "totalAssets": 4597,
-    "royaltySets": 5
-  },
-  {
-    "account": "snckdaddy.dp",
-    "collections": 12,
-    "totalAssets": 3278,
-    "royaltySets": 0
-  },
-  {
-    "account": "njnxc.wam",
-    "collections": 12,
-    "totalAssets": 7877,
-    "royaltySets": 0
-  },
-  {
-    "account": "swarc.wam",
-    "collections": 12,
-    "totalAssets": 6963,
-    "royaltySets": 0
-  },
-  {
-    "account": "steelers.dp",
-    "collections": 12,
-    "totalAssets": 6063,
-    "royaltySets": 0
+    "royaltySets": 6
   },
   {
     "account": "tigggs.dp",
-    "collections": 12,
-    "totalAssets": 9694,
+    "collections": 13,
+    "totalAssets": 9945,
     "royaltySets": 0
-  },
-  {
-    "account": "supasaan.dp",
-    "collections": 12,
-    "totalAssets": 4552,
-    "royaltySets": 0
-  },
-  {
-    "account": "h2zvw.wam",
-    "collections": 12,
-    "totalAssets": 3658,
-    "royaltySets": 0
-  },
-  {
-    "account": "fbyk44.dp",
-    "collections": 12,
-    "totalAssets": 5264,
-    "royaltySets": 0
-  },
-  {
-    "account": "crfkyn.dp",
-    "collections": 12,
-    "totalAssets": 3903,
-    "royaltySets": 0
-  },
-  {
-    "account": "lextis.dp",
-    "collections": 12,
-    "totalAssets": 4351,
-    "royaltySets": 1
-  },
-  {
-    "account": "jayncode.dp",
-    "collections": 12,
-    "totalAssets": 3469,
-    "royaltySets": 1
-  },
-  {
-    "account": "mike13.dp",
-    "collections": 12,
-    "totalAssets": 4313,
-    "royaltySets": 0
-  },
-  {
-    "account": "krcm.dp",
-    "collections": 12,
-    "totalAssets": 5587,
-    "royaltySets": 8
-  },
-  {
-    "account": "1nywsg.dp",
-    "collections": 12,
-    "totalAssets": 7142,
-    "royaltySets": 8
-  },
-  {
-    "account": "grose.dp",
-    "collections": 12,
-    "totalAssets": 5779,
-    "royaltySets": 0
-  },
-  {
-    "account": "1crzasian.dp",
-    "collections": 12,
-    "totalAssets": 5120,
-    "royaltySets": 0
-  },
-  {
-    "account": "d2bkmf.dp",
-    "collections": 12,
-    "totalAssets": 8240,
-    "royaltySets": 11
-  },
-  {
-    "account": "3xlom.c.wam",
-    "collections": 12,
-    "totalAssets": 13171,
-    "royaltySets": 0
-  },
-  {
-    "account": "ironman21.dp",
-    "collections": 12,
-    "totalAssets": 4368,
-    "royaltySets": 10
-  },
-  {
-    "account": "tphuyt.dp",
-    "collections": 12,
-    "totalAssets": 4024,
-    "royaltySets": 1
-  },
-  {
-    "account": "ao3ddn.dp",
-    "collections": 12,
-    "totalAssets": 6231,
-    "royaltySets": 2
-  },
-  {
-    "account": "wigs.dp",
-    "collections": 11,
-    "totalAssets": 6276,
-    "royaltySets": 1
-  },
-  {
-    "account": "koovy.wam",
-    "collections": 11,
-    "totalAssets": 4142,
-    "royaltySets": 0
-  },
-  {
-    "account": "starwars.dp",
-    "collections": 11,
-    "totalAssets": 1846,
-    "royaltySets": 2
-  },
-  {
-    "account": "g4hri.wam",
-    "collections": 11,
-    "totalAssets": 3608,
-    "royaltySets": 0
-  },
-  {
-    "account": "wa5koh.dp",
-    "collections": 11,
-    "totalAssets": 3871,
-    "royaltySets": 0
-  },
-  {
-    "account": "badfu.wam",
-    "collections": 11,
-    "totalAssets": 4576,
-    "royaltySets": 0
-  },
-  {
-    "account": "nftzombie.dp",
-    "collections": 11,
-    "totalAssets": 3689,
-    "royaltySets": 0
-  },
-  {
-    "account": "iroczz25.dp",
-    "collections": 11,
-    "totalAssets": 7058,
-    "royaltySets": 1
   },
   {
     "account": "bebe.dp",
-    "collections": 11,
-    "totalAssets": 4050,
+    "collections": 13,
+    "totalAssets": 4198,
     "royaltySets": 0
   },
   {
     "account": "iceman.dp",
-    "collections": 11,
-    "totalAssets": 7241,
-    "royaltySets": 0
-  },
-  {
-    "account": "lance.dp",
-    "collections": 11,
-    "totalAssets": 3797,
-    "royaltySets": 0
-  },
-  {
-    "account": "golfvader.dp",
-    "collections": 11,
-    "totalAssets": 4540,
-    "royaltySets": 10
+    "collections": 13,
+    "totalAssets": 7748,
+    "royaltySets": 9
   },
   {
     "account": "solo.dp",
-    "collections": 11,
-    "totalAssets": 3941,
+    "collections": 13,
+    "totalAssets": 3926,
+    "royaltySets": 0
+  },
+  {
+    "account": "richrios.dp",
+    "collections": 13,
+    "totalAssets": 2564,
     "royaltySets": 0
   },
   {
     "account": "fnkopop.dp",
-    "collections": 11,
-    "totalAssets": 4488,
+    "collections": 13,
+    "totalAssets": 5045,
     "royaltySets": 3
+  },
+  {
+    "account": "supasaan.dp",
+    "collections": 13,
+    "totalAssets": 4700,
+    "royaltySets": 0
+  },
+  {
+    "account": "sh1qke.dp",
+    "collections": 13,
+    "totalAssets": 4942,
+    "royaltySets": 0
+  },
+  {
+    "account": "mike13.dp",
+    "collections": 13,
+    "totalAssets": 4736,
+    "royaltySets": 0
+  },
+  {
+    "account": "1nywsg.dp",
+    "collections": 13,
+    "totalAssets": 7799,
+    "royaltySets": 13
+  },
+  {
+    "account": "tnqawi.dp",
+    "collections": 13,
+    "totalAssets": 2815,
+    "royaltySets": 0
+  },
+  {
+    "account": "ouezzz.dp",
+    "collections": 13,
+    "totalAssets": 3257,
+    "royaltySets": 0
+  },
+  {
+    "account": "grose.dp",
+    "collections": 13,
+    "totalAssets": 5633,
+    "royaltySets": 6
+  },
+  {
+    "account": "1crzasian.dp",
+    "collections": 13,
+    "totalAssets": 5188,
+    "royaltySets": 0
+  },
+  {
+    "account": "liam.dp",
+    "collections": 13,
+    "totalAssets": 16898,
+    "royaltySets": 45
   }
 ]

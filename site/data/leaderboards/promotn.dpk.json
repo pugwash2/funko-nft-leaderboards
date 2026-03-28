@@ -1,13 +1,20 @@
 {
   "slug": "promotn.dpk",
   "name": "DPK Promotions",
+  "baseSlug": "promotn.dpk",
+  "schema": null,
   "displayName": "DPK Promotions",
   "image": null,
   "totalTemplates": 0,
   "totalAssets": 0,
   "rarityBreakdown": {},
+  "packStats": {
+    "packs": [],
+    "totalIssued": 0,
+    "totalMax": 0
+  },
   "holders": [],
   "scored": [],
   "schemas": [],
-  "fetchedAt": "2026-03-27T23:10:43.292Z"
+  "fetchedAt": "2026-03-28T13:09:38.240Z"
 }

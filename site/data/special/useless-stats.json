@@ -21,7 +21,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T20:33:44.125Z"
+    "fetchedAt": "2026-03-27T21:46:42.349Z"
   },
   {
     "slug": "sttrek.funko",
@@ -45,7 +45,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T20:36:36.160Z"
+    "fetchedAt": "2026-03-27T21:56:15.565Z"
   },
   {
     "slug": "maiden.funko",
@@ -69,7 +69,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T20:39:10.406Z"
+    "fetchedAt": "2026-03-27T22:01:48.971Z"
   },
   {
     "slug": "bigboy.funko",
@@ -93,7 +93,29 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T20:41:27.782Z"
+    "fetchedAt": "2026-03-27T22:07:13.590Z"
+  },
+  {
+    "slug": "tmnt.funko--series1.drop",
+    "name": "TMNT x Funko",
+    "totalTemplates": 114,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 5,
+      "Royalty": 1,
+      "Series": 2,
+      "1 of 1": 6,
+      "Uncommon": 27,
+      "Rare": 15,
+      "Common": 44,
+      "Epic": 10,
+      "Legendary": 3,
+      "Grail": 1
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-27T22:15:53.082Z"
   },
   {
     "slug": "rtoys.funko",
@@ -117,7 +139,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T20:44:30.584Z"
+    "fetchedAt": "2026-03-27T22:22:33.539Z"
   },
   {
     "slug": "elf.funko",
@@ -141,7 +163,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T20:47:19.459Z"
+    "fetchedAt": "2026-03-27T22:27:39.298Z"
   },
   {
     "slug": "matrix.funko",
@@ -165,7 +187,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T20:50:29.743Z"
+    "fetchedAt": "2026-03-27T22:34:22.895Z"
   },
   {
     "slug": "freddy.funko",
@@ -190,7 +212,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T20:53:18.020Z"
+    "fetchedAt": "2026-03-27T22:41:53.244Z"
   },
   {
     "slug": "got.funko",
@@ -214,7 +236,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T20:55:59.348Z"
+    "fetchedAt": "2026-03-27T22:51:23.380Z"
   },
   {
     "slug": "looney.funko",
@@ -238,33 +260,29 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T20:58:13.360Z"
+    "fetchedAt": "2026-03-27T22:54:53.998Z"
   },
   {
-    "slug": "dc.funko",
+    "slug": "dc.funko--series1.drop",
     "name": "DC x Funko",
-    "totalTemplates": 296,
-    "totalAssets": 1749898,
+    "totalTemplates": 145,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 12,
-      "Royalty": 2,
-      "Rare": 43,
-      "Common": 109,
-      "Series": 2,
-      "1 of 1": 12,
-      "Grail": 2,
-      "Legendary": 8,
-      "Epic": 24,
-      "Uncommon": 78,
-      "Pack": 4
+      "Redeemable": 6,
+      "Royalty": 1,
+      "1 of 1": 6,
+      "Series": 1,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 12,
+      "Rare": 21,
+      "Uncommon": 39,
+      "Common": 54
     },
     "schemas": [
-      "comic.drop",
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:01:11.349Z"
+    "fetchedAt": "2026-03-27T23:06:04.100Z"
   },
   {
     "slug": "jasb.funko",
@@ -288,7 +306,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:03:05.540Z"
+    "fetchedAt": "2026-03-27T23:09:05.213Z"
   },
   {
     "slug": "kllggs.funko",
@@ -312,7 +330,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:05:35.293Z"
+    "fetchedAt": "2026-03-27T23:15:55.080Z"
   },
   {
     "slug": "rcomic.funko",
@@ -336,7 +354,66 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:07:43.961Z"
+    "fetchedAt": "2026-03-27T23:19:35.936Z"
+  },
+  {
+    "slug": "invday.funko",
+    "name": "Funko Press and Investor Day",
+    "totalTemplates": 2,
+    "totalAssets": 500,
+    "rarityBreakdown": {
+      "Pack": 1,
+      "Rare": 1
+    },
+    "schemas": [
+      "packs.drop",
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-27T23:19:52.465Z"
+  },
+  {
+    "slug": "scooby.funko--series1.drop",
+    "name": "Scooby-Doo x Funko",
+    "totalTemplates": 144,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 6,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 15,
+      "Rare": 20,
+      "Uncommon": 40,
+      "Common": 50
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-27T23:25:25.990Z"
+  },
+  {
+    "slug": "alegnd.funko--series1.drop",
+    "name": "Avatar Legends x Funko",
+    "totalTemplates": 108,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Legendary": 4,
+      "Rare": 14,
+      "Uncommon": 27,
+      "Epic": 10,
+      "Grail": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Common": 41
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-27T23:31:58.710Z"
   },
   {
     "slug": "mickey.funko",
@@ -359,7 +436,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:11:04.881Z"
+    "fetchedAt": "2026-03-28T00:09:24.059Z"
   },
   {
     "slug": "ppg.funko",
@@ -383,7 +460,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:13:15.314Z"
+    "fetchedAt": "2026-03-28T00:47:25.844Z"
   },
   {
     "slug": "bttf.funko",
@@ -407,7 +484,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:16:13.810Z"
+    "fetchedAt": "2026-03-28T00:58:34.916Z"
   },
   {
     "slug": "wb1oo.funko",
@@ -431,7 +508,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:18:43.371Z"
+    "fetchedAt": "2026-03-28T01:01:41.093Z"
   },
   {
     "slug": "jpark.funko",
@@ -455,7 +532,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:21:35.608Z"
+    "fetchedAt": "2026-03-28T01:18:34.630Z"
   },
   {
     "slug": "steven.funko",
@@ -479,7 +556,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:24:08.844Z"
+    "fetchedAt": "2026-03-28T01:41:56.433Z"
   },
   {
     "slug": "pr.funko",
@@ -504,7 +581,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:27:06.869Z"
+    "fetchedAt": "2026-03-28T01:54:31.907Z"
   },
   {
     "slug": "it.funko",
@@ -528,7 +605,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:29:36.523Z"
+    "fetchedAt": "2026-03-28T01:57:27.796Z"
   },
   {
     "slug": "knight.funko",
@@ -552,7 +629,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:32:26.313Z"
+    "fetchedAt": "2026-03-28T02:02:28.431Z"
   },
   {
     "slug": "flint.funko",
@@ -576,7 +653,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:35:10.497Z"
+    "fetchedAt": "2026-03-28T02:06:41.191Z"
   },
   {
     "slug": "hb.funko",
@@ -601,7 +678,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:37:52.349Z"
+    "fetchedAt": "2026-03-28T02:13:10.588Z"
   },
   {
     "slug": "hotd.funko",
@@ -625,7 +702,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:40:54.753Z"
+    "fetchedAt": "2026-03-28T02:28:58.321Z"
   },
   {
     "slug": "ntoons.funko",
@@ -650,7 +727,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:43:47.382Z"
+    "fetchedAt": "2026-03-28T02:37:18.504Z"
   },
   {
     "slug": "krofft.funko",
@@ -674,7 +751,168 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:46:23.302Z"
+    "fetchedAt": "2026-03-28T02:42:08.160Z"
+  },
+  {
+    "slug": "fan.funko",
+    "name": "Funko Fan Rewards",
+    "totalTemplates": 12,
+    "totalAssets": 452,
+    "rarityBreakdown": {
+      "Epic": 6,
+      "Pack": 6
+    },
+    "schemas": [
+      "cards.drop",
+      "packs.drop"
+    ],
+    "fetchedAt": "2026-03-28T02:42:21.175Z"
+  },
+  {
+    "slug": "spooky.funko--series1.drop",
+    "name": "Funkoween",
+    "totalTemplates": 91,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 13,
+      "Rare": 16,
+      "Uncommon": 20,
+      "Common": 26
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T02:47:05.201Z"
+  },
+  {
+    "slug": "strngr.funko--series1.drop",
+    "name": "Stranger Things x Funko",
+    "totalTemplates": 121,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Epic": 15,
+      "1 of 1": 3,
+      "Legendary": 4,
+      "Grail": 1,
+      "Rare": 20,
+      "Series": 1,
+      "Uncommon": 29,
+      "Common": 41
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:08:58.717Z"
+  },
+  {
+    "slug": "dnd.funko--series1.drop",
+    "name": "Dungeons & Dragons x Funko",
+    "totalTemplates": 70,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 5,
+      "Royalty": 1,
+      "1 of 1": 3,
+      "Series": 1,
+      "Grail": 1,
+      "Legendary": 3,
+      "Epic": 9,
+      "Rare": 11,
+      "Uncommon": 14,
+      "Common": 22
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:16:20.454Z"
+  },
+  {
+    "slug": "fools.funko--series1.drop",
+    "name": "Funko April Fools",
+    "totalTemplates": 49,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 3,
+      "Royalty": 1,
+      "Epic": 4,
+      "Legendary": 1,
+      "Uncommon": 12,
+      "1 of 1": 3,
+      "Rare": 8,
+      "Series": 1,
+      "Common": 15,
+      "Grail": 1
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:18:13.506Z"
+  },
+  {
+    "slug": "ttgo.funko--series1.drop",
+    "name": "DC Teen Titans Go! x Funko",
+    "totalTemplates": 114,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "1 of 1": 6,
+      "Series": 1,
+      "Epic": 12,
+      "Grail": 1,
+      "Legendary": 4,
+      "Rare": 17,
+      "Uncommon": 25,
+      "Common": 41
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:23:07.292Z"
+  },
+  {
+    "slug": "atime.funko--series1.drop",
+    "name": "Adventure Time x Funko",
+    "totalTemplates": 96,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Legendary": 4,
+      "Epic": 12,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Rare": 16,
+      "Series": 1,
+      "Uncommon": 22,
+      "Common": 30
+    },
+    "schemas": [
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:26:43.435Z"
+  },
+  {
+    "slug": "dc.funko--comic.drop",
+    "name": "DC x Funko",
+    "totalTemplates": 2,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Rare": 1,
+      "Common": 1
+    },
+    "schemas": [
+      "comic.drop"
+    ],
+    "fetchedAt": "2026-03-28T03:30:13.096Z"
   },
   {
     "slug": "fest.funko",
@@ -699,7 +937,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T21:48:38.303Z"
+    "fetchedAt": "2026-03-28T03:49:13.745Z"
   },
   {
     "slug": "sunny.funko",
@@ -724,7 +962,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:50:48.446Z"
+    "fetchedAt": "2026-03-28T04:23:44.304Z"
   },
   {
     "slug": "batman.funko",
@@ -750,7 +988,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:53:42.175Z"
+    "fetchedAt": "2026-03-28T05:05:32.856Z"
   },
   {
     "slug": "beetle.funko",
@@ -774,59 +1012,53 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T21:55:15.555Z"
+    "fetchedAt": "2026-03-28T05:07:15.243Z"
   },
   {
-    "slug": "spooky.funko",
+    "slug": "spooky.funko--series2.drop",
     "name": "Funkoween",
-    "totalTemplates": 184,
-    "totalAssets": 971781,
+    "totalTemplates": 88,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 13,
-      "Royalty": 2,
-      "Series": 2,
+      "Redeemable": 7,
+      "Royalty": 1,
+      "Series": 1,
       "Mythic": 1,
-      "1 of 1": 6,
-      "Grail": 2,
-      "Legendary": 8,
-      "Epic": 27,
-      "Rare": 32,
-      "Uncommon": 38,
-      "Common": 48,
-      "Pack": 5
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 14,
+      "Rare": 16,
+      "Uncommon": 18,
+      "Common": 22
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T21:58:06.679Z"
+    "fetchedAt": "2026-03-28T05:09:59.414Z"
   },
   {
-    "slug": "strngr.funko",
+    "slug": "strngr.funko--series2.drop",
     "name": "Stranger Things x Funko",
-    "totalTemplates": 209,
-    "totalAssets": 1345546,
+    "totalTemplates": 84,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 12,
-      "Royalty": 2,
-      "Series": 2,
-      "1 of 1": 6,
-      "Grail": 2,
-      "Legendary": 7,
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 3,
       "Ultra": 1,
-      "Epic": 28,
-      "Rare": 35,
-      "Uncommon": 47,
-      "Common": 63,
-      "Pack": 4
+      "Epic": 13,
+      "Rare": 15,
+      "Uncommon": 18,
+      "Common": 22
     },
     "schemas": [
-      "series2.drop",
-      "packs.drop",
-      "series1.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T22:01:22.997Z"
+    "fetchedAt": "2026-03-28T05:37:29.939Z"
   },
   {
     "slug": "gijoe.funko",
@@ -850,7 +1082,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:03:23.318Z"
+    "fetchedAt": "2026-03-28T05:50:19.661Z"
   },
   {
     "slug": "alien.funko",
@@ -875,7 +1107,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T22:05:50.883Z"
+    "fetchedAt": "2026-03-28T06:05:34.258Z"
   },
   {
     "slug": "cn.funko",
@@ -900,33 +1132,29 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:08:10.515Z"
+    "fetchedAt": "2026-03-28T06:12:55.025Z"
   },
   {
-    "slug": "tmnt.funko",
+    "slug": "tmnt.funko--series2.drop",
     "name": "TMNT x Funko",
-    "totalTemplates": 192,
-    "totalAssets": 695311,
+    "totalTemplates": 66,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 10,
-      "Royalty": 2,
-      "Pack": 8,
-      "Series": 3,
-      "1 of 1": 9,
-      "Grail": 3,
-      "Legendary": 5,
-      "Epic": 18,
-      "Rare": 28,
-      "Uncommon": 41,
-      "Common": 65
+      "Redeemable": 5,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 2,
+      "Legendary": 2,
+      "Epic": 8,
+      "Rare": 11,
+      "Uncommon": 14,
+      "Common": 19
     },
     "schemas": [
-      "series2.drop",
-      "promo.drop",
-      "packs.drop",
-      "series1.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T22:11:05.855Z"
+    "fetchedAt": "2026-03-28T06:15:01.516Z"
   },
   {
     "slug": "ram.funko",
@@ -951,7 +1179,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:13:49.886Z"
+    "fetchedAt": "2026-03-28T06:18:46.252Z"
   },
   {
     "slug": "umnstr.funko",
@@ -975,7 +1203,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T22:15:12.893Z"
+    "fetchedAt": "2026-03-28T06:19:58.919Z"
   },
   {
     "slug": "daria.funko",
@@ -999,7 +1227,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:16:58.683Z"
+    "fetchedAt": "2026-03-28T06:35:21.931Z"
   },
   {
     "slug": "tda.funko",
@@ -1024,33 +1252,30 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:19:30.730Z"
+    "fetchedAt": "2026-03-28T07:05:22.526Z"
   },
   {
-    "slug": "scooby.funko",
+    "slug": "scooby.funko--series2.drop",
     "name": "Scooby-Doo x Funko",
-    "totalTemplates": 229,
-    "totalAssets": 884690,
+    "totalTemplates": 81,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 12,
-      "Royalty": 2,
-      "Series": 2,
-      "1 of 1": 9,
-      "Grail": 2,
-      "Legendary": 7,
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 3,
       "Ultra": 1,
-      "Epic": 28,
-      "Rare": 35,
-      "Uncommon": 57,
-      "Common": 70,
-      "Pack": 4
+      "Epic": 13,
+      "Rare": 15,
+      "Uncommon": 17,
+      "Common": 20
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T22:22:26.248Z"
+    "fetchedAt": "2026-03-28T07:08:00.075Z"
   },
   {
     "slug": "funime.funko",
@@ -1076,7 +1301,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:25:15.659Z"
+    "fetchedAt": "2026-03-28T07:17:56.059Z"
   },
   {
     "slug": "wbh.funko",
@@ -1101,7 +1326,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:28:13.810Z"
+    "fetchedAt": "2026-03-28T07:25:13.769Z"
   },
   {
     "slug": "mlpony.funko",
@@ -1126,7 +1351,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T22:31:15.343Z"
+    "fetchedAt": "2026-03-28T07:42:19.676Z"
   },
   {
     "slug": "strwrs.funko",
@@ -1150,7 +1375,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:34:12.823Z"
+    "fetchedAt": "2026-03-28T08:07:38.964Z"
   },
   {
     "slug": "tng.funko",
@@ -1174,7 +1399,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:36:42.742Z"
+    "fetchedAt": "2026-03-28T08:34:40.409Z"
   },
   {
     "slug": "tformr.funko",
@@ -1199,7 +1424,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:39:40.679Z"
+    "fetchedAt": "2026-03-28T08:42:19.108Z"
   },
   {
     "slug": "sjam.funko",
@@ -1223,7 +1448,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:41:54.573Z"
+    "fetchedAt": "2026-03-28T08:52:58.454Z"
   },
   {
     "slug": "plastk.funko",
@@ -1248,7 +1473,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T22:44:21.950Z"
+    "fetchedAt": "2026-03-28T09:12:54.060Z"
   },
   {
     "slug": "potter.funko",
@@ -1272,7 +1497,7 @@
       "series1.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T22:47:21.746Z"
+    "fetchedAt": "2026-03-28T09:36:01.368Z"
   },
   {
     "slug": "squid.funko",
@@ -1296,108 +1521,188 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:49:40.062Z"
+    "fetchedAt": "2026-03-28T10:11:08.316Z"
   },
   {
-    "slug": "dnd.funko",
-    "name": "Dungeons & Dragons x Funko",
-    "totalTemplates": 148,
-    "totalAssets": 733555,
+    "slug": "dc.funko--series2.drop",
+    "name": "DC x Funko",
+    "totalTemplates": 145,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 11,
-      "Royalty": 2,
-      "Series": 2,
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
       "1 of 1": 6,
-      "Grail": 2,
-      "Legendary": 7,
-      "Epic": 20,
-      "Rare": 24,
-      "Uncommon": 29,
-      "Common": 41,
-      "Pack": 4
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 12,
+      "Rare": 21,
+      "Uncommon": 39,
+      "Common": 54
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T22:52:28.664Z"
+    "fetchedAt": "2026-03-28T10:46:09.084Z"
   },
   {
-    "slug": "fools.funko",
+    "slug": "fools.funko--series2.drop",
     "name": "Funko April Fools",
-    "totalTemplates": 176,
-    "totalAssets": 622646,
+    "totalTemplates": 64,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 11,
-      "Royalty": 3,
-      "Series": 3,
-      "1 of 1": 9,
-      "Grail": 3,
-      "Legendary": 5,
-      "Epic": 20,
-      "Rare": 29,
-      "Uncommon": 39,
-      "Common": 48,
-      "Pack": 6
+      "Redeemable": 4,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 2,
+      "Epic": 8,
+      "Rare": 11,
+      "Uncommon": 15,
+      "Common": 18
     },
     "schemas": [
-      "series3.drop",
-      "series2.drop",
+      "series2.drop"
+    ],
+    "fetchedAt": "2026-03-28T10:48:08.940Z"
+  },
+  {
+    "slug": "tcats.funko",
+    "name": "Thundercats X Funko",
+    "totalTemplates": 68,
+    "totalAssets": 344913,
+    "rarityBreakdown": {
+      "Redeemable": 5,
+      "Royalty": 2,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 3,
+      "Epic": 10,
+      "Rare": 11,
+      "Uncommon": 13,
+      "Common": 17,
+      "Pack": 2
+    },
+    "schemas": [
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T22:55:15.016Z"
+    "fetchedAt": "2026-03-28T10:55:45.129Z"
   },
   {
-    "slug": "ttgo.funko",
+    "slug": "wca.funko",
+    "name": "WC Avengers: Funko Digital Pop!",
+    "totalTemplates": 88,
+    "totalAssets": 561426,
+    "rarityBreakdown": {
+      "Redeemable": 8,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 2,
+      "Legendary": 4,
+      "Ultra": 1,
+      "Epic": 14,
+      "Rare": 15,
+      "Uncommon": 17,
+      "Common": 20,
+      "Pack": 2
+    },
+    "schemas": [
+      "packs.drop",
+      "series1.drop"
+    ],
+    "fetchedAt": "2026-03-28T11:22:21.224Z"
+  },
+  {
+    "slug": "dnd.funko--series2.drop",
+    "name": "Dungeons & Dragons x Funko",
+    "totalTemplates": 74,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 11,
+      "Rare": 13,
+      "Uncommon": 15,
+      "Common": 19
+    },
+    "schemas": [
+      "series2.drop"
+    ],
+    "fetchedAt": "2026-03-28T11:34:39.859Z"
+  },
+  {
+    "slug": "fools.funko--series3.drop",
+    "name": "Funko April Fools",
+    "totalTemplates": 57,
+    "totalAssets": 0,
+    "rarityBreakdown": {
+      "Redeemable": 4,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 2,
+      "Epic": 8,
+      "Rare": 10,
+      "Uncommon": 12,
+      "Common": 15
+    },
+    "schemas": [
+      "series3.drop"
+    ],
+    "fetchedAt": "2026-03-28T11:36:59.603Z"
+  },
+  {
+    "slug": "ttgo.funko--series2.drop",
     "name": "DC Teen Titans Go! x Funko",
-    "totalTemplates": 186,
-    "totalAssets": 830023,
+    "totalTemplates": 68,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 11,
-      "Royalty": 2,
-      "Series": 2,
-      "1 of 1": 9,
-      "Grail": 2,
-      "Legendary": 7,
-      "Epic": 23,
-      "Rare": 29,
-      "Uncommon": 39,
-      "Common": 58,
-      "Pack": 4
+      "Redeemable": 5,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 3,
+      "Epic": 11,
+      "Rare": 12,
+      "Uncommon": 14,
+      "Common": 17
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T22:58:19.143Z"
+    "fetchedAt": "2026-03-28T11:54:43.071Z"
   },
   {
-    "slug": "alegnd.funko",
+    "slug": "alegnd.funko--series2.drop",
     "name": "Avatar Legends x Funko",
-    "totalTemplates": 185,
-    "totalAssets": 1154697,
+    "totalTemplates": 73,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 12,
-      "Royalty": 2,
-      "Series": 2,
-      "1 of 1": 6,
-      "Grail": 2,
-      "Legendary": 8,
-      "Epic": 20,
-      "Rare": 26,
-      "Uncommon": 42,
-      "Common": 61,
-      "Pack": 4
+      "Redeemable": 6,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 4,
+      "Epic": 10,
+      "Rare": 12,
+      "Uncommon": 15,
+      "Common": 20
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T23:01:05.775Z"
+    "fetchedAt": "2026-03-28T11:57:39.701Z"
   },
   {
     "slug": "tstory.funko",
@@ -1422,7 +1727,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T23:03:21.601Z"
+    "fetchedAt": "2026-03-28T12:00:31.909Z"
   },
   {
     "slug": "love.funko",
@@ -1446,32 +1751,29 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T23:04:27.560Z"
+    "fetchedAt": "2026-03-28T12:11:46.081Z"
   },
   {
-    "slug": "atime.funko",
+    "slug": "atime.funko--series2.drop",
     "name": "Adventure Time x Funko",
-    "totalTemplates": 162,
-    "totalAssets": 804432,
+    "totalTemplates": 62,
+    "totalAssets": 0,
     "rarityBreakdown": {
-      "Redeemable": 11,
-      "Royalty": 2,
-      "Series": 2,
-      "1 of 1": 6,
-      "Grail": 2,
-      "Legendary": 7,
-      "Epic": 22,
-      "Rare": 27,
-      "Uncommon": 35,
-      "Common": 44,
-      "Pack": 4
+      "Redeemable": 5,
+      "Royalty": 1,
+      "Series": 1,
+      "1 of 1": 3,
+      "Grail": 1,
+      "Legendary": 3,
+      "Epic": 10,
+      "Rare": 11,
+      "Uncommon": 13,
+      "Common": 14
     },
     "schemas": [
-      "series2.drop",
-      "series1.drop",
-      "packs.drop"
+      "series2.drop"
     ],
-    "fetchedAt": "2026-03-27T23:07:15.487Z"
+    "fetchedAt": "2026-03-28T12:24:48.456Z"
   },
   {
     "slug": "fright.funko",
@@ -1488,7 +1790,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T23:07:35.791Z"
+    "fetchedAt": "2026-03-28T12:25:09.471Z"
   },
   {
     "slug": "funday.funko",
@@ -1505,7 +1807,7 @@
       "packs.drop",
       "series1.drop"
     ],
-    "fetchedAt": "2026-03-27T23:07:56.853Z"
+    "fetchedAt": "2026-03-28T12:25:31.084Z"
   },
   {
     "slug": "sdance.funko",
@@ -1521,7 +1823,7 @@
       "promo.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T23:08:22.320Z"
+    "fetchedAt": "2026-03-28T12:46:58.320Z"
   },
   {
     "slug": "bonus.funko",
@@ -1535,7 +1837,7 @@
     "schemas": [
       "bonus.drop"
     ],
-    "fetchedAt": "2026-03-27T23:09:41.083Z"
+    "fetchedAt": "2026-03-28T12:48:15.594Z"
   },
   {
     "slug": "social.funko",
@@ -1551,7 +1853,7 @@
       "social.drop",
       "packs.drop"
     ],
-    "fetchedAt": "2026-03-27T23:10:03.298Z"
+    "fetchedAt": "2026-03-28T13:08:18.965Z"
   },
   {
     "slug": "funko",
@@ -1567,7 +1869,7 @@
       "packs.drop",
       "promo.drop"
     ],
-    "fetchedAt": "2026-03-27T23:10:38.241Z"
+    "fetchedAt": "2026-03-28T13:09:33.541Z"
   },
   {
     "slug": "hallos1.dpk",
@@ -1576,7 +1878,7 @@
     "totalAssets": 0,
     "rarityBreakdown": {},
     "schemas": [],
-    "fetchedAt": "2026-03-27T23:10:39.872Z"
+    "fetchedAt": "2026-03-28T13:09:35.094Z"
   },
   {
     "slug": "besbol1.dpk",
@@ -1585,7 +1887,7 @@
     "totalAssets": 0,
     "rarityBreakdown": {},
     "schemas": [],
-    "fetchedAt": "2026-03-27T23:10:41.579Z"
+    "fetchedAt": "2026-03-28T13:09:36.696Z"
   },
   {
     "slug": "promotn.dpk",
@@ -1594,6 +1896,6 @@
     "totalAssets": 0,
     "rarityBreakdown": {},
     "schemas": [],
-    "fetchedAt": "2026-03-27T23:10:43.292Z"
+    "fetchedAt": "2026-03-28T13:09:38.240Z"
   }
 ]
