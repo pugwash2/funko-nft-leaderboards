@@ -14,13 +14,6 @@
     "year": "2025"
   },
   {
-    "slug": "alegnd.funko",
-    "name": "Avatar Legends x Funko",
-    "apiName": "Avatar Legends x Funko",
-    "image": "QmRoBr9j111DCjMa192NbZBhdKacutPKYZ8puzSrQzWoiM",
-    "year": "other"
-  },
-  {
     "slug": "alien.funko",
     "name": "Alien",
     "apiName": "Alien: Funko Digital Pop!",
@@ -40,13 +33,6 @@
     "apiName": "Adventure Time x Funko",
     "image": "QmVAhAtvqQu9ocmyURCV8EUufT2stHjLh75Hvpb1d3o4H6",
     "year": "2025"
-  },
-  {
-    "slug": "atime.funko",
-    "name": "Adventure Time x Funko",
-    "apiName": "Adventure Time x Funko",
-    "image": "QmVAhAtvqQu9ocmyURCV8EUufT2stHjLh75Hvpb1d3o4H6",
-    "year": "other"
   },
   {
     "slug": "batman.funko",
@@ -133,13 +119,6 @@
     "year": "2024"
   },
   {
-    "slug": "dc.funko",
-    "name": "DC x Funko",
-    "apiName": "DC x Funko",
-    "image": "QmeN6JD9PNiu74KZnRWuDAztKCmzPQS7HNNQ2KyWH36J8F",
-    "year": "other"
-  },
-  {
     "slug": "dnd.funko--series1.drop",
     "name": "Dungeons & Dragons S1",
     "apiName": "Dungeons & Dragons x Funko",
@@ -152,13 +131,6 @@
     "apiName": "Dungeons & Dragons x Funko",
     "image": "QmNTAXeL3GWv4Xg6Bt9DLVzUuCNn9kQ81qaQJCrLSUy2QM",
     "year": "2025"
-  },
-  {
-    "slug": "dnd.funko",
-    "name": "Dungeons & Dragons x Funko",
-    "apiName": "Dungeons & Dragons x Funko",
-    "image": "QmNTAXeL3GWv4Xg6Bt9DLVzUuCNn9kQ81qaQJCrLSUy2QM",
-    "year": "other"
   },
   {
     "slug": "elf.funko",
@@ -208,13 +180,6 @@
     "apiName": "Funko April Fools",
     "image": "Qma8fgVMEqRRc4PrAUbuJam51ujP6KpH57H5nPXfBJca9v",
     "year": "2025"
-  },
-  {
-    "slug": "fools.funko",
-    "name": "Funko April Fools",
-    "apiName": "Funko April Fools",
-    "image": "Qma8fgVMEqRRc4PrAUbuJam51ujP6KpH57H5nPXfBJca9v",
-    "year": "other"
   },
   {
     "slug": "freddy.funko",
@@ -455,13 +420,6 @@
     "year": "2024"
   },
   {
-    "slug": "scooby.funko",
-    "name": "Scooby-Doo x Funko",
-    "apiName": "Scooby-Doo x Funko",
-    "image": "QmTeLSfgv1k2Pa5Yk5jqLei2LiSS4CShZ2mwzNidjw9v6d",
-    "year": "other"
-  },
-  {
     "slug": "sdance.funko",
     "name": "Space Dancer",
     "apiName": "Space Dancer Freddy Funko",
@@ -497,13 +455,6 @@
     "year": "2024"
   },
   {
-    "slug": "spooky.funko",
-    "name": "Funkoween",
-    "apiName": "Funkoween",
-    "image": "QmQYuekqKfEayL1EHJwCcVXoG8qfv2dLujJHGMNuViqCmd",
-    "year": "other"
-  },
-  {
     "slug": "squid.funko",
     "name": "Squid Game",
     "apiName": "Squid Game x Funko",
@@ -530,13 +481,6 @@
     "apiName": "Stranger Things x Funko",
     "image": "QmTM9xLUGANwUYfH6EPLH37MKuXbjb2EdJsxHLoynazCih",
     "year": "2024"
-  },
-  {
-    "slug": "strngr.funko",
-    "name": "Stranger Things x Funko",
-    "apiName": "Stranger Things x Funko",
-    "image": "QmTM9xLUGANwUYfH6EPLH37MKuXbjb2EdJsxHLoynazCih",
-    "year": "other"
   },
   {
     "slug": "strwrs.funko",
@@ -595,13 +539,6 @@
     "year": "2024"
   },
   {
-    "slug": "tmnt.funko",
-    "name": "TMNT x Funko",
-    "apiName": "TMNT x Funko",
-    "image": "QmQKzQxyLi2d82FbYoa7hiFSVTCc4MoAQG1AdYkZRLejnt",
-    "year": "other"
-  },
-  {
     "slug": "tng.funko",
     "name": "Star Trek TNG",
     "apiName": "Star Trek: TNG x Funko",
@@ -628,13 +565,6 @@
     "apiName": "DC Teen Titans Go! x Funko",
     "image": "QmbvC5wXkrxYbqRmbrDyfu9hrLD9Cfx8f1M9X24hdn1f6z",
     "year": "2025"
-  },
-  {
-    "slug": "ttgo.funko",
-    "name": "DC Teen Titans Go! x Funko",
-    "apiName": "DC Teen Titans Go! x Funko",
-    "image": "QmbvC5wXkrxYbqRmbrDyfu9hrLD9Cfx8f1M9X24hdn1f6z",
-    "year": "other"
   },
   {
     "slug": "umnstr.funko",
